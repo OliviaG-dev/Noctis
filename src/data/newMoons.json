@@ -1,0 +1,14 @@
+[
+    { "date": "2026-01-18", "sign": "Capricorne", "title": "Nouvelle lune", "description": "Nouvelle lune en Capricorne" },
+    { "date": "2026-02-17", "sign": "Verseau", "title": "Nouvelle lune", "description": "Nouvelle lune en Verseau" },
+    { "date": "2026-03-19", "sign": "Poissons", "title": "Nouvelle lune", "description": "Nouvelle lune en Poissons" },
+    { "date": "2026-04-17", "sign": "Bélier", "title": "Nouvelle lune", "description": "Nouvelle lune en Bélier" },
+    { "date": "2026-05-16", "sign": "Taureau", "title": "Nouvelle lune", "description": "Nouvelle lune en Taureau" },
+    { "date": "2026-06-15", "sign": "Gémeaux", "title": "Nouvelle lune", "description": "Nouvelle lune en Gémeaux" },
+    { "date": "2026-07-14", "sign": "Cancer", "title": "Nouvelle lune", "description": "Nouvelle lune en Cancer" },
+    { "date": "2026-08-12", "sign": "Lion", "title": "Nouvelle lune", "description": "Nouvelle lune en Lion" },
+    { "date": "2026-09-11", "sign": "Vierge", "title": "Nouvelle lune", "description": "Nouvelle lune en Vierge" },
+    { "date": "2026-10-10", "sign": "Balance", "title": "Nouvelle lune", "description": "Nouvelle lune en Balance" },
+    { "date": "2026-11-09", "sign": "Scorpion", "title": "Nouvelle lune", "description": "Nouvelle lune en Scorpion" },
+    { "date": "2026-12-09", "sign": "Sagittaire", "title": "Nouvelle lune", "description": "Nouvelle lune en Sagittaire" }
+]

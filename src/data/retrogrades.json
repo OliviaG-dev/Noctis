@@ -1,0 +1,62 @@
+[
+    {
+      "planet": "Mercure",
+      "start": "2026-02-26",
+      "end": "2026-03-20",
+      "description": "Mercure rétrograde en Poissons"
+    },
+    {
+      "planet": "Mercure",
+      "start": "2026-06-29",
+      "end": "2026-07-23",
+      "description": "Mercure rétrograde en Cancer"
+    },
+    {
+      "planet": "Mercure",
+      "start": "2026-10-24",
+      "end": "2026-11-13",
+      "description": "Mercure rétrograde en Scorpion"
+    },
+    {
+      "planet": "Venus",
+      "start": "2026-10-03",
+      "end": "2026-11-13",
+      "description": "Vénus rétrograde de Scorpion à Balance"
+    },
+    {
+      "planet": "Jupiter",
+      "start": "2025-11-11",
+      "end": "2026-03-10",
+      "description": "Jupiter rétrograde en Cancer"
+    },
+    {
+      "planet": "Jupiter",
+      "start": "2026-12-12",
+      "end": "2027-04-12",
+      "description": "Jupiter rétrograde en Lion"
+    },
+    {
+      "planet": "Saturne",
+      "start": "2026-07-26",
+      "end": "2026-12-10",
+      "description": "Saturne rétrograde en Bélier"
+    },
+    {
+      "planet": "Uranus",
+      "start": "2026-09-10",
+      "end": "2027-02-08",
+      "description": "Uranus rétrograde en Gémeaux"
+    },
+    {
+      "planet": "Neptune",
+      "start": "2026-07-07",
+      "end": "2026-12-12",
+      "description": "Neptune rétrograde en Aries"
+    },
+    {
+      "planet": "Pluton",
+      "start": "2026-05-06",
+      "end": "2026-10-15",
+      "description": "Pluton rétrograde en Verseau"
+    }
+  ]

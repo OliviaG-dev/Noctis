@@ -1,0 +1,21 @@
+[
+  { "date": "2026-01-03", "sign": "Cancer", "title": "Pleine lune", "description": "Pleine lune en Cancer" },
+  { "date": "2026-02-01", "sign": "Lion", "title": "Pleine lune", "description": "Pleine lune en Lion" },
+  { "date": "2026-03-03", "sign": "Vierge", "title": "Pleine lune", "description": "Pleine lune en Vierge" },
+  { "date": "2026-04-02", "sign": "Balance", "title": "Pleine lune", "description": "Pleine lune en Balance" },
+  { "date": "2026-05-01", "sign": "Scorpion", "title": "Pleine lune", "description": "Pleine lune en Scorpion" },
+  { "date": "2026-05-31", "sign": "Sagittaire", "title": "Pleine lune", "description": "Pleine lune en Sagittaire" },
+  { "date": "2026-06-30", "sign": "Capricorne", "title": "Pleine lune", "description": "Pleine lune en Capricorne" },
+  { "date": "2026-07-29", "sign": "Verseau", "title": "Pleine lune", "description": "Pleine lune en Verseau" },
+  { "date": "2026-08-28", "sign": "Poissons", "title": "Pleine lune (éclipse)", "description": "Pleine lune partielle (éclipse) en Poissons" },
+  { "date": "2026-09-26", "sign": "Bélier", "title": "Pleine lune", "description": "Pleine lune en Bélier" },
+  { "date": "2026-10-26", "sign": "Taureau", "title": "Pleine lune", "description": "Pleine lune en Taureau" },
+  { "date": "2026-11-24", "sign": "Gémeaux", "title": "Pleine lune", "description": "Pleine lune en Gémeaux" },
+  { "date": "2026-12-24", "sign": "Cancer", "title": "Pleine lune", "description": "Pleine lune en Cancer" },
+  { "date": "2027-01-22", "sign": "Verseau", "title": "Pleine lune", "description": "Pleine lune en Verseau" },
+  { "date": "2027-02-21", "sign": "Poissons", "title": "Pleine lune", "description": "Pleine lune en Poissons" },
+  { "date": "2027-03-22", "sign": "Bélier", "title": "Pleine lune", "description": "Pleine lune en Bélier" },
+  { "date": "2027-04-21", "sign": "Taureau", "title": "Pleine lune", "description": "Pleine lune en Taureau" },
+  { "date": "2027-05-20", "sign": "Gémeaux", "title": "Pleine lune", "description": "Pleine lune en Gémeaux" },
+  { "date": "2027-06-19", "sign": "Cancer", "title": "Pleine lune", "description": "Pleine lune en Cancer" }
+]

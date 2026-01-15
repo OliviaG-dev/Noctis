@@ -1,0 +1,32 @@
+[
+    {
+      "date": "2026-02-17",
+      "type": "annular_solar",
+      "title": "Éclipse solaire annulaire",
+      "description": "Éclipse solaire annulaire visible partiellement depuis certaines régions."
+    },
+    {
+      "date": "2026-03-03",
+      "type": "total_lunar",
+      "title": "Éclipse lunaire totale",
+      "description": "Éclipse lunaire totale."
+    },
+    {
+      "date": "2026-08-12",
+      "type": "total_solar",
+      "title": "Éclipse solaire totale",
+      "description": "Éclipse solaire totale."
+    },
+    {
+      "date": "2026-08-28",
+      "type": "partial_lunar",
+      "title": "Éclipse lunaire partielle",
+      "description": "Éclipse lunaire partielle."
+    },
+    {
+      "date": "2027-02-06",
+      "type": "annular_solar",
+      "title": "Éclipse solaire annulaire",
+      "description": "Éclipse solaire annulaire."
+    }
+  ]
