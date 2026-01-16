@@ -26,26 +26,10 @@ body {
   min-height: 100vh;
   background: #0b0c1b;
   overflow-x: hidden;
-  overflow-y: hidden;
+  overflow-y: auto;
 }
 
 #root {
   width: 100%;
   min-height: 100vh;
-  height: 100vh;
-  max-height: 100vh;
-  overflow-y: auto;
-}
-
-/* Permettre le scroll sur mobile et tablette */
-@media (max-width: 1024px) {
-  body {
-    overflow-y: auto;
-  }
-  
-  #root {
-    height: auto;
-    max-height: none;
-    overflow-y: visible;
-  }
 }

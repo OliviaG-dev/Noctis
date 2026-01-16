@@ -2,62 +2,93 @@
  * Types de signes astrologiques
  */
 export type AstrologicalSign =
-  | 'Bélier'
-  | 'Taureau'
-  | 'Gémeaux'
-  | 'Cancer'
-  | 'Lion'
-  | 'Vierge'
-  | 'Balance'
-  | 'Scorpion'
-  | 'Sagittaire'
-  | 'Capricorne'
-  | 'Verseau'
-  | 'Poissons'
-  | 'Aries'; // Variante anglaise pour Neptune
+  | "Bélier"
+  | "Taureau"
+  | "Gémeaux"
+  | "Cancer"
+  | "Lion"
+  | "Vierge"
+  | "Balance"
+  | "Scorpion"
+  | "Sagittaire"
+  | "Capricorne"
+  | "Verseau"
+  | "Poissons"
+  | "Aries"; // Variante anglaise pour Neptune
 
 /**
  * Types de planètes
  */
 export type Planet =
-  | 'Mercure'
-  | 'Venus'
-  | 'Mars'
-  | 'Jupiter'
-  | 'Saturne'
-  | 'Uranus'
-  | 'Neptune'
-  | 'Pluton';
+  | "Mercure"
+  | "Venus"
+  | "Mars"
+  | "Jupiter"
+  | "Saturne"
+  | "Uranus"
+  | "Neptune"
+  | "Pluton";
 
 /**
  * Types d'éclipses
  */
 export type EclipseType =
-  | 'annular_solar'
-  | 'total_solar'
-  | 'partial_solar'
-  | 'total_lunar'
-  | 'partial_lunar';
+  | "solar_annular"
+  | "solar_total"
+  | "solar_partial"
+  | "lunar_total"
+  | "lunar_partial"
+  | "lunar_penumbral";
 
 /**
  * Type d'événement astrologique
  */
 export type EventType =
-  | 'new_moon'
-  | 'full_moon'
-  | 'retrograde'
-  | 'eclipse'
-  | 'planet_ingress';
+  | "new_moon"
+  | "full_moon"
+  | "retrograde"
+  | "eclipse"
+  | "planet_ingress";
+
+/**
+ * Interface pour la durée d'un ingrès planétaire
+ */
+export interface IngressDuration {
+  years: number;
+  months: number;
+}
+
+/**
+ * Type de terme pour un ingrès planétaire
+ */
+export type IngressTermType = "short" | "medium" | "long";
 
 /**
  * Interface pour les ingrès planétaires
  */
 export interface PlanetIngress {
-  date: string; // Format: YYYY-MM-DD
   planet: Planet;
   sign: AstrologicalSign;
+  start: string; // Format: YYYY-MM-DD
+  end: string; // Format: YYYY-MM-DD
+  duration?: IngressDuration; // Optionnel, peut être calculé automatiquement
   title: string;
-  description: string;
+  subtitle: string;
+  keywords: string[];
+  energy: MoonEnergy;
+  effects: MoonEffects;
+  advice: MoonAdvice;
+  rituals: string[];
+  affirmations: string[];
+}
+
+/**
+ * Interface pour une phase d'un rétrograde (dans un signe spécifique)
+ */
+export interface RetrogradePhase {
+  sign: AstrologicalSign;
+  start: string; // Format: YYYY-MM-DD
+  end: string; // Format: YYYY-MM-DD
 }
 
 /**
@@ -67,7 +98,15 @@ export interface Retrograde {
   planet: Planet;
   start: string; // Format: YYYY-MM-DD
   end: string; // Format: YYYY-MM-DD
-  description: string;
+  phases: RetrogradePhase[];
+  title: string;
+  subtitle: string;
+  keywords: string[];
+  energy: MoonEnergy;
+  effects: MoonEffects;
+  advice: MoonAdvice;
+  rituals: string[];
+  affirmations: string[];
 }
 
 /**
@@ -77,7 +116,38 @@ export interface Eclipse {
   date: string; // Format: YYYY-MM-DD
   type: EclipseType;
   title: string;
-  description: string;
+  subtitle: string;
+  keywords: string[];
+  energy: MoonEnergy;
+  effects: MoonEffects;
+  advice: MoonAdvice;
+  rituals: string[];
+}
+
+/**
+ * Interface pour l'énergie d'une pleine lune
+ */
+export interface MoonEnergy {
+  intensity: number; // 1-5
+  emotional: number; // 1-5
+  mental: number; // 1-5
+}
+
+/**
+ * Interface pour les effets d'une pleine lune
+ */
+export interface MoonEffects {
+  general: string[];
+  emotional: string[];
+  spiritual: string[];
+}
+
+/**
+ * Interface pour les conseils d'une pleine lune
+ */
+export interface MoonAdvice {
+  do: string[];
+  avoid: string[];
 }
 
 /**
@@ -87,7 +157,12 @@ export interface FullMoon {
   date: string; // Format: YYYY-MM-DD
   sign: AstrologicalSign;
   title: string;
-  description: string;
+  subtitle: string;
+  keywords: string[];
+  energy: MoonEnergy;
+  effects: MoonEffects;
+  advice: MoonAdvice;
+  rituals: string[];
 }
 
 /**
@@ -97,7 +172,14 @@ export interface NewMoon {
   date: string; // Format: YYYY-MM-DD
   sign: AstrologicalSign;
   title: string;
-  description: string;
+  subtitle: string;
+  keywords: string[];
+  energy: MoonEnergy;
+  intentions: string[];
+  effects: MoonEffects;
+  advice: MoonAdvice;
+  affirmations: string[];
+  rituals: string[];
 }
 
 /**

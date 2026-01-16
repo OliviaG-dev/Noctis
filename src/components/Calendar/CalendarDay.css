@@ -1,0 +1,35 @@
+.calendar-day-events {
+  position: absolute;
+  bottom: 4px;
+  right: 4px;
+  display: flex;
+  gap: 3px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  max-width: calc(100% - 8px);
+}
+
+.calendar-event-icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  filter: drop-shadow(0 0 2px rgba(138, 43, 226, 0.5));
+  transition: transform 0.2s ease;
+}
+
+.calendar-day:hover .calendar-event-icon {
+  transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+  .calendar-event-icon {
+    width: 18px;
+    height: 18px;
+  }
+  
+  .calendar-day-events {
+    bottom: 2px;
+    right: 2px;
+    gap: 1px;
+  }
+}

@@ -1,62 +1,133 @@
 [
-    {
-      "planet": "Mercure",
-      "start": "2026-02-26",
-      "end": "2026-03-20",
-      "description": "Mercure rétrograde en Poissons"
+  {
+    "planet": "Mercure",
+    "start": "2026-02-26",
+    "end": "2026-03-20",
+  
+    "phases": [
+      {
+        "sign": "Poissons",
+        "start": "2026-02-26",
+        "end": "2026-03-20"
+      }
+    ],
+  
+    "title": "Mercure rétrograde en Poissons",
+    "subtitle": "Intuition, confusion et réalignement",
+  
+    "keywords": ["communication", "intuition", "révision", "sensibilité"],
+  
+    "energy": { "intensity": 5, "emotional": 5, "mental": 4 },
+  
+    "effects": {
+      "general": [
+        "Malentendus fréquents",
+        "Brouillard mental"
+      ],
+      "emotional": [
+        "Hypersensibilité",
+        "Besoin de retrait"
+      ],
+      "spiritual": [
+        "Connexion accrue à l’intuition"
+      ]
     },
-    {
-      "planet": "Mercure",
-      "start": "2026-06-29",
-      "end": "2026-07-23",
-      "description": "Mercure rétrograde en Cancer"
+  
+    "advice": {
+      "do": ["Écouter son intuition", "Relire avant d’envoyer"],
+      "avoid": ["Signer sans vérifier", "Tirer des conclusions hâtives"]
     },
-    {
-      "planet": "Mercure",
-      "start": "2026-10-24",
-      "end": "2026-11-13",
-      "description": "Mercure rétrograde en Scorpion"
+  
+    "rituals": ["Écriture intuitive", "Méditation silencieuse"],
+    "affirmations": ["Je communique avec clarté et patience"]
+  },
+
+  {
+    "planet": "Vénus",
+    "start": "2026-10-03",
+    "end": "2026-11-13",
+  
+    "phases": [
+      {
+        "sign": "Balance",
+        "start": "2026-10-03",
+        "end": "2026-10-20"
+      },
+      {
+        "sign": "Vierge",
+        "start": "2026-10-21",
+        "end": "2026-11-13"
+      }
+    ],
+  
+    "title": "Vénus rétrograde",
+    "subtitle": "Relations, valeurs et estime de soi",
+  
+    "keywords": ["amour", "relations", "valeurs", "révision"],
+  
+    "energy": { "intensity": 5, "emotional": 5, "mental": 3 },
+  
+    "effects": {
+      "general": [
+        "Révision des relations",
+        "Retour du passé affectif"
+      ],
+      "emotional": [
+        "Questionnements amoureux",
+        "Besoin de sincérité"
+      ],
+      "spiritual": [
+        "Réalignement du cœur"
+      ]
     },
-    {
-      "planet": "Venus",
-      "start": "2026-10-03",
-      "end": "2026-11-13",
-      "description": "Vénus rétrograde de Scorpion à Balance"
+  
+    "advice": {
+      "do": ["Observer ses relations", "Redéfinir ses valeurs"],
+      "avoid": ["Engagements impulsifs", "Dépendance affective"]
     },
-    {
-      "planet": "Jupiter",
-      "start": "2025-11-11",
-      "end": "2026-03-10",
-      "description": "Jupiter rétrograde en Cancer"
+  
+    "rituals": ["Rituel du cœur", "Journal émotionnel"],
+    "affirmations": ["Je mérite un amour aligné"]
+  },
+  {
+    "planet": "Saturne",
+    "start": "2026-07-26",
+    "end": "2026-12-10",
+  
+    "phases": [
+      {
+        "sign": "Poissons",
+        "start": "2026-07-26",
+        "end": "2026-12-10"
+      }
+    ],
+  
+    "title": "Saturne rétrograde en Poissons",
+    "subtitle": "Responsabilité émotionnelle",
+  
+    "keywords": ["discipline", "structure", "limites"],
+  
+    "energy": { "intensity": 4, "emotional": 3, "mental": 5 },
+  
+    "effects": {
+      "general": [
+        "Revoir ses responsabilités",
+        "Ralentissement constructif"
+      ],
+      "emotional": [
+        "Confrontation aux peurs"
+      ],
+      "spiritual": [
+        "Maturité intérieure"
+      ]
     },
-    {
-      "planet": "Jupiter",
-      "start": "2026-12-12",
-      "end": "2027-04-12",
-      "description": "Jupiter rétrograde en Lion"
+  
+    "advice": {
+      "do": ["Construire sur du solide", "Être patient"],
+      "avoid": ["Auto-jugement excessif"]
     },
-    {
-      "planet": "Saturne",
-      "start": "2026-07-26",
-      "end": "2026-12-10",
-      "description": "Saturne rétrograde en Bélier"
-    },
-    {
-      "planet": "Uranus",
-      "start": "2026-09-10",
-      "end": "2027-02-08",
-      "description": "Uranus rétrograde en Gémeaux"
-    },
-    {
-      "planet": "Neptune",
-      "start": "2026-07-07",
-      "end": "2026-12-12",
-      "description": "Neptune rétrograde en Aries"
-    },
-    {
-      "planet": "Pluton",
-      "start": "2026-05-06",
-      "end": "2026-10-15",
-      "description": "Pluton rétrograde en Verseau"
-    }
+  
+    "rituals": ["Planification consciente"],
+    "affirmations": ["Je bâtis avec sagesse"]
+  }
   ]

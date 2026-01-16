@@ -1,21 +1,550 @@
 [
-  { "date": "2026-01-03", "sign": "Cancer", "title": "Pleine lune", "description": "Pleine lune en Cancer" },
-  { "date": "2026-02-01", "sign": "Lion", "title": "Pleine lune", "description": "Pleine lune en Lion" },
-  { "date": "2026-03-03", "sign": "Vierge", "title": "Pleine lune", "description": "Pleine lune en Vierge" },
-  { "date": "2026-04-02", "sign": "Balance", "title": "Pleine lune", "description": "Pleine lune en Balance" },
-  { "date": "2026-05-01", "sign": "Scorpion", "title": "Pleine lune", "description": "Pleine lune en Scorpion" },
-  { "date": "2026-05-31", "sign": "Sagittaire", "title": "Pleine lune", "description": "Pleine lune en Sagittaire" },
-  { "date": "2026-06-30", "sign": "Capricorne", "title": "Pleine lune", "description": "Pleine lune en Capricorne" },
-  { "date": "2026-07-29", "sign": "Verseau", "title": "Pleine lune", "description": "Pleine lune en Verseau" },
-  { "date": "2026-08-28", "sign": "Poissons", "title": "Pleine lune (éclipse)", "description": "Pleine lune partielle (éclipse) en Poissons" },
-  { "date": "2026-09-26", "sign": "Bélier", "title": "Pleine lune", "description": "Pleine lune en Bélier" },
-  { "date": "2026-10-26", "sign": "Taureau", "title": "Pleine lune", "description": "Pleine lune en Taureau" },
-  { "date": "2026-11-24", "sign": "Gémeaux", "title": "Pleine lune", "description": "Pleine lune en Gémeaux" },
-  { "date": "2026-12-24", "sign": "Cancer", "title": "Pleine lune", "description": "Pleine lune en Cancer" },
-  { "date": "2027-01-22", "sign": "Verseau", "title": "Pleine lune", "description": "Pleine lune en Verseau" },
-  { "date": "2027-02-21", "sign": "Poissons", "title": "Pleine lune", "description": "Pleine lune en Poissons" },
-  { "date": "2027-03-22", "sign": "Bélier", "title": "Pleine lune", "description": "Pleine lune en Bélier" },
-  { "date": "2027-04-21", "sign": "Taureau", "title": "Pleine lune", "description": "Pleine lune en Taureau" },
-  { "date": "2027-05-20", "sign": "Gémeaux", "title": "Pleine lune", "description": "Pleine lune en Gémeaux" },
-  { "date": "2027-06-19", "sign": "Cancer", "title": "Pleine lune", "description": "Pleine lune en Cancer" }
+  {
+    "date": "2026-01-03",
+    "sign": "Cancer",
+    "title": "Pleine lune en Cancer",
+    "subtitle": "Émotions et sécurité intérieure",
+
+    "keywords": ["émotions", "famille", "intuition", "protection"],
+
+    "energy": { "intensity": 4, "emotional": 5, "mental": 3 },
+
+    "effects": {
+      "general": [
+        "Sensibilité accrue",
+        "Besoin de réconfort",
+        "Retour vers le passé"
+      ],
+      "emotional": [
+        "Émotions amplifiées",
+        "Nostalgie",
+        "Besoin de sécurité"
+      ],
+      "spiritual": [
+        "Connexion à l’intuition",
+        "Travail sur l’enfant intérieur"
+      ]
+    },
+
+    "advice": {
+      "do": [
+        "Prendre soin de soi",
+        "Passer du temps en famille",
+        "Écouter son intuition"
+      ],
+      "avoid": [
+        "Réagir impulsivement",
+        "S’enfermer dans le passé"
+      ]
+    },
+
+    "rituals": [
+      "Rituel de protection",
+      "Bain purifiant",
+      "Écriture émotionnelle"
+    ]
+  },
+
+  {
+    "date": "2026-02-01",
+    "sign": "Lion",
+    "title": "Pleine lune en Lion",
+    "subtitle": "Expression et affirmation",
+
+    "keywords": ["créativité", "confiance", "visibilité", "ego"],
+
+    "energy": { "intensity": 5, "emotional": 4, "mental": 3 },
+
+    "effects": {
+      "general": [
+        "Besoin de reconnaissance",
+        "Envie de s’exprimer",
+        "Leadership naturel"
+      ],
+      "emotional": [
+        "Fierté",
+        "Passions exacerbées"
+      ],
+      "spiritual": [
+        "Affirmation de l’identité",
+        "Rayonnement personnel"
+      ]
+    },
+
+    "advice": {
+      "do": [
+        "Exprimer sa créativité",
+        "Assumer sa place",
+        "Partager ses talents"
+      ],
+      "avoid": [
+        "Chercher la validation extérieure",
+        "Dominer les autres"
+      ]
+    },
+
+    "rituals": [
+      "Rituel de confiance",
+      "Affirmations positives"
+    ]
+  },
+
+  {
+    "date": "2026-03-03",
+    "sign": "Vierge",
+    "title": "Pleine lune en Vierge",
+    "subtitle": "Clarté et réalignement",
+
+    "keywords": ["organisation", "guérison", "réalisme", "discipline"],
+
+    "energy": { "intensity": 4, "emotional": 3, "mental": 5 },
+
+    "effects": {
+      "general": [
+        "Besoin de mettre de l’ordre",
+        "Analyse du quotidien"
+      ],
+      "emotional": [
+        "Émotions canalisées",
+        "Besoin de compréhension"
+      ],
+      "spiritual": [
+        "Guérison par la simplicité",
+        "Alignement corps-esprit"
+      ]
+    },
+
+    "advice": {
+      "do": [
+        "Faire du tri",
+        "Prendre soin de sa santé",
+        "Clarifier ses priorités"
+      ],
+      "avoid": [
+        "Perfectionnisme excessif",
+        "Auto-critique"
+      ]
+    },
+
+    "rituals": [
+      "Nettoyage énergétique",
+      "Organisation consciente"
+    ]
+  },
+
+  {
+    "date": "2026-04-02",
+    "sign": "Balance",
+    "title": "Pleine lune en Balance",
+    "subtitle": "Relations et équilibre",
+
+    "keywords": ["relations", "harmonie", "justice", "équilibre"],
+
+    "energy": { "intensity": 4, "emotional": 4, "mental": 4 },
+
+    "effects": {
+      "general": [
+        "Focus sur les relations",
+        "Recherche d’équilibre"
+      ],
+      "emotional": [
+        "Besoin de compréhension mutuelle"
+      ],
+      "spiritual": [
+        "Alignement relationnel",
+        "Paix intérieure"
+      ]
+    },
+
+    "advice": {
+      "do": [
+        "Dialoguer",
+        "Rééquilibrer une relation"
+      ],
+      "avoid": [
+        "Éviter les conflits à tout prix"
+      ]
+    },
+
+    "rituals": [
+      "Rituel d’harmonisation",
+      "Méditation relationnelle"
+    ]
+  },
+
+  {
+    "date": "2026-05-01",
+    "sign": "Scorpion",
+    "title": "Pleine lune en Scorpion",
+    "subtitle": "Transformation profonde",
+
+    "keywords": ["transformation", "intensité", "lâcher-prise", "vérité"],
+
+    "energy": { "intensity": 5, "emotional": 5, "mental": 4 },
+
+    "effects": {
+      "general": [
+        "Révélations",
+        "Fin de cycle"
+      ],
+      "emotional": [
+        "Émotions intenses",
+        "Besoin de vérité"
+      ],
+      "spiritual": [
+        "Renaissance",
+        "Libération émotionnelle"
+      ]
+    },
+
+    "advice": {
+      "do": [
+        "Lâcher prise",
+        "Accueillir la transformation"
+      ],
+      "avoid": [
+        "Manipulation",
+        "Ressentiment"
+      ]
+    },
+
+    "rituals": [
+      "Rituel de libération",
+      "Écriture cathartique"
+    ]
+  },
+  {
+    "date": "2026-05-31",
+    "sign": "Sagittaire",
+    "title": "Pleine lune en Sagittaire",
+    "subtitle": "Expansion et quête de sens",
+
+    "keywords": ["vérité", "expansion", "liberté", "vision"],
+
+    "energy": { "intensity": 4, "emotional": 4, "mental": 4 },
+
+    "effects": {
+      "general": [
+        "Besoin d’élargir ses horizons",
+        "Envie de mouvement et d’aventure"
+      ],
+      "emotional": [
+        "Optimisme",
+        "Franchise émotionnelle"
+      ],
+      "spiritual": [
+        "Recherche de vérité",
+        "Alignement avec sa vision"
+      ]
+    },
+
+    "advice": {
+      "do": [
+        "Explorer de nouvelles idées",
+        "Exprimer sa vérité"
+      ],
+      "avoid": [
+        "Dogmatisme",
+        "Promesses irréalistes"
+      ]
+    },
+
+    "rituals": [
+      "Rituel de vision",
+      "Écriture d’intentions à long terme"
+    ]
+  },
+
+  {
+    "date": "2026-06-30",
+    "sign": "Capricorne",
+    "title": "Pleine lune en Capricorne",
+    "subtitle": "Responsabilité et accomplissement",
+
+    "keywords": ["structure", "ambition", "discipline", "réussite"],
+
+    "energy": { "intensity": 4, "emotional": 3, "mental": 5 },
+
+    "effects": {
+      "general": [
+        "Focus sur les objectifs",
+        "Besoin de résultats concrets"
+      ],
+      "emotional": [
+        "Maîtrise émotionnelle",
+        "Pragmatisme"
+      ],
+      "spiritual": [
+        "Responsabilité personnelle",
+        "Alignement avec sa mission"
+      ]
+    },
+
+    "advice": {
+      "do": [
+        "Faire le point sur ses objectifs",
+        "Assumer ses responsabilités"
+      ],
+      "avoid": [
+        "Rigidité excessive",
+        "Auto-exigence trop dure"
+      ]
+    },
+
+    "rituals": [
+      "Rituel de manifestation",
+      "Bilan personnel"
+    ]
+  },
+
+  {
+    "date": "2026-07-29",
+    "sign": "Verseau",
+    "title": "Pleine lune en Verseau",
+    "subtitle": "Liberté et innovation",
+
+    "keywords": ["liberté", "originalité", "collectif", "changement"],
+
+    "energy": { "intensity": 4, "emotional": 3, "mental": 5 },
+
+    "effects": {
+      "general": [
+        "Besoin d’indépendance",
+        "Remise en question des normes"
+      ],
+      "emotional": [
+        "Détachement émotionnel",
+        "Besoin d’espace"
+      ],
+      "spiritual": [
+        "Éveil collectif",
+        "Vision du futur"
+      ]
+    },
+
+    "advice": {
+      "do": [
+        "Oser être soi-même",
+        "Explorer de nouvelles idées"
+      ],
+      "avoid": [
+        "Rébellion stérile",
+        "Froideur émotionnelle"
+      ]
+    },
+
+    "rituals": [
+      "Rituel de libération",
+      "Visualisation du futur"
+    ]
+  },
+
+  {
+    "date": "2026-08-28",
+    "sign": "Poissons",
+    "title": "Pleine lune en Poissons",
+    "subtitle": "Intuition et dissolution",
+
+    "keywords": ["intuition", "sensibilité", "compassion", "lâcher-prise"],
+
+    "energy": { "intensity": 5, "emotional": 5, "mental": 3 },
+
+    "effects": {
+      "general": [
+        "Hypersensibilité",
+        "Besoin de repos"
+      ],
+      "emotional": [
+        "Émotions diffuses",
+        "Empathie accrue"
+      ],
+      "spiritual": [
+        "Connexion spirituelle",
+        "Dissolution des limites"
+      ]
+    },
+
+    "advice": {
+      "do": [
+        "Écouter son intuition",
+        "Se reposer"
+      ],
+      "avoid": [
+        "Fuite de la réalité",
+        "Confusion émotionnelle"
+      ]
+    },
+
+    "rituals": [
+      "Méditation",
+      "Rituel de pardon"
+    ]
+  },
+
+  {
+    "date": "2026-09-26",
+    "sign": "Bélier",
+    "title": "Pleine lune en Bélier",
+    "subtitle": "Action et affirmation",
+
+    "keywords": ["initiative", "courage", "affirmation", "énergie"],
+
+    "energy": { "intensity": 5, "emotional": 4, "mental": 3 },
+
+    "effects": {
+      "general": [
+        "Besoin d’agir",
+        "Impulsions fortes"
+      ],
+      "emotional": [
+        "Colère possible",
+        "Passion"
+      ],
+      "spiritual": [
+        "Affirmation de soi",
+        "Démarrage d’un nouveau cycle"
+      ]
+    },
+
+    "advice": {
+      "do": [
+        "Canaliser son énergie",
+        "Passer à l’action"
+      ],
+      "avoid": [
+        "Impulsivité",
+        "Conflits inutiles"
+      ]
+    },
+
+    "rituals": [
+      "Rituel de courage",
+      "Affirmations de puissance"
+    ]
+  },
+
+  {
+    "date": "2026-10-26",
+    "sign": "Taureau",
+    "title": "Pleine lune en Taureau",
+    "subtitle": "Stabilité et valeurs",
+
+    "keywords": ["sécurité", "plaisir", "ancrage", "valeurs"],
+
+    "energy": { "intensity": 4, "emotional": 4, "mental": 3 },
+
+    "effects": {
+      "general": [
+        "Besoin de stabilité",
+        "Recherche de confort"
+      ],
+      "emotional": [
+        "Attachement",
+        "Besoin de douceur"
+      ],
+      "spiritual": [
+        "Ancrage",
+        "Connexion au corps"
+      ]
+    },
+
+    "advice": {
+      "do": [
+        "Prendre soin de son corps",
+        "Sécuriser ses ressources"
+      ],
+      "avoid": [
+        "Rigidité",
+        "Attachement excessif"
+      ]
+    },
+
+    "rituals": [
+      "Rituel d’ancrage",
+      "Connexion à la nature"
+    ]
+  },
+
+  {
+    "date": "2026-11-24",
+    "sign": "Gémeaux",
+    "title": "Pleine lune en Gémeaux",
+    "subtitle": "Communication et clarté mentale",
+
+    "keywords": ["communication", "apprentissage", "échanges", "curiosité"],
+
+    "energy": { "intensity": 4, "emotional": 3, "mental": 5 },
+
+    "effects": {
+      "general": [
+        "Besoin d’échanger",
+        "Flux d’informations"
+      ],
+      "emotional": [
+        "Instabilité émotionnelle légère"
+      ],
+      "spiritual": [
+        "Clarté mentale",
+        "Compréhension nouvelle"
+      ]
+    },
+
+    "advice": {
+      "do": [
+        "Exprimer ses idées",
+        "Clarifier une discussion"
+      ],
+      "avoid": [
+        "Dispersion",
+        "Superficialité"
+      ]
+    },
+
+    "rituals": [
+      "Écriture consciente",
+      "Dialogue intérieur"
+    ]
+  },
+
+  {
+    "date": "2026-12-24",
+    "sign": "Cancer",
+    "title": "Pleine lune en Cancer",
+    "subtitle": "Clôture émotionnelle de l’année",
+
+    "keywords": ["famille", "émotions", "intimité", "bilan"],
+
+    "energy": { "intensity": 4, "emotional": 5, "mental": 3 },
+
+    "effects": {
+      "general": [
+        "Bilan émotionnel",
+        "Besoin de chaleur humaine"
+      ],
+      "emotional": [
+        "Sensibilité accrue",
+        "Besoin de réconfort"
+      ],
+      "spiritual": [
+        "Clôture de cycle",
+        "Guérison émotionnelle"
+      ]
+    },
+
+    "advice": {
+      "do": [
+        "Clôturer l’année en douceur",
+        "Partager avec ses proches"
+      ],
+      "avoid": [
+        "Ressasser le passé",
+        "Isolement"
+      ]
+    },
+
+    "rituals": [
+      "Rituel de gratitude",
+      "Cercle intime"
+    ]
+  }
 ]

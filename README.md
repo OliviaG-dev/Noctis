@@ -46,6 +46,19 @@ Idéal pour anticiper :
 - Relations
 - Décisions importantes
 
+### 🌟 Ingrès planétaires
+
+- Suivi des planètes qui entrent dans un nouveau signe
+- Neptune, Saturne, Uranus, Jupiter…
+- Date précise de chaque changement de signe
+- Description de l'impact astrologique
+
+Permet de comprendre :
+
+- Les grands cycles planétaires
+- Les changements d'énergie collective
+- Les périodes de transformation
+
 ### 🌘 Éclipses solaires et lunaires
 
 - Visualisation des éclipses à venir
@@ -59,6 +72,7 @@ Afficher uniquement :
 
 - Phases lunaires
 - Rétrogrades
+- Ingrès planétaires
 - Éclipses
 
 Lecture personnalisée selon vos besoins.
@@ -132,6 +146,13 @@ noctis/
 │   ├── pages/
 │   │   ├── Home.tsx       # Page d'accueil
 │   │   └── Home.css
+│   ├── data/              # Données astrologiques
+│   │   ├── types.ts       # Interfaces TypeScript
+│   │   ├── newMoons.json
+│   │   ├── fullMoons.json
+│   │   ├── retrogrades.json
+│   │   ├── planetIngress.json
+│   │   └── eclipses.json
 │   ├── styles/
 │   │   └── theme.css      # Thème global
 │   ├── App.tsx

@@ -1,6 +1,268 @@
 [
-    { "date": "2026-01-26", "planet": "Neptune", "sign": "Bélier", "title": "Neptune entre en Bélier", "description": "Neptune entre en Bélier pour un long transit." },
-    { "date": "2026-02-13", "planet": "Saturne", "sign": "Bélier", "title": "Saturne entre en Bélier", "description": "Saturne entre en Bélier." },
-    { "date": "2026-04-25", "planet": "Uranus", "sign": "Gémeaux", "title": "Uranus entre en Gémeaux", "description": "Uranus entre en Gémeaux." },
-    { "date": "2026-06-30", "planet": "Jupiter", "sign": "Lion", "title": "Jupiter entre en Lion", "description": "Jupiter entre en Lion." }
-]
+    {
+      "planet": "Neptune",
+      "sign": "Bélier",
+  
+      "start": "2026-01-26",
+      "end": "2039-03-23",
+  
+      "duration": {
+        "years": 13,
+        "months": 158
+      },
+  
+      "title": "Neptune entre en Bélier",
+      "subtitle": "Naissance d’une vision audacieuse",
+  
+      "keywords": ["intuition", "idéalisme", "audace", "inspiration"],
+  
+      "energy": { "intensity": 4, "emotional": 4, "mental": 3 },
+  
+      "effects": {
+        "general": [
+          "Nouvelle impulsion collective",
+          "Idéaux mis en action"
+        ],
+        "emotional": [
+          "Éveil du courage émotionnel"
+        ],
+        "spiritual": [
+          "Foi active",
+          "Vision incarnée"
+        ]
+      },
+  
+      "advice": {
+        "do": [
+          "Suivre son intuition",
+          "Oser initier"
+        ],
+        "avoid": [
+          "Agir sans vision claire",
+          "Fuite dans l’illusion"
+        ]
+      },
+  
+      "rituals": [
+        "Rituel de vision",
+        "Méditation créative"
+      ],
+  
+      "affirmations": [
+        "J’ose incarner ma vision intérieure"
+      ]
+    },
+  
+    {
+      "planet": "Saturne",
+      "sign": "Bélier",
+  
+      "start": "2026-02-13",
+      "end": "2028-04-12",
+  
+      "duration": {
+        "years": 2,
+        "months": 26
+      },
+  
+      "title": "Saturne entre en Bélier",
+      "subtitle": "Responsabilité et affirmation de soi",
+  
+      "keywords": ["discipline", "leadership", "structure", "maturité"],
+  
+      "energy": { "intensity": 5, "emotional": 3, "mental": 5 },
+  
+      "effects": {
+        "general": [
+          "Construction de l’autonomie",
+          "Responsabilité personnelle accrue"
+        ],
+        "emotional": [
+          "Canalisation des impulsions"
+        ],
+        "spiritual": [
+          "Alignement entre volonté et devoir"
+        ]
+      },
+  
+      "advice": {
+        "do": [
+          "Construire sur le long terme",
+          "Assumer ses choix"
+        ],
+        "avoid": [
+          "Impulsivité",
+          "Rigidité excessive"
+        ]
+      },
+  
+      "rituals": [
+        "Rituel d’engagement",
+        "Planification consciente"
+      ],
+  
+      "affirmations": [
+        "Je construis ma force intérieure avec patience"
+      ]
+    },
+  
+    {
+      "planet": "Jupiter",
+      "sign": "Lion",
+  
+      "start": "2026-04-15",
+      "end": "2027-06-30",
+  
+      "duration": {
+        "years": 1,
+        "months": 14
+      },
+  
+      "title": "Jupiter entre en Lion",
+      "subtitle": "Expansion créative et rayonnement",
+  
+      "keywords": ["expansion", "confiance", "créativité", "abondance"],
+  
+      "energy": { "intensity": 5, "emotional": 4, "mental": 4 },
+  
+      "effects": {
+        "general": [
+          "Croissance par l’expression personnelle",
+          "Rayonnement naturel"
+        ],
+        "emotional": [
+          "Cœur ouvert",
+          "Joie expressive"
+        ],
+        "spiritual": [
+          "Foi en soi",
+          "Vision amplifiée"
+        ]
+      },
+  
+      "advice": {
+        "do": [
+          "Partager sa lumière",
+          "Créer sans retenue"
+        ],
+        "avoid": [
+          "Excès",
+          "Égo surdimensionné"
+        ]
+      },
+  
+      "rituals": [
+        "Rituel d’abondance",
+        "Visualisation créative"
+      ],
+  
+      "affirmations": [
+        "Je rayonne pleinement et généreusement"
+      ]
+    },
+  
+    {
+      "planet": "Jupiter",
+      "sign": "Vierge",
+  
+      "start": "2027-06-30",
+      "end": "2028-07-26",
+  
+      "duration": {
+        "years": 1,
+        "months": 13
+      },
+  
+      "title": "Jupiter entre en Vierge",
+      "subtitle": "Croissance par le service",
+  
+      "keywords": ["organisation", "santé", "amélioration", "service"],
+  
+      "energy": { "intensity": 4, "emotional": 3, "mental": 5 },
+  
+      "effects": {
+        "general": [
+          "Expansion dans le quotidien",
+          "Recherche d’efficacité"
+        ],
+        "emotional": [
+          "Satisfaction par l’utilité"
+        ],
+        "spiritual": [
+          "Alignement par la simplicité"
+        ]
+      },
+  
+      "advice": {
+        "do": [
+          "Améliorer ses routines",
+          "Prendre soin du corps"
+        ],
+        "avoid": [
+          "Perfectionnisme excessif"
+        ]
+      },
+  
+      "rituals": [
+        "Rituel d’ancrage",
+        "Planification quotidienne"
+      ],
+  
+      "affirmations": [
+        "Je progresse chaque jour avec conscience"
+      ]
+    },
+  
+    {
+      "planet": "Mars",
+      "sign": "Scorpion",
+  
+      "start": "2026-08-22",
+      "end": "2026-10-07",
+  
+      "duration": {
+        "weeks": 6,
+        "days": 46
+      },
+  
+      "title": "Mars entre en Scorpion",
+      "subtitle": "Action intense et transformation",
+  
+      "keywords": ["action", "intensité", "courage", "transformation"],
+  
+      "energy": { "intensity": 5, "emotional": 4, "mental": 4 },
+  
+      "effects": {
+        "general": [
+          "Volonté concentrée",
+          "Action stratégique"
+        ],
+        "emotional": [
+          "Passion profonde"
+        ],
+        "spiritual": [
+          "Puissance intérieure"
+        ]
+      },
+  
+      "advice": {
+        "do": [
+          "Canaliser son énergie",
+          "Agir avec intention"
+        ],
+        "avoid": [
+          "Conflits inutiles",
+          "Destruction impulsive"
+        ]
+      },
+  
+      "rituals": [
+        "Rituel de courage",
+        "Méditation de centrage"
+      ],
+  
+      "affirmations": [
+        "J’agis avec puissance et maîtrise"
+      ]
+    }
+  ]

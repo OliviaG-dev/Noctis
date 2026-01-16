@@ -1,14 +1,593 @@
 [
-    { "date": "2026-01-18", "sign": "Capricorne", "title": "Nouvelle lune", "description": "Nouvelle lune en Capricorne" },
-    { "date": "2026-02-17", "sign": "Verseau", "title": "Nouvelle lune", "description": "Nouvelle lune en Verseau" },
-    { "date": "2026-03-19", "sign": "Poissons", "title": "Nouvelle lune", "description": "Nouvelle lune en Poissons" },
-    { "date": "2026-04-17", "sign": "Bélier", "title": "Nouvelle lune", "description": "Nouvelle lune en Bélier" },
-    { "date": "2026-05-16", "sign": "Taureau", "title": "Nouvelle lune", "description": "Nouvelle lune en Taureau" },
-    { "date": "2026-06-15", "sign": "Gémeaux", "title": "Nouvelle lune", "description": "Nouvelle lune en Gémeaux" },
-    { "date": "2026-07-14", "sign": "Cancer", "title": "Nouvelle lune", "description": "Nouvelle lune en Cancer" },
-    { "date": "2026-08-12", "sign": "Lion", "title": "Nouvelle lune", "description": "Nouvelle lune en Lion" },
-    { "date": "2026-09-11", "sign": "Vierge", "title": "Nouvelle lune", "description": "Nouvelle lune en Vierge" },
-    { "date": "2026-10-10", "sign": "Balance", "title": "Nouvelle lune", "description": "Nouvelle lune en Balance" },
-    { "date": "2026-11-09", "sign": "Scorpion", "title": "Nouvelle lune", "description": "Nouvelle lune en Scorpion" },
-    { "date": "2026-12-09", "sign": "Sagittaire", "title": "Nouvelle lune", "description": "Nouvelle lune en Sagittaire" }
+    {
+        "date": "2026-01-18",
+        "sign": "Capricorne",
+        "title": "Nouvelle lune en Capricorne",
+        "subtitle": "Structurer l’avenir",
+    
+        "keywords": ["objectifs", "discipline", "ambition", "structure"],
+    
+        "energy": { "intensity": 3, "emotional": 2, "mental": 5 },
+    
+        "intentions": [
+          "Définir des objectifs clairs",
+          "Construire sur le long terme"
+        ],
+    
+        "effects": {
+          "general": [
+            "Envie de stabilité",
+            "Besoin de contrôle et d’organisation"
+          ],
+          "emotional": [
+            "Émotions contenues",
+            "Recherche de sécurité"
+          ],
+          "spiritual": [
+            "Alignement avec sa mission de vie",
+            "Responsabilité personnelle"
+          ]
+        },
+    
+        "advice": {
+          "do": [
+            "Planifier",
+            "Écrire ses objectifs"
+          ],
+          "avoid": [
+            "Rigidité excessive",
+            "Auto-pression"
+          ]
+        },
+    
+        "affirmations": [
+          "Je construis mon avenir avec patience et confiance"
+        ],
+    
+        "rituals": [
+          "Écriture d’objectifs",
+          "Rituel d’ancrage"
+        ]
+      },
+    
+      {
+        "date": "2026-02-17",
+        "sign": "Verseau",
+        "title": "Nouvelle lune en Verseau",
+        "subtitle": "Innovation et liberté",
+    
+        "keywords": ["renouveau", "originalité", "collectif", "liberté"],
+    
+        "energy": { "intensity": 3, "emotional": 3, "mental": 5 },
+    
+        "intentions": [
+          "Oser être différent",
+          "S’ouvrir à de nouvelles idées"
+        ],
+    
+        "effects": {
+          "general": [
+            "Besoin de changement",
+            "Esprit visionnaire"
+          ],
+          "emotional": [
+            "Détachement émotionnel"
+          ],
+          "spiritual": [
+            "Connexion au collectif",
+            "Vision du futur"
+          ]
+        },
+    
+        "advice": {
+          "do": [
+            "Expérimenter",
+            "Penser autrement"
+          ],
+          "avoid": [
+            "Rébellion vide",
+            "Isolement"
+          ]
+        },
+    
+        "affirmations": [
+          "J’accueille le changement et l’innovation"
+        ],
+    
+        "rituals": [
+          "Visualisation du futur",
+          "Rituel de renouveau"
+        ]
+      },
+    
+      {
+        "date": "2026-03-19",
+        "sign": "Poissons",
+        "title": "Nouvelle lune en Poissons",
+        "subtitle": "Intuition et dissolution",
+    
+        "keywords": ["intuition", "rêves", "lâcher-prise", "sensibilité"],
+    
+        "energy": { "intensity": 4, "emotional": 5, "mental": 3 },
+    
+        "intentions": [
+          "Écouter son intuition",
+          "Lâcher le contrôle"
+        ],
+    
+        "effects": {
+          "general": [
+            "Sensibilité accrue",
+            "Besoin de repos"
+          ],
+          "emotional": [
+            "Émotions diffuses",
+            "Empathie"
+          ],
+          "spiritual": [
+            "Connexion spirituelle profonde"
+          ]
+        },
+    
+        "advice": {
+          "do": [
+            "Méditer",
+            "Se reposer"
+          ],
+          "avoid": [
+            "Fuite de la réalité",
+            "Confusion"
+          ]
+        },
+    
+        "affirmations": [
+          "Je fais confiance au flux de la vie"
+        ],
+    
+        "rituals": [
+          "Méditation",
+          "Rituel de purification"
+        ]
+      },
+    
+      {
+        "date": "2026-04-17",
+        "sign": "Bélier",
+        "title": "Nouvelle lune en Bélier",
+        "subtitle": "Impulsion et nouveau départ",
+    
+        "keywords": ["début", "action", "courage", "initiative"],
+    
+        "energy": { "intensity": 5, "emotional": 3, "mental": 3 },
+    
+        "intentions": [
+          "Commencer un nouveau projet",
+          "Affirmer sa volonté"
+        ],
+    
+        "effects": {
+          "general": [
+            "Énergie d’action",
+            "Besoin d’autonomie"
+          ],
+          "emotional": [
+            "Impulsivité"
+          ],
+          "spiritual": [
+            "Naissance d’un cycle"
+          ]
+        },
+    
+        "advice": {
+          "do": [
+            "Passer à l’action",
+            "Oser"
+          ],
+          "avoid": [
+            "Précipitation",
+            "Conflits"
+          ]
+        },
+    
+        "affirmations": [
+          "J’ose initier un nouveau cycle"
+        ],
+    
+        "rituals": [
+          "Rituel de feu",
+          "Affirmations dynamiques"
+        ]
+      },
+    
+      {
+        "date": "2026-05-16",
+        "sign": "Taureau",
+        "title": "Nouvelle lune en Taureau",
+        "subtitle": "Stabilité et ancrage",
+    
+        "keywords": ["sécurité", "valeurs", "ancrage", "abondance"],
+    
+        "energy": { "intensity": 3, "emotional": 4, "mental": 3 },
+    
+        "intentions": [
+          "Stabiliser ses ressources",
+          "Renforcer ses valeurs"
+        ],
+    
+        "effects": {
+          "general": [
+            "Besoin de sécurité",
+            "Recherche de confort"
+          ],
+          "emotional": [
+            "Attachement"
+          ],
+          "spiritual": [
+            "Connexion au corps"
+          ]
+        },
+    
+        "advice": {
+          "do": [
+            "Prendre soin de son corps",
+            "Consolider"
+          ],
+          "avoid": [
+            "Rigidité",
+            "Matérialisme excessif"
+          ]
+        },
+    
+        "affirmations": [
+          "Je mérite stabilité et abondance"
+        ],
+    
+        "rituals": [
+          "Rituel d’ancrage",
+          "Connexion à la nature"
+        ]
+      },
+    
+      {
+        "date": "2026-06-15",
+        "sign": "Gémeaux",
+        "title": "Nouvelle lune en Gémeaux",
+        "subtitle": "Communication et curiosité",
+    
+        "keywords": ["communication", "apprentissage", "idées", "échanges"],
+    
+        "energy": { "intensity": 3, "emotional": 3, "mental": 5 },
+    
+        "intentions": [
+          "Exprimer ses idées",
+          "Apprendre quelque chose de nouveau"
+        ],
+    
+        "effects": {
+          "general": [
+            "Agitation mentale",
+            "Envie de dialogue"
+          ],
+          "emotional": [
+            "Légèreté"
+          ],
+          "spiritual": [
+            "Ouverture intellectuelle"
+          ]
+        },
+    
+        "advice": {
+          "do": [
+            "Écrire",
+            "Communiquer"
+          ],
+          "avoid": [
+            "Dispersion",
+            "Superficialité"
+          ]
+        },
+    
+        "affirmations": [
+          "Je communique avec clarté et fluidité"
+        ],
+    
+        "rituals": [
+          "Écriture consciente",
+          "Intention verbale"
+        ]
+      },
+    
+      {
+        "date": "2026-07-14",
+        "sign": "Cancer",
+        "title": "Nouvelle lune en Cancer",
+        "subtitle": "Sécurité émotionnelle",
+    
+        "keywords": ["émotions", "famille", "intimité", "protection"],
+    
+        "energy": { "intensity": 4, "emotional": 5, "mental": 2 },
+    
+        "intentions": [
+          "Créer un cocon sécurisant",
+          "Prendre soin de ses émotions"
+        ],
+    
+        "effects": {
+          "general": [
+            "Besoin de douceur",
+            "Retour à l’essentiel"
+          ],
+          "emotional": [
+            "Sensibilité accrue"
+          ],
+          "spiritual": [
+            "Guérison émotionnelle"
+          ]
+        },
+    
+        "advice": {
+          "do": [
+            "Se protéger",
+            "Honorer ses émotions"
+          ],
+          "avoid": [
+            "Dépendance affective",
+            "Fermeture"
+          ]
+        },
+    
+        "affirmations": [
+          "Je suis en sécurité émotionnellement"
+        ],
+    
+        "rituals": [
+          "Rituel lunaire",
+          "Journal émotionnel"
+        ]
+      },
+      {
+        "date": "2026-08-13",
+        "sign": "Lion",
+        "title": "Nouvelle lune en Lion",
+        "subtitle": "Rayonnement et créativité",
+    
+        "keywords": ["créativité", "confiance", "expression", "joie"],
+    
+        "energy": { "intensity": 4, "emotional": 4, "mental": 3 },
+    
+        "intentions": [
+          "Exprimer pleinement qui je suis",
+          "Renforcer ma confiance"
+        ],
+    
+        "effects": {
+          "general": [
+            "Envie de se montrer",
+            "Créativité accrue"
+          ],
+          "emotional": [
+            "Fierté",
+            "Besoin de reconnaissance"
+          ],
+          "spiritual": [
+            "Connexion à sa lumière intérieure"
+          ]
+        },
+    
+        "advice": {
+          "do": [
+            "Créer",
+            "Oser se mettre en avant"
+          ],
+          "avoid": [
+            "Ego excessif",
+            "Dépendance au regard des autres"
+          ]
+        },
+    
+        "affirmations": [
+          "Je rayonne librement et avec confiance"
+        ],
+    
+        "rituals": [
+          "Rituel de feu",
+          "Expression créative"
+        ]
+      },
+    
+      {
+        "date": "2026-09-11",
+        "sign": "Vierge",
+        "title": "Nouvelle lune en Vierge",
+        "subtitle": "Organisation et amélioration",
+    
+        "keywords": ["organisation", "service", "discipline", "santé"],
+    
+        "energy": { "intensity": 3, "emotional": 2, "mental": 5 },
+    
+        "intentions": [
+          "Optimiser mon quotidien",
+          "Améliorer mes habitudes"
+        ],
+    
+        "effects": {
+          "general": [
+            "Besoin de clarté",
+            "Esprit analytique"
+          ],
+          "emotional": [
+            "Distance émotionnelle"
+          ],
+          "spiritual": [
+            "Alignement corps-esprit"
+          ]
+        },
+    
+        "advice": {
+          "do": [
+            "Faire du tri",
+            "Mettre en place des routines saines"
+          ],
+          "avoid": [
+            "Perfectionnisme",
+            "Auto-critique"
+          ]
+        },
+    
+        "affirmations": [
+          "Je crée un quotidien équilibré et sain"
+        ],
+    
+        "rituals": [
+          "Organisation consciente",
+          "Rituel de purification"
+        ]
+      },
+    
+      {
+        "date": "2026-10-10",
+        "sign": "Balance",
+        "title": "Nouvelle lune en Balance",
+        "subtitle": "Harmonie relationnelle",
+    
+        "keywords": ["relations", "équilibre", "harmonie", "coopération"],
+    
+        "energy": { "intensity": 3, "emotional": 4, "mental": 4 },
+    
+        "intentions": [
+          "Créer des relations équilibrées",
+          "Rétablir l’harmonie"
+        ],
+    
+        "effects": {
+          "general": [
+            "Focus sur les relations",
+            "Recherche d’équilibre"
+          ],
+          "emotional": [
+            "Besoin de partage"
+          ],
+          "spiritual": [
+            "Paix intérieure par l’autre"
+          ]
+        },
+    
+        "advice": {
+          "do": [
+            "Dialoguer",
+            "Coopérer"
+          ],
+          "avoid": [
+            "Dépendance affective",
+            "Indécision"
+          ]
+        },
+    
+        "affirmations": [
+          "Je crée des relations justes et harmonieuses"
+        ],
+    
+        "rituals": [
+          "Rituel d’harmonisation",
+          "Méditation relationnelle"
+        ]
+      },
+    
+      {
+        "date": "2026-11-08",
+        "sign": "Scorpion",
+        "title": "Nouvelle lune en Scorpion",
+        "subtitle": "Transformation et profondeur",
+    
+        "keywords": ["transformation", "renaissance", "intensité", "vérité"],
+    
+        "energy": { "intensity": 5, "emotional": 5, "mental": 4 },
+    
+        "intentions": [
+          "Me transformer en profondeur",
+          "Lâcher l’ancien"
+        ],
+    
+        "effects": {
+          "general": [
+            "Processus de transformation",
+            "Révélations"
+          ],
+          "emotional": [
+            "Émotions intenses"
+          ],
+          "spiritual": [
+            "Renaissance intérieure"
+          ]
+        },
+    
+        "advice": {
+          "do": [
+            "Explorer ses profondeurs",
+            "Accueillir le changement"
+          ],
+          "avoid": [
+            "Contrôle",
+            "Manipulation"
+          ]
+        },
+    
+        "affirmations": [
+          "Je me transforme avec courage et confiance"
+        ],
+    
+        "rituals": [
+          "Rituel de libération",
+          "Écriture cathartique"
+        ]
+      },
+    
+      {
+        "date": "2026-12-08",
+        "sign": "Sagittaire",
+        "title": "Nouvelle lune en Sagittaire",
+        "subtitle": "Vision et expansion",
+    
+        "keywords": ["vision", "expansion", "sens", "liberté"],
+    
+        "energy": { "intensity": 4, "emotional": 4, "mental": 4 },
+    
+        "intentions": [
+          "Élargir mes horizons",
+          "Donner un sens à mes projets"
+        ],
+    
+        "effects": {
+          "general": [
+            "Envie d’expansion",
+            "Optimisme"
+          ],
+          "emotional": [
+            "Élan enthousiaste"
+          ],
+          "spiritual": [
+            "Recherche de vérité"
+          ]
+        },
+    
+        "advice": {
+          "do": [
+            "Explorer",
+            "Apprendre"
+          ],
+          "avoid": [
+            "Excès",
+            "Promesses irréalistes"
+          ]
+        },
+    
+        "affirmations": [
+          "Je fais confiance à ma vision et j’avance librement"
+        ],
+    
+        "rituals": [
+          "Rituel de vision",
+          "Écriture d’intentions à long terme"
+        ]
+      }
 ]

@@ -1,32 +1,244 @@
 [
-    {
-      "date": "2026-02-17",
-      "type": "annular_solar",
-      "title": "Éclipse solaire annulaire",
-      "description": "Éclipse solaire annulaire visible partiellement depuis certaines régions."
+  {
+    "date": "2026-02-17",
+    "type": "solar_annular",
+    "title": "Éclipse solaire annulaire",
+    "subtitle": "Anneau de feu",
+    
+    "keywords": ["changement", "éveil", "transformation", "focus"],
+    
+    "energy": { "intensity": 5, "emotional": 3, "mental": 4 },
+    
+    "effects": {
+      "general": [
+        "Période de grands changements",
+        "Réévaluation des objectifs"
+      ],
+      "emotional": [
+        "Tension intérieure",
+        "Besoin de recul"
+      ],
+      "spiritual": [
+        "Clarté de mission",
+        "Intuition amplifiée"
+      ]
     },
-    {
-      "date": "2026-03-03",
-      "type": "total_lunar",
-      "title": "Éclipse lunaire totale",
-      "description": "Éclipse lunaire totale."
+    
+    "advice": {
+      "do": [
+        "Noter ses priorités",
+        "Se recentrer"
+      ],
+      "avoid": [
+        "Décisions impulsives",
+        "Conflits inutiles"
+      ]
     },
-    {
-      "date": "2026-08-12",
-      "type": "total_solar",
-      "title": "Éclipse solaire totale",
-      "description": "Éclipse solaire totale."
+    
+    "rituals": [
+      "Méditation de clarté",
+      "Vision board"
+    ]
+  },
+
+  {
+    "date": "2026-03-03",
+    "type": "lunar_total",
+    "title": "Éclipse lunaire totale",
+    "subtitle": "Lune rouge – profonde transformation",
+    
+    "keywords": ["transformation", "fin de cycle", "illumination", "libération"],
+    
+    "energy": { "intensity": 5, "emotional": 5, "mental": 4 },
+    
+    "effects": {
+      "general": [
+        "Révélations profondes",
+        "Fin d’un cycle important"
+      ],
+      "emotional": [
+        "Émotions intenses",
+        "Libération"
+      ],
+      "spiritual": [
+        "Transformation intérieure",
+        "Clairvoyance"
+      ]
     },
-    {
-      "date": "2026-08-28",
-      "type": "partial_lunar",
-      "title": "Éclipse lunaire partielle",
-      "description": "Éclipse lunaire partielle."
+    
+    "advice": {
+      "do": [
+        "Accepter le changement",
+        "Lâcher ce qui ne sert plus"
+      ],
+      "avoid": [
+        "Résistance",
+        "Blocages émotionnels"
+      ]
     },
-    {
-      "date": "2027-02-06",
-      "type": "annular_solar",
-      "title": "Éclipse solaire annulaire",
-      "description": "Éclipse solaire annulaire."
-    }
+    
+    "rituals": [
+      "Rituel de libération",
+      "Journal de transformation"
+    ]
+  },
+
+  {
+    "date": "2026-08-12",
+    "type": "solar_total",
+    "title": "Éclipse solaire totale",
+    "subtitle": "Transformation radicale",
+    
+    "keywords": ["renouveau", "illumination", "rupture", "révélation"],
+    
+    "energy": { "intensity": 5, "emotional": 4, "mental": 5 },
+    
+    "effects": {
+      "general": [
+        "Temps fort de transformation",
+        "Clarté soudaine"
+      ],
+      "emotional": [
+        "Montée d’émotions profondes"
+      ],
+      "spiritual": [
+        "Nouveau cycle",
+        "Éveil"
+      ]
+    },
+    
+    "advice": {
+      "do": [
+        "Accueillir les changements",
+        "Se réaligner à ses valeurs"
+      ],
+      "avoid": [
+        "Résister",
+        "Se laisser submerger"
+      ]
+    },
+    
+    "rituals": [
+      "Méditation profonde",
+      "Rituel de renouveau"
+    ]
+  },
+
+  {
+    "date": "2026-08-28",
+    "type": "lunar_partial",
+    "title": "Éclipse lunaire partielle",
+    "subtitle": "Révélation douce",
+    
+    "keywords": ["révélation", "réflexion", "fin partielle", "vision"],
+    
+    "energy": { "intensity": 4, "emotional": 4, "mental": 4 },
+    
+    "effects": {
+      "general": [
+        "Révision de perceptions",
+        "Émergence de vérités"
+      ],
+      "emotional": [
+        "Sentiments nuancés"
+      ],
+      "spiritual": [
+        "Éveil par observation"
+      ]
+    },
+    
+    "advice": {
+      "do": [
+        "Observer, ne pas juger",
+        "Prendre du recul"
+      ],
+      "avoid": [
+        "Conclusions hâtives"
+      ]
+    },
+    
+    "rituals": [
+      "Observation consciente",
+      "Cercle de réflexion"
+    ]
+  },
+
+  {
+    "date": "2027-02-06",
+    "type": "solar_annular",
+    "title": "Éclipse solaire annulaire",
+    "subtitle": "Anneau solaire – opportunité nouvelle",
+    
+    "keywords": ["renouveau", "vision", "possibilités", "activation"],
+    
+    "energy": { "intensity": 4, "emotional": 3, "mental": 4 },
+    
+    "effects": {
+      "general": [
+        "Temps d’opportunités",
+        "Redirection"
+      ],
+      "emotional": [
+        "Motivation renouvelée"
+      ],
+      "spiritual": [
+        "Accès à nouvelles perspectives"
+      ]
+    },
+    
+    "advice": {
+      "do": [
+        "Planifier",
+        "S’ouvrir au nouveau"
+      ],
+      "avoid": [
+        "Blocages",
+        "Peurs du changement"
+      ]
+    },
+    
+    "rituals": [
+      "Rituel d’intention",
+      "Méditation d’ouverture"
+    ]
+  },
+
+  {
+    "date": "2027-02-20",
+    "type": "lunar_penumbral",
+    "title": "Éclipse lunaire pénombrale",
+    "subtitle": "Énergie subtile",
+    
+    "keywords": ["introspection", "subtilité", "observation", "réflexion"],
+    
+    "energy": { "intensity": 3, "emotional": 3, "mental": 4 },
+    
+    "effects": {
+      "general": [
+        "Observation intérieure",
+        "Vision claire des nuances"
+      ],
+      "emotional": [
+        "Émotions moins intenses"
+      ],
+      "spiritual": [
+        "Réflexion silencieuse"
+      ]
+    },
+    
+    "advice": {
+      "do": [
+        "Observer",
+        "Revenir sur soi"
+      ],
+      "avoid": [
+        "Judgement facile"
+      ]
+    },
+    
+    "rituals": [
+      "Journal intime",
+      "Méditation calme"
+    ]
+  }
   ]
