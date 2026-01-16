@@ -12,27 +12,27 @@ const eventTypes: EventTypeInfo[] = [
   {
     type: 'new_moon',
     label: 'Nouvelle lune',
-    description: 'Début d\'un nouveau cycle lunaire, moment propice pour les nouveaux départs'
+    description: ''
   },
   {
     type: 'full_moon',
     label: 'Pleine lune',
-    description: 'Apogée du cycle lunaire, période d\'accomplissement et de libération'
+    description: ''
   },
   {
     type: 'retrograde',
     label: 'Rétrogrades planétaires',
-    description: 'Périodes de réflexion et de révision, idéales pour ralentir et réfléchir'
+    description: ''
   },
   {
     type: 'planet_ingress',
     label: 'Ingrès planétaires',
-    description: 'Changement de signe des planètes, marquant des transitions importantes'
+    description: ''
   },
   {
     type: 'eclipse',
     label: 'Éclipses',
-    description: 'Moments puissants de transformation et de changement de direction'
+    description: ''
   }
 ];
 
@@ -48,7 +48,7 @@ const EventsList: React.FC = () => {
       
       <div className="events-list">
         {eventTypes.map((eventType) => (
-          <div key={eventType.type} className="event-type-item">
+          <button key={eventType.type} className="event-type-item">
             <div className="event-type-icon">
               <img 
                 src={getEventIcon(eventType.type)} 
@@ -58,9 +58,8 @@ const EventsList: React.FC = () => {
             </div>
             <div className="event-type-content">
               <h3 className="event-type-label">{eventType.label}</h3>
-              <p className="event-type-description">{eventType.description}</p>
             </div>
-          </div>
+          </button>
         ))}
       </div>
     </div>
