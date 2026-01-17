@@ -5,11 +5,36 @@
   padding: 2rem;
   margin-bottom: 2rem;
   transition: all 0.3s ease;
+  position: relative;
 }
 
 .event-card:hover {
   background: rgba(255, 255, 255, 0.05);
   border-color: rgba(64, 224, 208, 0.3);
+}
+
+.event-card-first {
+  background: linear-gradient(135deg, rgba(64, 224, 208, 0.04), rgba(255, 255, 255, 0.03));
+  border: 1px solid rgba(64, 224, 208, 0.25);
+  box-shadow: 0 0 8px rgba(64, 224, 208, 0.08);
+}
+
+.event-card-first:hover {
+  background: linear-gradient(135deg, rgba(64, 224, 208, 0.06), rgba(255, 255, 255, 0.04));
+  border-color: rgba(64, 224, 208, 0.35);
+  box-shadow: 0 0 12px rgba(64, 224, 208, 0.12);
+}
+
+.event-card-past {
+  opacity: 0.6;
+  background: rgba(255, 255, 255, 0.02);
+  border-color: rgba(255, 255, 255, 0.06);
+}
+
+.event-card-past:hover {
+  opacity: 0.75;
+  background: rgba(255, 255, 255, 0.03);
+  border-color: rgba(255, 255, 255, 0.1);
 }
 
 .event-card-header {
@@ -18,6 +43,88 @@
   margin-bottom: 1.5rem;
   padding-bottom: 1.5rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.event-card-accordion-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.accordion-section {
+  margin: 0;
+}
+
+.accordion-section h4 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #ffffff;
+  margin: 0 0 1rem 0;
+  letter-spacing: 1px;
+}
+
+.accordion-item {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.accordion-item:hover {
+  border-color: rgba(64, 224, 208, 0.3);
+}
+
+.accordion-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: left;
+  transition: all 0.3s ease;
+  letter-spacing: 0.5px;
+}
+
+.accordion-header:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.accordion-header.open {
+  background: rgba(64, 224, 208, 0.1);
+  border-bottom: 1px solid rgba(64, 224, 208, 0.2);
+}
+
+.accordion-icon {
+  color: rgba(64, 224, 208, 0.9);
+  font-size: 0.875rem;
+  transition: transform 0.3s ease;
+}
+
+.accordion-header.open .accordion-icon {
+  transform: rotate(0deg);
+}
+
+.accordion-content {
+  padding: 1.5rem;
+  background: transparent;
+  animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    max-height: 0;
+  }
+  to {
+    opacity: 1;
+    max-height: 1000px;
+  }
 }
 
 .event-card-date {
@@ -54,18 +161,43 @@
 
 .event-card-title-section {
   flex: 1;
+  padding: 0.5rem 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
 
 .event-card-title {
-  font-size: 1.75rem;
+  font-size: 2.25rem;
   font-weight: 500;
   color: #ffffff;
-  margin: 0 0 0.5rem 0;
+  margin: 0 0 0.75rem 0;
   letter-spacing: 1px;
 }
 
+.event-card-sign-icon {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+  opacity: 0.9;
+  transition: all 0.3s ease;
+  border: 2px solid rgba(64, 224, 208, 0.5);
+  border-radius: 12px;
+  padding: 8px;
+  background: rgba(64, 224, 208, 0.05);
+}
+
+.event-card-title-section:hover .event-card-sign-icon {
+  opacity: 1;
+  transform: translateY(-50%) scale(1.1);
+}
+
 .event-card-subtitle {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   color: rgba(255, 255, 255, 0.7);
   margin: 0 0 1rem 0;
   font-weight: 300;
@@ -93,16 +225,28 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;
-  margin-bottom: 1.5rem;
 }
 
 .keyword-tag {
   font-size: 0.875rem;
-  color: rgba(255, 255, 255, 0.8);
-  padding: 0.375rem 0.75rem;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 6px;
+  font-weight: 500;
+  color: rgba(64, 224, 208, 0.95);
+  padding: 0.5rem 1rem;
+  background: linear-gradient(135deg, rgba(64, 224, 208, 0.15), rgba(64, 224, 208, 0.08));
+  border: 1px solid rgba(64, 224, 208, 0.3);
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  letter-spacing: 0.3px;
+  display: inline-block;
+}
+
+.keyword-tag:hover {
+  background: linear-gradient(135deg, rgba(64, 224, 208, 0.25), rgba(64, 224, 208, 0.15));
+  border-color: rgba(64, 224, 208, 0.5);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(64, 224, 208, 0.2);
+  color: rgba(64, 224, 208, 1);
 }
 
 .event-card-energy,
@@ -112,21 +256,7 @@
 .event-card-rituals,
 .event-card-affirmations,
 .event-card-phases {
-  margin-bottom: 1.5rem;
-}
-
-.event-card-energy h4,
-.event-card-effects h4,
-.event-card-advice h4,
-.event-card-intentions h4,
-.event-card-rituals h4,
-.event-card-affirmations h4,
-.event-card-phases h4 {
-  font-size: 1.25rem;
-  font-weight: 500;
-  color: #ffffff;
-  margin: 0 0 1rem 0;
-  letter-spacing: 1px;
+  margin: 0;
 }
 
 .energy-bars {
@@ -147,43 +277,134 @@
   color: rgba(255, 255, 255, 0.7);
 }
 
-.energy-bar-fill {
+.energy-bar-container {
   flex: 1;
   height: 8px;
-  background: linear-gradient(90deg, rgba(64, 224, 208, 0.8), rgba(64, 224, 208, 1));
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.energy-bar-fill {
+  height: 100%;
+  width: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(64, 224, 208, 0.9) 0%,
+    rgba(100, 235, 220, 1) 50%,
+    rgba(64, 224, 208, 1) 100%
+  );
   border-radius: 4px;
   transition: width 0.5s ease;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 8px rgba(64, 224, 208, 0.6), inset 0 1px 2px rgba(255, 255, 255, 0.3);
+}
+
+.energy-bar-fill::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.4),
+    transparent
+  );
+  animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
 }
 
 .effects-section {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  padding: 1.25rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(64, 224, 208, 0.15);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.effects-section:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(64, 224, 208, 0.3);
+  transform: translateX(4px);
 }
 
 .effects-section strong {
-  display: block;
-  color: rgba(64, 224, 208, 0.9);
-  margin-bottom: 0.5rem;
-  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: rgba(64, 224, 208, 1);
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid rgba(64, 224, 208, 0.2);
+}
+
+.effects-section strong {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.effects-icon {
+  color: rgba(64, 224, 208, 0.8);
+  flex-shrink: 0;
 }
 
 .effects-section ul {
   list-style: none;
   padding: 0;
-  margin: 0 0 1rem 1rem;
+  margin: 0;
 }
 
 .effects-section li {
-  color: rgba(255, 255, 255, 0.8);
-  margin-bottom: 0.5rem;
-  padding-left: 1rem;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 0.75rem;
+  padding-left: 1.5rem;
   position: relative;
+  line-height: 1.6;
+  transition: color 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
-.effects-section li::before {
-  content: '•';
+.effects-section li:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.effects-arrow {
   position: absolute;
   left: 0;
-  color: rgba(64, 224, 208, 0.7);
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgba(64, 224, 208, 0.8);
+  flex-shrink: 0;
+  transition: transform 0.2s ease;
+}
+
+.effects-section li:hover .effects-arrow {
+  transform: translateY(-50%) translateX(4px);
+  color: rgba(64, 224, 208, 1);
+}
+
+.effects-section li:last-child {
+  margin-bottom: 0;
 }
 
 .advice-section {
@@ -220,20 +441,27 @@
   margin-bottom: 0.5rem;
   padding-left: 1rem;
   position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
-.advice-do li::before {
-  content: '✓';
+.advice-check {
   position: absolute;
   left: 0;
+  top: 50%;
+  transform: translateY(-50%);
   color: rgba(64, 224, 208, 0.7);
+  flex-shrink: 0;
 }
 
-.advice-avoid li::before {
-  content: '✗';
+.advice-x {
   position: absolute;
   left: 0;
+  top: 50%;
+  transform: translateY(-50%);
   color: rgba(255, 107, 107, 0.7);
+  flex-shrink: 0;
 }
 
 .event-card-intentions ul,
@@ -251,19 +479,27 @@
   margin-bottom: 0.75rem;
   padding-left: 1.5rem;
   position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
-.event-card-intentions li::before {
-  content: '✦';
+.intentions-icon {
   position: absolute;
   left: 0;
+  top: 50%;
+  transform: translateY(-50%);
   color: rgba(64, 224, 208, 0.7);
+  flex-shrink: 0;
 }
 
-.event-card-rituals li::before {
-  content: '✨';
+.rituals-icon {
   position: absolute;
   left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgba(64, 224, 208, 0.7);
+  flex-shrink: 0;
 }
 
 .event-card-affirmations li {
@@ -271,10 +507,13 @@
   color: rgba(255, 255, 255, 0.9);
 }
 
-.event-card-affirmations li::before {
-  content: '💫';
+.affirmations-icon {
   position: absolute;
   left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgba(64, 224, 208, 0.7);
+  flex-shrink: 0;
 }
 
 .phases-list {

@@ -60,6 +60,48 @@
   text-transform: lowercase;
 }
 
+.header-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2rem;
+}
+
+.header-home-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background: rgba(64, 224, 208, 0.1);
+  border: 1px solid rgba(64, 224, 208, 0.3);
+  border-radius: 8px;
+  color: rgba(64, 224, 208, 0.9);
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-home-button:hover {
+  background: rgba(64, 224, 208, 0.15);
+  border-color: rgba(64, 224, 208, 0.5);
+  color: rgba(64, 224, 208, 1);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(64, 224, 208, 0.2);
+}
+
+.header-home-button svg {
+  width: 18px;
+  height: 18px;
+  transition: transform 0.3s ease;
+}
+
+.header-home-button:hover svg {
+  transform: scale(1.1);
+}
+
 @media (max-width: 768px) {
   .header {
     padding: 1.5rem 1rem 0.5rem;
@@ -82,5 +124,19 @@
 
   .header-subtitle {
     font-size: 0.95rem;
+  }
+
+  .header-button-container {
+    padding: 0 1rem;
+  }
+
+  .header-home-button {
+    padding: 0.625rem 1.25rem;
+    font-size: 0.875rem;
+  }
+
+  .header-home-button svg {
+    width: 16px;
+    height: 16px;
   }
 }

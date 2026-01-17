@@ -9,10 +9,24 @@ import './NewMoons.css';
 const NewMoons: React.FC = () => {
   const newMoons = useMemo(() => {
     const moons = newMoonsData as NewMoon[];
+    const now = new Date();
+    now.setHours(0, 0, 0, 0);
+    
     return moons.sort((a, b) => {
       const dateA = parseDate(a.date);
       const dateB = parseDate(b.date);
-      return dateB.getTime() - dateA.getTime(); // Plus récent en premier
+      dateA.setHours(0, 0, 0, 0);
+      dateB.setHours(0, 0, 0, 0);
+      
+      const isACurrentOrNext = dateA.getTime() >= now.getTime();
+      const isBCurrentOrNext = dateB.getTime() >= now.getTime();
+      
+      // Si un est en cours/prochain et l'autre non, celui en cours/prochain passe en premier
+      if (isACurrentOrNext && !isBCurrentOrNext) return -1;
+      if (!isACurrentOrNext && isBCurrentOrNext) return 1;
+      
+      // Si les deux sont en cours/prochain ou les deux sont passés, trier par date (croissante)
+      return dateA.getTime() - dateB.getTime();
     });
   }, []);
 
@@ -27,9 +41,23 @@ const NewMoons: React.FC = () => {
           </p>
         </div>
         <div className="events-list-page">
-          {newMoons.map((moon, index) => (
-            <EventCard key={index} event={moon} type="new_moon" />
-          ))}
+          {newMoons.map((moon, index) => {
+            const now = new Date();
+            now.setHours(0, 0, 0, 0);
+            const eventDate = parseDate(moon.date);
+            eventDate.setHours(0, 0, 0, 0);
+            const isCurrentOrNext = eventDate.getTime() >= now.getTime();
+            const isPast = eventDate.getTime() < now.getTime();
+            return (
+              <EventCard 
+                key={index} 
+                event={moon} 
+                type="new_moon" 
+                isFirst={index === 0 && isCurrentOrNext}
+                isPast={isPast}
+              />
+            );
+          })}
         </div>
       </div>
     </div>

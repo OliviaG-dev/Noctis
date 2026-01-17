@@ -7,7 +7,7 @@ import './Home.css';
 const Home: React.FC = () => {
   return (
     <div className="home-container">
-      <Header />
+      <Header showFullHeader={true} />
       <div className="home-content">
         <div className="home-left">
           <EventsList />
