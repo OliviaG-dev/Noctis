@@ -319,15 +319,15 @@ export function getPlanetIngressForDate(
 export function getEventIcon(eventType: EventType): string {
   switch (eventType) {
     case "new_moon":
-      return "/icone/nouvellelune.png";
+      return "/icone/event/nouvellelune.png";
     case "full_moon":
-      return "/icone/pleinelune.png";
+      return "/icone/event/pleinelune.png";
     case "retrograde":
-      return "/icone/retrograde.png";
+      return "/icone/event/retrograde.png";
     case "eclipse":
-      return "/icone/eclipse.png";
+      return "/icone/event/eclipse.png";
     case "planet_ingress":
-      return "/icone/entrance.png";
+      return "/icone/event/entrance.png";
     default:
       return "";
   }
