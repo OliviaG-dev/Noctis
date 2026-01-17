@@ -1,0 +1,55 @@
+.page-container {
+  min-height: 100vh;
+  background: #0b0c1b;
+  color: #ffffff;
+}
+
+.page-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.page-title {
+  font-size: 3rem;
+  font-weight: 300;
+  color: #ffffff;
+  margin: 0 0 1rem 0;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.page-subtitle {
+  font-size: 1.1rem;
+  color: #b0b0b0;
+  line-height: 1.6;
+  margin: 0;
+  font-weight: 300;
+}
+
+.events-list-page {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .page-content {
+    padding: 1rem;
+  }
+
+  .page-title {
+    font-size: 2rem;
+  }
+
+  .page-subtitle {
+    font-size: 1rem;
+  }
+}

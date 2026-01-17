@@ -112,7 +112,7 @@ export function loadAstrologyEvents(): AstrologyEvent[] {
       const dateKey = formatDate(currentDate);
       // Trouver la phase pour cette date
       const phase = findRetrogradePhase(retrograde, dateKey);
-      
+
       events.push({
         date: dateKey,
         type: "retrograde",
@@ -168,16 +168,16 @@ export function findRetrogradePhase(
   date: string
 ): RetrogradePhase | null {
   const dateObj = parseDate(date);
-  
+
   for (const phase of retrograde.phases) {
     const phaseStart = parseDate(phase.start);
     const phaseEnd = parseDate(phase.end);
-    
+
     if (dateObj >= phaseStart && dateObj <= phaseEnd) {
       return phase;
     }
   }
-  
+
   return null;
 }
 
@@ -206,20 +206,20 @@ export function getRetrogradeForDate(
 ): Retrograde | null {
   const retrogrades = retrogradesData as Retrograde[];
   const dateObj = parseDate(date);
-  
+
   for (const retrograde of retrogrades) {
     if (planet && retrograde.planet !== planet) {
       continue;
     }
-    
+
     const startDate = parseDate(retrograde.start);
     const endDate = parseDate(retrograde.end);
-    
+
     if (dateObj >= startDate && dateObj <= endDate) {
       return retrograde;
     }
   }
-  
+
   return null;
 }
 
@@ -242,15 +242,15 @@ export function calculateIngressDuration(
 ): IngressDuration {
   const startDate = parseDate(start);
   const endDate = parseDate(end);
-  
+
   let years = endDate.getFullYear() - startDate.getFullYear();
   let months = endDate.getMonth() - startDate.getMonth();
-  
+
   if (months < 0) {
     years--;
     months += 12;
   }
-  
+
   // Ajuster si le jour de fin est avant le jour de début
   if (endDate.getDate() < startDate.getDate()) {
     months--;
@@ -259,9 +259,9 @@ export function calculateIngressDuration(
       months += 12;
     }
   }
-  
+
   const totalMonths = years * 12 + months;
-  
+
   return {
     years,
     months: totalMonths,
@@ -277,7 +277,7 @@ export function calculateIngressDuration(
 export function getIngressTermType(ingress: PlanetIngress): IngressTermType {
   const days = calculateDaysBetween(ingress.start, ingress.end);
   const months = days / 30;
-  
+
   if (months < 6) {
     return "short"; // Court terme
   } else if (months < 24) {
@@ -296,20 +296,20 @@ export function getPlanetIngressForDate(
 ): PlanetIngress | null {
   const ingresses = planetIngressData as PlanetIngress[];
   const dateObj = parseDate(date);
-  
+
   for (const ingress of ingresses) {
     if (planet && ingress.planet !== planet) {
       continue;
     }
-    
+
     const startDate = parseDate(ingress.start);
     const endDate = parseDate(ingress.end);
-    
+
     if (dateObj >= startDate && dateObj <= endDate) {
       return ingress;
     }
   }
-  
+
   return null;
 }
 

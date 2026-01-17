@@ -1,0 +1,336 @@
+.event-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  transition: all 0.3s ease;
+}
+
+.event-card:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(64, 224, 208, 0.3);
+}
+
+.event-card-header {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.event-card-date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 80px;
+  padding: 1rem;
+  background: rgba(64, 224, 208, 0.1);
+  border: 1px solid rgba(64, 224, 208, 0.2);
+  border-radius: 12px;
+}
+
+.event-card-day {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 1;
+}
+
+.event-card-month {
+  font-size: 0.875rem;
+  color: rgba(64, 224, 208, 0.9);
+  letter-spacing: 1px;
+  margin-top: 0.25rem;
+}
+
+.event-card-year {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 0.25rem;
+}
+
+.event-card-title-section {
+  flex: 1;
+}
+
+.event-card-title {
+  font-size: 1.75rem;
+  font-weight: 500;
+  color: #ffffff;
+  margin: 0 0 0.5rem 0;
+  letter-spacing: 1px;
+}
+
+.event-card-subtitle {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0 0 1rem 0;
+  font-weight: 300;
+}
+
+.event-card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.event-card-sign,
+.event-card-planet,
+.event-card-type,
+.event-card-duration {
+  font-size: 0.875rem;
+  color: rgba(64, 224, 208, 0.9);
+  padding: 0.375rem 0.75rem;
+  background: rgba(64, 224, 208, 0.1);
+  border: 1px solid rgba(64, 224, 208, 0.2);
+  border-radius: 6px;
+}
+
+.event-card-keywords {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.keyword-tag {
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 0.375rem 0.75rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+}
+
+.event-card-energy,
+.event-card-effects,
+.event-card-advice,
+.event-card-intentions,
+.event-card-rituals,
+.event-card-affirmations,
+.event-card-phases {
+  margin-bottom: 1.5rem;
+}
+
+.event-card-energy h4,
+.event-card-effects h4,
+.event-card-advice h4,
+.event-card-intentions h4,
+.event-card-rituals h4,
+.event-card-affirmations h4,
+.event-card-phases h4 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #ffffff;
+  margin: 0 0 1rem 0;
+  letter-spacing: 1px;
+}
+
+.energy-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.energy-bar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.energy-bar span {
+  min-width: 100px;
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.energy-bar-fill {
+  flex: 1;
+  height: 8px;
+  background: linear-gradient(90deg, rgba(64, 224, 208, 0.8), rgba(64, 224, 208, 1));
+  border-radius: 4px;
+  transition: width 0.5s ease;
+}
+
+.effects-section {
+  margin-bottom: 1rem;
+}
+
+.effects-section strong {
+  display: block;
+  color: rgba(64, 224, 208, 0.9);
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.effects-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem 1rem;
+}
+
+.effects-section li {
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 0.5rem;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.effects-section li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: rgba(64, 224, 208, 0.7);
+}
+
+.advice-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.advice-do strong,
+.advice-avoid strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.advice-do strong {
+  color: rgba(64, 224, 208, 0.9);
+}
+
+.advice-avoid strong {
+  color: rgba(255, 107, 107, 0.8);
+}
+
+.advice-do ul,
+.advice-avoid ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0 1rem;
+}
+
+.advice-do li,
+.advice-avoid li {
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 0.5rem;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.advice-do li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: rgba(64, 224, 208, 0.7);
+}
+
+.advice-avoid li::before {
+  content: '✗';
+  position: absolute;
+  left: 0;
+  color: rgba(255, 107, 107, 0.7);
+}
+
+.event-card-intentions ul,
+.event-card-rituals ul,
+.event-card-affirmations ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0 1rem;
+}
+
+.event-card-intentions li,
+.event-card-rituals li,
+.event-card-affirmations li {
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 0.75rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.event-card-intentions li::before {
+  content: '✦';
+  position: absolute;
+  left: 0;
+  color: rgba(64, 224, 208, 0.7);
+}
+
+.event-card-rituals li::before {
+  content: '✨';
+  position: absolute;
+  left: 0;
+}
+
+.event-card-affirmations li {
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.event-card-affirmations li::before {
+  content: '💫';
+  position: absolute;
+  left: 0;
+}
+
+.phases-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.phase-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+.phase-sign {
+  font-weight: 500;
+  color: rgba(64, 224, 208, 0.9);
+}
+
+.phase-dates {
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+@media (max-width: 768px) {
+  .event-card {
+    padding: 1.5rem;
+  }
+
+  .event-card-header {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .event-card-date {
+    align-self: flex-start;
+    flex-direction: row;
+    gap: 1rem;
+    min-width: auto;
+  }
+
+  .event-card-title {
+    font-size: 1.5rem;
+  }
+
+  .advice-section {
+    grid-template-columns: 1fr;
+  }
+
+  .phase-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { getEventIcon } from '../../data/utils';
 import './EventsList.css';
 
@@ -37,6 +38,30 @@ const eventTypes: EventTypeInfo[] = [
 ];
 
 const EventsList: React.FC = () => {
+  const navigate = useNavigate();
+
+  const getRouteForType = (type: string): string => {
+    switch (type) {
+      case 'new_moon':
+        return '/new-moons';
+      case 'full_moon':
+        return '/full-moons';
+      case 'planet_ingress':
+        return '/planet-ingress';
+      case 'eclipse':
+        return '/eclipses';
+      case 'retrograde':
+        return '/planet-retrograde';
+      default:
+        return '/';
+    }
+  };
+
+  const handleEventTypeClick = (type: string) => {
+    const route = getRouteForType(type);
+    navigate(route);
+  };
+
   return (
     <div className="events-list-container">
       <div className="events-list-header">
@@ -48,7 +73,11 @@ const EventsList: React.FC = () => {
       
       <div className="events-list">
         {eventTypes.map((eventType) => (
-          <button key={eventType.type} className="event-type-item">
+          <button 
+            key={eventType.type} 
+            className="event-type-item"
+            onClick={() => handleEventTypeClick(eventType.type)}
+          >
             <div className="event-type-icon">
               <img 
                 src={getEventIcon(eventType.type)} 
