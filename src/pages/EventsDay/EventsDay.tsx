@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import Header from '../../components/Header/Header';
 import EventCard from '../../components/EventCard/EventCard';
 import { loadCompleteEventsForDate, parseDate } from '../../data/utils';
@@ -32,7 +32,6 @@ const AccordionItem: React.FC<AccordionItemProps> = ({ title, children, defaultO
 
 const EventsDay: React.FC = () => {
   const { date } = useParams<{ date: string }>();
-  const navigate = useNavigate();
 
   const events = useMemo(() => {
     if (!date) return [];
@@ -86,13 +85,6 @@ const EventsDay: React.FC = () => {
               now.setHours(0, 0, 0, 0);
               const eventDate = 'date' in event ? parseDate(event.date) : parseDate(event.start);
               eventDate.setHours(0, 0, 0, 0);
-              
-              const isCurrentOrNext = 
-                ('date' in event ? eventDate.getTime() >= now.getTime() :
-                 ('start' in event && 'end' in event) ? 
-                   (parseDate(event.start).getTime() <= now.getTime() && parseDate(event.end).getTime() >= now.getTime()) ||
-                   parseDate(event.start).getTime() >= now.getTime() :
-                 false);
               
               const isPast = 
                 ('date' in event ? eventDate.getTime() < now.getTime() :

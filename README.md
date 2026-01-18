@@ -19,6 +19,8 @@ Noctis est un calendrier astrologique qui transforme l'astrologie en une expéri
 
 - Vue mensuelle claire et élégante
 - Jours enrichis d'événements célestes
+- Modale interactive au clic sur un jour
+- Bouton "Voir +" pour accéder aux détails complets
 - Accès rapide aux détails par date
 
 ### 🌕 Phases de la lune
@@ -62,25 +64,46 @@ Permet de comprendre :
 ### 🌘 Éclipses solaires et lunaires
 
 - Visualisation des éclipses à venir
+- Icônes spécifiques selon le type d'éclipse (solaire totale, annulaire, lunaire totale, partielle, pénombrale)
 - Type d'éclipse
 - Signe concerné
 - Signification symbolique
 
-### 🔎 Filtres intelligents
+### 🔎 Navigation intuitive
 
-Afficher uniquement :
-
-- Phases lunaires
-- Rétrogrades
-- Ingrès planétaires
-- Éclipses
-
-Lecture personnalisée selon vos besoins.
+- Pages dédiées par type d'événement :
+  - Nouvelles lunes
+  - Pleines lunes
+  - Ingrès planétaires
+  - Éclipses
+  - Rétrogrades planétaires
+- Page détaillée par jour (EventsDay)
+- Bouton "Accueil" sur chaque page
+- Animations fluides pour une expérience premium
 
 ### ⭐ Événement du jour
 
+- Page dédiée par jour (EventsDay) avec tous les événements
+- Affichage en accordéons pour une navigation fluide
 - Mise en avant automatique de l'événement astrologique du jour
 - Lecture rapide pour guider votre journée
+
+### 🎴 Cartes d'événements enrichies
+
+- Design élégant avec accordéons animés
+- Icônes visuelles pour chaque type d'événement :
+  - Icônes de planètes (Mercure, Vénus, Mars, Jupiter, Saturne, Uranus, Neptune, Pluton)
+  - Icônes de signes astrologiques (12 signes du zodiaque)
+  - Icônes d'éclipses selon leur type
+- Sections détaillées avec accordéons :
+  - Mots-clés
+  - Énergie (Intensité, Émotionnel, Mental)
+  - Effets (Général, Émotionnel, Spirituel)
+  - Conseils (À faire / À éviter)
+  - Intentions
+  - Rituels
+  - Affirmations
+  - Phases (pour les rétrogrades)
 
 ## 🖤 L'ADN de Noctis
 
@@ -126,40 +149,67 @@ npm run lint
 - **React 19** - Bibliothèque UI
 - **TypeScript** - Typage statique
 - **Vite** - Build tool et dev server
-- **CSS3** - Styles et animations
+- **React Router** - Navigation entre les pages
+- **CSS3** - Styles et animations (transitions fluides avec cubic-bezier)
+- **Day.js** - Manipulation des dates
 
 ## 📁 Structure du projet
 
 ```
 noctis/
 ├── public/
-│   └── logo.png           # Logo de la lune
+│   ├── logo.png           # Logo de la lune
+│   └── icone/
+│       ├── astro/         # Icônes des signes astrologiques
+│       ├── planets/       # Icônes des planètes
+│       ├── eclipses/      # Icônes des types d'éclipses
+│       └── event/         # Icônes des événements
 ├── src/
 │   ├── assets/            # Images, icônes
 │   ├── components/
 │   │   ├── Calendar/      # Composant calendrier
 │   │   │   ├── Calendar.tsx
-│   │   │   └── Calendar.css
-│   │   └── Header/        # En-tête avec logo
-│   │       ├── Header.tsx
-│   │       └── Header.css
+│   │   │   ├── Calendar.css
+│   │   │   ├── CalendarDay.tsx
+│   │   │   ├── CalendarDay.css
+│   │   │   ├── CalendarModal.tsx
+│   │   │   └── CalendarModal.css
+│   │   ├── EventCard/     # Carte d'événement
+│   │   │   ├── EventCard.tsx
+│   │   │   ├── EventCard.css
+│   │   │   └── Icons.tsx
+│   │   ├── EventsList/    # Liste des types d'événements
+│   │   ├── Header/        # En-tête avec logo
+│   │   │   ├── Header.tsx
+│   │   │   └── Header.css
 │   ├── pages/
-│   │   ├── Home.tsx       # Page d'accueil
-│   │   └── Home.css
+│   │   ├── Home/          # Page d'accueil
+│   │   │   ├── Home.tsx
+│   │   │   └── Home.css
+│   │   ├── NewMoons/      # Page nouvelles lunes
+│   │   ├── FullMoons/     # Page pleines lunes
+│   │   ├── PlanetIngress/ # Page ingrès planétaires
+│   │   ├── Eclipses/      # Page éclipses
+│   │   ├── PlanetRetrograde/ # Page rétrogrades
+│   │   └── EventsDay/     # Page événements du jour
+│   │       ├── EventsDay.tsx
+│   │       └── EventsDay.css
 │   ├── data/              # Données astrologiques
 │   │   ├── types.ts       # Interfaces TypeScript
+│   │   ├── utils.ts       # Utilitaires (parseDate, etc.)
 │   │   ├── newMoons.json
 │   │   ├── fullMoons.json
 │   │   ├── retrogrades.json
 │   │   ├── planetIngress.json
 │   │   └── eclipses.json
-│   ├── styles/
-│   │   └── theme.css      # Thème global
 │   ├── App.tsx
-│   └── main.tsx
+│   ├── App.css
+│   ├── main.tsx
+│   └── index.css
 ├── index.html
 ├── package.json
-└── tsconfig.json
+├── tsconfig.json
+└── vite.config.ts
 ```
 
 ## 🎨 Design
@@ -179,14 +229,26 @@ L'application est entièrement responsive et optimisée pour :
 - 📱 Tablette
 - 💻 Desktop
 
+## ✨ Fonctionnalités récentes
+
+- ✅ Modale interactive dans le calendrier
+- ✅ Page détaillée par jour (EventsDay)
+- ✅ Animations fluides pour accordéons et modales
+- ✅ Icônes visuelles pour planètes, signes et éclipses
+- ✅ Design amélioré avec effets visuels
+- ✅ Navigation intuitive entre les pages
+- ✅ Affichage conditionnel des icônes selon le type d'événement
+
 ## 🔮 Roadmap
 
 - [ ] Intégration des données astrologiques réelles
 - [ ] Système de notifications (PWA)
-- [ ] Filtres avancés
-- [ ] Mode sombre/clair
-- [ ] Export des événements
+- [ ] Filtres avancés par date et type
+- [ ] Export des événements (iCal, CSV)
 - [ ] Widgets personnalisables
+- [ ] Mode sombre/clair (amélioration)
+- [ ] Recherche d'événements
+- [ ] Partage social des événements
 
 ## 📄 Licence
 

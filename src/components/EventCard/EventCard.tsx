@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import type { NewMoon, FullMoon, Eclipse, PlanetIngress, Retrograde, AstrologicalSign, Planet } from '../../data/types';
+import type { NewMoon, FullMoon, Eclipse, PlanetIngress, Retrograde, AstrologicalSign, Planet, EclipseType } from '../../data/types';
 import { parseDate } from '../../data/utils';
 import { StarIcon, ArrowRightIcon, CheckIcon, XIcon, SparkleIcon, ShootingStarIcon } from './Icons';
 import './EventCard.css';
@@ -85,6 +85,22 @@ const getPlanetIcon = (planet: Planet | undefined): string | null => {
   return iconName ? `/icone/planets/${iconName}.png` : null;
 };
 
+const getEclipseIcon = (eclipseType: EclipseType | undefined): string | null => {
+  if (!eclipseType) return null;
+  
+  const eclipseMap: Record<string, string> = {
+    'solar_total': 'solaire-totale',
+    'solar_annular': 'solaire-annulaire',
+    'solar_partial': 'solaire-totale', // Fallback si pas d'icône spécifique
+    'lunar_total': 'lunaire-totale',
+    'lunar_partial': 'lunaire-partielle',
+    'lunar_penumbral': 'lunaire-penombrale'
+  };
+
+  const iconName = eclipseMap[eclipseType];
+  return iconName ? `/icone/eclipses/${iconName}.png` : null;
+};
+
 interface AccordionItemProps {
   title: string;
   children: React.ReactNode;
@@ -116,6 +132,7 @@ const EventCard: React.FC<EventCardProps> = ({ event, type, isFirst = false, isP
 
   const sign = 'sign' in event ? event.sign : undefined;
   const planet = 'planet' in event ? event.planet : undefined;
+  const eclipseType = type === 'eclipse' && 'type' in event ? event.type : undefined;
 
   return (
     <div className={`event-card ${isFirst ? 'event-card-first' : ''} ${isPast ? 'event-card-past' : ''}`}>
@@ -127,14 +144,21 @@ const EventCard: React.FC<EventCardProps> = ({ event, type, isFirst = false, isP
         </div>
         <div className="event-card-title-section">
           <h3 className="event-card-title">{event.title}</h3>
-          {sign && getSignIcon(sign) && type !== 'planet_ingress' && type !== 'retrograde' && (
+          {eclipseType && getEclipseIcon(eclipseType) && (
+            <img 
+              src={getEclipseIcon(eclipseType)!} 
+              alt={eclipseType} 
+              className="event-card-sign-icon"
+            />
+          )}
+          {sign && getSignIcon(sign) && type !== 'planet_ingress' && type !== 'retrograde' && type !== 'eclipse' && (
             <img 
               src={getSignIcon(sign)!} 
               alt={sign} 
               className="event-card-sign-icon"
             />
           )}
-          {planet && getPlanetIcon(planet) && (
+          {planet && getPlanetIcon(planet) && type !== 'eclipse' && (
             <img 
               src={getPlanetIcon(planet)!} 
               alt={planet} 

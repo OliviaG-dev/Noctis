@@ -1,7 +1,8 @@
 import React, { useMemo, useState } from 'react';
 import CalendarDay from './CalendarDay';
 import CalendarModal from './CalendarModal';
-import { loadAstrologyEvents, groupEventsByDate, getEventsForDate, formatDate } from '../../data/utils';
+import type { AstrologyEvent } from '../../data/types';
+import { loadAstrologyEvents, groupEventsByDate, getEventsForDate } from '../../data/utils';
 import './Calendar.css';
 
 const Calendar: React.FC = () => {
@@ -67,7 +68,6 @@ const Calendar: React.FC = () => {
   // Ajouter tous les jours du mois avec leurs événements
   for (let day = 1; day <= daysInMonth; day++) {
     const date = new Date(currentYear, currentMonth, day);
-    const dateKey = formatDate(date);
     const isToday = 
       date.getDate() === today.getDate() &&
       date.getMonth() === today.getMonth() &&

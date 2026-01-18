@@ -43,23 +43,6 @@ const CalendarModal: React.FC<CalendarModalProps> = ({ isOpen, onClose, date, ev
 
   const capitalizedDate = formattedDate.charAt(0).toUpperCase() + formattedDate.slice(1);
 
-  const getRouteForEventType = (type: string): string => {
-    switch (type) {
-      case 'new_moon':
-        return '/new-moons';
-      case 'full_moon':
-        return '/full-moons';
-      case 'planet_ingress':
-        return '/planet-ingress';
-      case 'eclipse':
-        return '/eclipses';
-      case 'retrograde':
-        return '/planet-retrograde';
-      default:
-        return '/';
-    }
-  };
-
   const handleSeeMore = () => {
     if (date && events.length > 0) {
       const dateString = formatDate(date);

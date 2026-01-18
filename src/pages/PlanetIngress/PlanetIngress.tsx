@@ -6,7 +6,7 @@ import planetIngressData from '../../data/planetIngress.json';
 import { parseDate } from '../../data/utils';
 import './PlanetIngress.css';
 
-const PlanetIngress: React.FC = () => {
+const PlanetIngressPage: React.FC = () => {
   const ingresses = useMemo(() => {
     const ingressList = planetIngressData as PlanetIngress[];
     const now = new Date();
@@ -71,4 +71,4 @@ const PlanetIngress: React.FC = () => {
   );
 };
 
-export default PlanetIngress;
+export default PlanetIngressPage;
