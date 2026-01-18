@@ -6,6 +6,7 @@ import FullMoons from './pages/FullMoons/FullMoons';
 import PlanetIngress from './pages/PlanetIngress/PlanetIngress';
 import Eclipses from './pages/Eclipses/Eclipses';
 import PlanetRetrograde from './pages/PlanetRetrograde/PlanetRetrograde';
+import EventsDay from './pages/EventsDay/EventsDay';
 
 const App: React.FC = () => {
   return (
@@ -17,6 +18,7 @@ const App: React.FC = () => {
         <Route path="/planet-ingress" element={<PlanetIngress />} />
         <Route path="/eclipses" element={<Eclipses />} />
         <Route path="/planet-retrograde" element={<PlanetRetrograde />} />
+        <Route path="/events-day/:date" element={<EventsDay />} />
       </Routes>
     </Router>
   );

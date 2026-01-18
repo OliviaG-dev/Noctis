@@ -40,6 +40,7 @@ interface EventCardProps {
   type: 'new_moon' | 'full_moon' | 'eclipse' | 'planet_ingress' | 'retrograde';
   isFirst?: boolean;
   isPast?: boolean;
+  hideDetailsAccordion?: boolean;
 }
 
 const getSignIcon = (sign: AstrologicalSign | undefined): string | null => {
@@ -102,16 +103,14 @@ const AccordionItem: React.FC<AccordionItemProps> = ({ title, children, defaultO
         <span>{title}</span>
         <span className="accordion-icon">{isOpen ? '▼' : '▶'}</span>
       </button>
-      {isOpen && (
-        <div className="accordion-content">
-          {children}
-        </div>
-      )}
+      <div className={`accordion-content ${isOpen ? 'open' : ''}`}>
+        {children}
+      </div>
     </div>
   );
 };
 
-const EventCard: React.FC<EventCardProps> = ({ event, type, isFirst = false, isPast = false }) => {
+const EventCard: React.FC<EventCardProps> = ({ event, type, isFirst = false, isPast = false, hideDetailsAccordion = false }) => {
   const dateStr = 'date' in event ? event.date : event.start;
   const date = parseDate(dateStr);
 
@@ -175,7 +174,7 @@ const EventCard: React.FC<EventCardProps> = ({ event, type, isFirst = false, isP
         </div>
       </div>
 
-      <AccordionItem title="Détails">
+      {hideDetailsAccordion ? (
         <div className="event-card-accordion-content">
           {event.keywords && event.keywords.length > 0 && (
             <div className="accordion-section">
@@ -374,7 +373,208 @@ const EventCard: React.FC<EventCardProps> = ({ event, type, isFirst = false, isP
             </div>
           )}
         </div>
-      </AccordionItem>
+      ) : (
+        <AccordionItem title="Détails">
+          <div className="event-card-accordion-content">
+            {event.keywords && event.keywords.length > 0 && (
+              <div className="accordion-section">
+                <h4>Mots-clés</h4>
+                <div className="event-card-keywords">
+                  {event.keywords.map((keyword, index) => (
+                    <span key={index} className="keyword-tag">{keyword}</span>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {event.energy && (
+              <div className="accordion-section">
+                <h4>Énergie</h4>
+                <div className="event-card-energy">
+                  <div className="energy-bars">
+                    <div className="energy-bar">
+                      <span>Intensité</span>
+                      <div className="energy-bar-container">
+                        <div className="energy-bar-fill" style={{ width: `${(event.energy.intensity / 5) * 100}%` }}></div>
+                      </div>
+                    </div>
+                    <div className="energy-bar">
+                      <span>Émotionnel</span>
+                      <div className="energy-bar-container">
+                        <div className="energy-bar-fill" style={{ width: `${(event.energy.emotional / 5) * 100}%` }}></div>
+                      </div>
+                    </div>
+                    <div className="energy-bar">
+                      <span>Mental</span>
+                      <div className="energy-bar-container">
+                        <div className="energy-bar-fill" style={{ width: `${(event.energy.mental / 5) * 100}%` }}></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {event.effects && (
+              <div className="accordion-section">
+                <h4>Effets</h4>
+                <div className="event-card-effects">
+                  {event.effects.general && event.effects.general.length > 0 && (
+                    <div className="effects-section">
+                      <strong>
+                        <StarIcon className="effects-icon" />
+                        Général :
+                      </strong>
+                      <ul>
+                        {event.effects.general.map((effect, index) => (
+                          <li key={index}>
+                            <ArrowRightIcon className="effects-arrow" />
+                            {effect}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                  {event.effects.emotional && event.effects.emotional.length > 0 && (
+                    <div className="effects-section">
+                      <strong>
+                        <StarIcon className="effects-icon" />
+                        Émotionnel :
+                      </strong>
+                      <ul>
+                        {event.effects.emotional.map((effect, index) => (
+                          <li key={index}>
+                            <ArrowRightIcon className="effects-arrow" />
+                            {effect}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                  {event.effects.spiritual && event.effects.spiritual.length > 0 && (
+                    <div className="effects-section">
+                      <strong>
+                        <StarIcon className="effects-icon" />
+                        Spirituel :
+                      </strong>
+                      <ul>
+                        {event.effects.spiritual.map((effect, index) => (
+                          <li key={index}>
+                            <ArrowRightIcon className="effects-arrow" />
+                            {effect}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                </div>
+              </div>
+            )}
+
+            {event.advice && (
+              <div className="accordion-section">
+                <h4>Conseils</h4>
+                <div className="event-card-advice">
+                  <div className="advice-section">
+                    {event.advice.do && event.advice.do.length > 0 && (
+                      <div className="advice-do">
+                        <strong>À faire :</strong>
+                        <ul>
+                          {event.advice.do.map((item, index) => (
+                            <li key={index}>
+                              <CheckIcon className="advice-check" />
+                              {item}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+                    {event.advice.avoid && event.advice.avoid.length > 0 && (
+                      <div className="advice-avoid">
+                        <strong>À éviter :</strong>
+                        <ul>
+                          {event.advice.avoid.map((item, index) => (
+                            <li key={index}>
+                              <XIcon className="advice-x" />
+                              {item}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {'intentions' in event && event.intentions && event.intentions.length > 0 && (
+              <div className="accordion-section">
+                <h4>Intentions</h4>
+                <div className="event-card-intentions">
+                  <ul>
+                    {event.intentions.map((intention, index) => (
+                      <li key={index}>
+                        <StarIcon className="intentions-icon" />
+                        {intention}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            )}
+
+            {event.rituals && event.rituals.length > 0 && (
+              <div className="accordion-section">
+                <h4>Rituels</h4>
+                <div className="event-card-rituals">
+                  <ul>
+                    {event.rituals.map((ritual, index) => (
+                      <li key={index}>
+                        <SparkleIcon className="rituals-icon" />
+                        {ritual}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            )}
+
+            {'affirmations' in event && event.affirmations && event.affirmations.length > 0 && (
+              <div className="accordion-section">
+                <h4>Affirmations</h4>
+                <div className="event-card-affirmations">
+                  <ul>
+                    {event.affirmations.map((affirmation, index) => (
+                      <li key={index}>
+                        <ShootingStarIcon className="affirmations-icon" />
+                        "{affirmation}"
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            )}
+
+            {type === 'retrograde' && 'phases' in event && event.phases && event.phases.length > 0 && (
+              <div className="accordion-section">
+                <h4>Phases</h4>
+                <div className="event-card-phases">
+                  <div className="phases-list">
+                    {event.phases.map((phase, index) => (
+                      <div key={index} className="phase-item">
+                        <span className="phase-sign">{phase.sign}</span>
+                        <span className="phase-dates">
+                          {parseDate(phase.start).toLocaleDateString('fr-FR')} - {parseDate(phase.end).toLocaleDateString('fr-FR')}
+                        </span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            )}
+          </div>
+        </AccordionItem>
+      )}
     </div>
   );
 };

@@ -332,3 +332,53 @@ export function getEventIcon(eventType: EventType): string {
       return "";
   }
 }
+
+/**
+ * Charge tous les événements complets pour une date donnée
+ */
+export function loadCompleteEventsForDate(dateString: string): Array<{
+  event: NewMoon | FullMoon | Eclipse | PlanetIngress | Retrograde;
+  type: 'new_moon' | 'full_moon' | 'eclipse' | 'planet_ingress' | 'retrograde';
+}> {
+  const events: Array<{
+    event: NewMoon | FullMoon | Eclipse | PlanetIngress | Retrograde;
+    type: 'new_moon' | 'full_moon' | 'eclipse' | 'planet_ingress' | 'retrograde';
+  }> = [];
+
+  // Nouvelles lunes
+  (newMoonsData as NewMoon[]).forEach((moon) => {
+    if (moon.date === dateString) {
+      events.push({ event: moon, type: 'new_moon' });
+    }
+  });
+
+  // Pleines lunes
+  (fullMoonsData as FullMoon[]).forEach((moon) => {
+    if (moon.date === dateString) {
+      events.push({ event: moon, type: 'full_moon' });
+    }
+  });
+
+  // Éclipses
+  (eclipsesData as Eclipse[]).forEach((eclipse) => {
+    if (eclipse.date === dateString) {
+      events.push({ event: eclipse, type: 'eclipse' });
+    }
+  });
+
+  // Ingrès planétaires (si la date est dans la plage)
+  (planetIngressData as PlanetIngress[]).forEach((ingress) => {
+    if (isDateInRange(dateString, ingress.start, ingress.end)) {
+      events.push({ event: ingress, type: 'planet_ingress' });
+    }
+  });
+
+  // Rétrogrades (si la date est dans la plage)
+  (retrogradesData as Retrograde[]).forEach((retrograde) => {
+    if (isDateInRange(dateString, retrograde.start, retrograde.end)) {
+      events.push({ event: retrograde, type: 'retrograde' });
+    }
+  });
+
+  return events;
+}

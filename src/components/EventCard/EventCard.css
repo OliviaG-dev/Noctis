@@ -111,20 +111,23 @@
 }
 
 .accordion-content {
-  padding: 1.5rem;
+  padding: 0 1.5rem;
   background: transparent;
-  animation: slideDown 0.3s ease;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: max-height 0.4s cubic-bezier(0.16, 1, 0.3, 1),
+              opacity 0.4s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.4s cubic-bezier(0.16, 1, 0.3, 1),
+              padding 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-@keyframes slideDown {
-  from {
-    opacity: 0;
-    max-height: 0;
-  }
-  to {
-    opacity: 1;
-    max-height: 1000px;
-  }
+.accordion-content.open {
+  max-height: 10000px;
+  opacity: 1;
+  transform: translateY(0);
+  padding: 1.5rem;
 }
 
 .event-card-date {

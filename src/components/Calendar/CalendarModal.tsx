@@ -1,6 +1,7 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import type { AstrologyEvent } from '../../data/types';
-import { getEventIcon } from '../../data/utils';
+import { getEventIcon, formatDate } from '../../data/utils';
 import './CalendarModal.css';
 
 interface CalendarModalProps {
@@ -11,25 +12,27 @@ interface CalendarModalProps {
 }
 
 const CalendarModal: React.FC<CalendarModalProps> = ({ isOpen, onClose, date, events }) => {
-  if (!isOpen || !date) return null;
+  const navigate = useNavigate();
 
   React.useEffect(() => {
+    if (!isOpen) return;
+
     const handleEscape = (e: KeyboardEvent) => {
       if (e.key === 'Escape') {
         onClose();
       }
     };
 
-    if (isOpen) {
-      document.addEventListener('keydown', handleEscape);
-      document.body.style.overflow = 'hidden';
-    }
+    document.addEventListener('keydown', handleEscape);
+    document.body.style.overflow = 'hidden';
 
     return () => {
       document.removeEventListener('keydown', handleEscape);
       document.body.style.overflow = 'unset';
     };
   }, [isOpen, onClose]);
+
+  if (!isOpen || !date) return null;
 
   const formattedDate = date.toLocaleDateString('fr-FR', {
     weekday: 'long',
@@ -39,6 +42,31 @@ const CalendarModal: React.FC<CalendarModalProps> = ({ isOpen, onClose, date, ev
   });
 
   const capitalizedDate = formattedDate.charAt(0).toUpperCase() + formattedDate.slice(1);
+
+  const getRouteForEventType = (type: string): string => {
+    switch (type) {
+      case 'new_moon':
+        return '/new-moons';
+      case 'full_moon':
+        return '/full-moons';
+      case 'planet_ingress':
+        return '/planet-ingress';
+      case 'eclipse':
+        return '/eclipses';
+      case 'retrograde':
+        return '/planet-retrograde';
+      default:
+        return '/';
+    }
+  };
+
+  const handleSeeMore = () => {
+    if (date && events.length > 0) {
+      const dateString = formatDate(date);
+      onClose();
+      navigate(`/events-day/${dateString}`);
+    }
+  };
 
   return (
     <div className="calendar-modal-overlay" onClick={onClose}>
@@ -86,6 +114,17 @@ const CalendarModal: React.FC<CalendarModalProps> = ({ isOpen, onClose, date, ev
             </div>
           )}
         </div>
+        
+        {events.length > 0 && (
+          <div className="calendar-modal-footer">
+            <button 
+              className="calendar-modal-see-more"
+              onClick={handleSeeMore}
+            >
+              Voir +
+            </button>
+          </div>
+        )}
       </div>
     </div>
   );
