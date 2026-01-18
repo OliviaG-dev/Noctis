@@ -24,7 +24,7 @@ const CalendarDay: React.FC<CalendarDayProps> = ({ day, isToday, events, onClick
   return (
     <div 
       className={`calendar-day ${isToday ? 'today' : ''} ${events.length > 0 ? 'has-event' : ''}`}
-      onClick={onClick}
+      onClick={events.length > 0 ? onClick : undefined}
     >
       <span className="day-number">{day}</span>
       {uniqueEvents.length > 0 && (

@@ -1,5 +1,6 @@
 import React, { useMemo, useState } from 'react';
 import CalendarDay from './CalendarDay';
+import CalendarModal from './CalendarModal';
 import { loadAstrologyEvents, groupEventsByDate, getEventsForDate, formatDate } from '../../data/utils';
 import './Calendar.css';
 
@@ -29,6 +30,22 @@ const Calendar: React.FC = () => {
     const events = loadAstrologyEvents();
     return groupEventsByDate(events);
   }, []);
+
+  // État de la modale
+  const [selectedDate, setSelectedDate] = useState<Date | null>(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleDayClick = (date: Date, dayEvents: AstrologyEvent[]) => {
+    if (dayEvents.length > 0) {
+      setSelectedDate(date);
+      setIsModalOpen(true);
+    }
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+    setSelectedDate(null);
+  };
   
   // Premier jour du mois
   const firstDay = new Date(currentYear, currentMonth, 1);
@@ -112,9 +129,17 @@ const Calendar: React.FC = () => {
             day={day}
             isToday={isToday}
             events={events}
+            onClick={date ? () => handleDayClick(date, events) : undefined}
           />
         ))}
       </div>
+
+      <CalendarModal
+        isOpen={isModalOpen}
+        onClose={closeModal}
+        date={selectedDate}
+        events={selectedDate ? getEventsForDate(selectedDate, eventsByDate) : []}
+      />
     </div>
   );
 };

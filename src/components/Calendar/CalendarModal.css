@@ -1,0 +1,214 @@
+.calendar-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  animation: fadeIn 0.3s ease;
+  backdrop-filter: blur(4px);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.calendar-modal-content {
+  background: radial-gradient(ellipse at bottom, #1a1a2e 0%, #0b0c1b 100%),
+    linear-gradient(180deg, #0b0c1b 0%, #000000 100%);
+  border: 1px solid rgba(64, 224, 208, 0.3);
+  border-radius: 16px;
+  max-width: 600px;
+  width: 90%;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+  animation: slideUp 0.3s ease;
+  position: relative;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.calendar-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  position: sticky;
+  top: 0;
+  background: rgba(11, 12, 27, 0.95);
+  backdrop-filter: blur(10px);
+  z-index: 1;
+}
+
+.calendar-modal-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #ffffff;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.calendar-modal-close {
+  background: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.calendar-modal-close:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(64, 224, 208, 1);
+  transform: rotate(90deg);
+}
+
+.calendar-modal-body {
+  padding: 2rem;
+}
+
+.calendar-modal-empty {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+  margin: 2rem 0;
+}
+
+.calendar-modal-events {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.calendar-modal-event-item {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.calendar-modal-event-item:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(64, 224, 208, 0.3);
+  transform: translateX(4px);
+}
+
+.calendar-modal-event-icon {
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(64, 224, 208, 0.1);
+  border: 1px solid rgba(64, 224, 208, 0.2);
+  border-radius: 12px;
+}
+
+.calendar-modal-event-icon img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.calendar-modal-event-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.calendar-modal-event-title {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #ffffff;
+  margin: 0;
+  letter-spacing: 0.5px;
+}
+
+.calendar-modal-event-description {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+  line-height: 1.5;
+}
+
+.calendar-modal-event-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.calendar-modal-event-sign,
+.calendar-modal-event-planet {
+  display: inline-block;
+  font-size: 0.875rem;
+  color: rgba(64, 224, 208, 0.9);
+  padding: 0.25rem 0.75rem;
+  background: rgba(64, 224, 208, 0.1);
+  border: 1px solid rgba(64, 224, 208, 0.2);
+  border-radius: 6px;
+}
+
+@media (max-width: 768px) {
+  .calendar-modal-content {
+    width: 95%;
+    max-height: 85vh;
+  }
+
+  .calendar-modal-header {
+    padding: 1rem 1.5rem;
+  }
+
+  .calendar-modal-title {
+    font-size: 1.25rem;
+  }
+
+  .calendar-modal-body {
+    padding: 1.5rem;
+  }
+
+  .calendar-modal-event-item {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .calendar-modal-event-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .calendar-modal-event-icon img {
+    width: 35px;
+    height: 35px;
+  }
+}

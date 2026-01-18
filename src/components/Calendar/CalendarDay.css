@@ -1,3 +1,14 @@
+.calendar-day.has-event {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.calendar-day.has-event:hover {
+  background: rgba(64, 224, 208, 0.1);
+  border-color: rgba(64, 224, 208, 0.4);
+  transform: scale(1.05);
+}
+
 .calendar-day-events {
   position: absolute;
   bottom: 4px;
