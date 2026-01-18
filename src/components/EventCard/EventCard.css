@@ -545,6 +545,24 @@
   color: rgba(255, 255, 255, 0.7);
 }
 
+@media (max-width: 1024px) {
+  .event-card-sign-icon {
+    position: relative;
+    top: auto;
+    right: auto;
+    transform: none;
+    width: 120px;
+    height: 120px;
+    margin-top: 1rem;
+    align-self: center;
+  }
+
+  .event-card-title-section:hover .event-card-sign-icon {
+    transform: none;
+    opacity: 1;
+  }
+}
+
 @media (max-width: 768px) {
   .event-card {
     padding: 1.5rem;
@@ -564,6 +582,12 @@
 
   .event-card-title {
     font-size: 1.5rem;
+  }
+
+  .event-card-sign-icon {
+    width: 100px;
+    height: 100px;
+    margin-top: 0.75rem;
   }
 
   .advice-section {

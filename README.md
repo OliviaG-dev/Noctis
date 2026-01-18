@@ -218,26 +218,36 @@ Noctis utilise un thème sombre et cosmique avec :
 
 - Fond bleu nuit profond (#0b0c1b)
 - Ciel étoilé animé avec effets de scintillement
-- Accents violets pour les éléments interactifs
+- Accents cyan/turquoise (rgba(64, 224, 208)) pour les éléments interactifs
 - Design responsive mobile-first
+- Animations fluides avec transitions CSS et courbes cubic-bezier
+- Typographie élégante avec espacement soigné
 
 ## 📱 Responsive
 
 L'application est entièrement responsive et optimisée pour :
 
-- 📱 Mobile
-- 📱 Tablette
-- 💻 Desktop
+- 📱 Mobile (icônes centrées et adaptées)
+- 📱 Tablette (affichage optimisé)
+- 💻 Desktop (expérience complète)
+
+**Optimisations mobile/tablette :**
+- Icônes des événements repositionnées sous le titre (centrées)
+- Adaptations de taille pour une meilleure lisibilité
+- Navigation simplifiée et intuitive
 
 ## ✨ Fonctionnalités récentes
 
 - ✅ Modale interactive dans le calendrier
 - ✅ Page détaillée par jour (EventsDay)
-- ✅ Animations fluides pour accordéons et modales
+- ✅ Animations fluides pour accordéons et modales (CSS transitions avec cubic-bezier)
 - ✅ Icônes visuelles pour planètes, signes et éclipses
 - ✅ Design amélioré avec effets visuels
 - ✅ Navigation intuitive entre les pages
 - ✅ Affichage conditionnel des icônes selon le type d'événement
+- ✅ Optimisation responsive mobile/tablette avec repositionnement intelligent des icônes
+- ✅ Build de production optimisé et fonctionnel
+- ✅ Code TypeScript strict avec vérification des types
 
 ## 🔮 Roadmap
 
