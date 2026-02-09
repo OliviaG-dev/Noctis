@@ -54,6 +54,13 @@
   transform: scale(0.95);
 }
 
+.calendar-nav-button.disabled,
+.calendar-nav-button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
 .calendar-nav-button svg {
   width: 20px;
   height: 20px;
@@ -150,49 +157,49 @@
   .calendar-container {
     padding: 1rem;
   }
-  
+
   .calendar-title {
     font-size: 1.5rem;
     min-width: 150px;
   }
-  
+
   .calendar-navigation {
     gap: 1rem;
   }
-  
+
   .calendar-nav-button {
     width: 35px;
     height: 35px;
   }
-  
+
   .calendar-nav-button svg {
     width: 18px;
     height: 18px;
   }
-  
+
   .calendar-today-button {
     padding: 0.4rem 1rem;
     font-size: 0.75rem;
   }
-  
+
   .calendar-grid {
     gap: 0.5rem;
     padding: 1rem;
   }
-  
+
   .calendar-weekday {
     font-size: 0.75rem;
     padding: 0.5rem 0;
   }
-  
+
   .day-number {
     font-size: 0.875rem;
   }
-  
+
   .calendar-day.today .day-number {
     font-size: 0.95rem;
   }
-  
+
   .calendar-day.today {
     transform: scale(1.03);
   }
@@ -200,7 +207,8 @@
 
 /* Animation pour les événements futurs */
 @keyframes pulse {
-  0%, 100% {
+  0%,
+  100% {
     opacity: 1;
   }
   50% {
