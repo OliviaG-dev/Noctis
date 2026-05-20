@@ -42,6 +42,33 @@
           "Fuite dans l’illusion"
         ]
       },
+      "practicalGuidance": {
+        "pro": [
+          "Aligner les projets long terme avec une vision claire",
+          "Éviter de lancer sans cadre opérationnel minimal"
+        ],
+        "relationship": [
+          "Exprimer ses élans avec sincérité et stabilité",
+          "Distinguer inspiration réelle et projection"
+        ],
+        "wellbeing": [
+          "Ancrer les intuitions par des routines concrètes",
+          "Limiter les décisions prises dans le flou émotionnel"
+        ]
+      },
+      "metadata": {
+        "exactTimeUtc": "2026-01-26T00:00:00Z",
+        "referenceTimezone": "UTC",
+        "degree": "0deg Bélier",
+        "source": "Noctis internal dataset",
+        "confidence": "medium"
+      },
+      "audience": {
+        "sun": ["Bélier", "Balance", "Cancer", "Capricorne"],
+        "moon": ["Bélier", "Balance", "Cancer", "Capricorne"],
+        "rising": ["Bélier", "Balance", "Cancer", "Capricorne"]
+      },
+      "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
   
       "rituals": [
         "Rituel de vision",
@@ -95,6 +122,33 @@
           "Rigidité excessive"
         ]
       },
+      "practicalGuidance": {
+        "pro": [
+          "Structurer les responsabilités avant d'accélérer",
+          "Créer des objectifs trimestriels mesurables"
+        ],
+        "relationship": [
+          "Poser des limites claires et cohérentes",
+          "Assumer ses décisions sans posture défensive"
+        ],
+        "wellbeing": [
+          "Canaliser l'impulsivité via des routines stables",
+          "Réduire la pression par une planification réaliste"
+        ]
+      },
+      "metadata": {
+        "exactTimeUtc": "2026-02-13T00:00:00Z",
+        "referenceTimezone": "UTC",
+        "degree": "0deg Bélier",
+        "source": "Noctis internal dataset",
+        "confidence": "medium"
+      },
+      "audience": {
+        "sun": ["Bélier", "Balance", "Cancer", "Capricorne"],
+        "moon": ["Bélier", "Balance", "Cancer", "Capricorne"],
+        "rising": ["Bélier", "Balance", "Cancer", "Capricorne"]
+      },
+      "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
   
       "rituals": [
         "Rituel d’engagement",
@@ -150,6 +204,33 @@
           "Égo surdimensionné"
         ]
       },
+      "practicalGuidance": {
+        "pro": [
+          "Mettre en avant un projet créatif avec plan d'exécution",
+          "Capitaliser sur la visibilité sans surpromesse"
+        ],
+        "relationship": [
+          "Rayonner sans monopoliser l'espace relationnel",
+          "Valoriser les talents des autres dans les collaborations"
+        ],
+        "wellbeing": [
+          "Équilibrer expression intense et récupération",
+          "Garder un rythme soutenable malgré l'enthousiasme"
+        ]
+      },
+      "metadata": {
+        "exactTimeUtc": "2026-04-15T00:00:00Z",
+        "referenceTimezone": "UTC",
+        "degree": "0deg Lion",
+        "source": "Noctis internal dataset",
+        "confidence": "medium"
+      },
+      "audience": {
+        "sun": ["Lion", "Verseau", "Taureau", "Scorpion"],
+        "moon": ["Lion", "Verseau", "Taureau", "Scorpion"],
+        "rising": ["Lion", "Verseau", "Taureau", "Scorpion"]
+      },
+      "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
   
       "rituals": [
         "Rituel d’abondance",
@@ -202,6 +283,33 @@
           "Perfectionnisme excessif"
         ]
       },
+      "practicalGuidance": {
+        "pro": [
+          "Optimiser les méthodes de travail avec des indicateurs simples",
+          "Consolider les acquis avant d'ouvrir un nouveau chantier"
+        ],
+        "relationship": [
+          "Soutenir l'autre par des actions concrètes",
+          "Éviter la critique excessive dans les échanges"
+        ],
+        "wellbeing": [
+          "Renforcer les routines santé quotidiennes",
+          "Privilégier la constance aux efforts extrêmes"
+        ]
+      },
+      "metadata": {
+        "exactTimeUtc": "2027-06-30T00:00:00Z",
+        "referenceTimezone": "UTC",
+        "degree": "0deg Vierge",
+        "source": "Noctis internal dataset",
+        "confidence": "medium"
+      },
+      "audience": {
+        "sun": ["Vierge", "Poissons", "Gémeaux", "Sagittaire"],
+        "moon": ["Vierge", "Poissons", "Gémeaux", "Sagittaire"],
+        "rising": ["Vierge", "Poissons", "Gémeaux", "Sagittaire"]
+      },
+      "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
   
       "rituals": [
         "Rituel d’ancrage",
@@ -255,6 +363,33 @@
           "Destruction impulsive"
         ]
       },
+      "practicalGuidance": {
+        "pro": [
+          "Concentrer l'énergie sur un objectif stratégique unique",
+          "Éviter les actions réactives sans analyse des risques"
+        ],
+        "relationship": [
+          "Exprimer l'intensité sans entrer en confrontation",
+          "Transformer les tensions en décisions explicites"
+        ],
+        "wellbeing": [
+          "Décharger la pression par une activité physique cadrée",
+          "Utiliser des pratiques de centrage avant les décisions"
+        ]
+      },
+      "metadata": {
+        "exactTimeUtc": "2026-08-22T00:00:00Z",
+        "referenceTimezone": "UTC",
+        "degree": "0deg Scorpion",
+        "source": "Noctis internal dataset",
+        "confidence": "medium"
+      },
+      "audience": {
+        "sun": ["Scorpion", "Taureau", "Lion", "Verseau"],
+        "moon": ["Scorpion", "Taureau", "Lion", "Verseau"],
+        "rising": ["Scorpion", "Taureau", "Lion", "Verseau"]
+      },
+      "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
   
       "rituals": [
         "Rituel de courage",

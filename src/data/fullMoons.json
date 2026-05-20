@@ -37,6 +37,33 @@
         "S’enfermer dans le passé"
       ]
     },
+    "practicalGuidance": {
+      "pro": [
+        "Réduire la charge et clôturer les tâches prioritaires",
+        "Faire un bilan émotionnel des décisions récentes"
+      ],
+      "relationship": [
+        "Exprimer ses besoins de sécurité avec clarté",
+        "Privilégier les échanges apaisés dans le cercle proche"
+      ],
+      "wellbeing": [
+        "Créer une routine de récupération à domicile",
+        "Limiter les sollicitations drainantes en soirée"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-01-03T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "12deg Cancer",
+      "source": "Noctis internal dataset",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": ["Cancer", "Capricorne", "Bélier", "Balance"],
+      "moon": ["Cancer", "Capricorne", "Bélier", "Balance"],
+      "rising": ["Cancer", "Capricorne", "Bélier", "Balance"]
+    },
+    "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
 
     "rituals": [
       "Rituel de protection",
@@ -82,6 +109,33 @@
         "Dominer les autres"
       ]
     },
+    "practicalGuidance": {
+      "pro": [
+        "Finaliser une présentation ou un livrable visible",
+        "Assumer le leadership sans surpromesse"
+      ],
+      "relationship": [
+        "Demander de la reconnaissance de manière directe",
+        "Valoriser aussi la contribution des autres"
+      ],
+      "wellbeing": [
+        "Canaliser l'intensité émotionnelle par une activité créative",
+        "Préserver des temps de repos malgré la visibilité"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-02-01T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "11deg Lion",
+      "source": "Noctis internal dataset",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": ["Lion", "Verseau", "Taureau", "Scorpion"],
+      "moon": ["Lion", "Verseau", "Taureau", "Scorpion"],
+      "rising": ["Lion", "Verseau", "Taureau", "Scorpion"]
+    },
+    "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
 
     "rituals": [
       "Rituel de confiance",
@@ -125,6 +179,33 @@
         "Auto-critique"
       ]
     },
+    "practicalGuidance": {
+      "pro": [
+        "Documenter les processus et corriger les points faibles",
+        "Prioriser les tâches à plus forte valeur ajoutée"
+      ],
+      "relationship": [
+        "Formuler des retours concrets et bienveillants",
+        "Éviter le perfectionnisme appliqué aux autres"
+      ],
+      "wellbeing": [
+        "Réinstaller des routines santé simples et stables",
+        "Remplacer l'auto-critique par une revue factuelle"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-03-03T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "13deg Vierge",
+      "source": "Noctis internal dataset",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": ["Vierge", "Poissons", "Gémeaux", "Sagittaire"],
+      "moon": ["Vierge", "Poissons", "Gémeaux", "Sagittaire"],
+      "rising": ["Vierge", "Poissons", "Gémeaux", "Sagittaire"]
+    },
+    "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
 
     "rituals": [
       "Nettoyage énergétique",
@@ -165,6 +246,33 @@
         "Éviter les conflits à tout prix"
       ]
     },
+    "practicalGuidance": {
+      "pro": [
+        "Négocier des priorités sur des critères partagés",
+        "Arbitrer les décisions en gardant un cadre équitable"
+      ],
+      "relationship": [
+        "Nommer les tensions avec diplomatie",
+        "Fixer des accords relationnels concrets"
+      ],
+      "wellbeing": [
+        "Préserver l'équilibre entre lien social et recentrage",
+        "Éviter la suradaptation émotionnelle"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-04-02T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "12deg Balance",
+      "source": "Noctis internal dataset",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": ["Balance", "Bélier", "Cancer", "Capricorne"],
+      "moon": ["Balance", "Bélier", "Cancer", "Capricorne"],
+      "rising": ["Balance", "Bélier", "Cancer", "Capricorne"]
+    },
+    "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
 
     "rituals": [
       "Rituel d’harmonisation",
@@ -207,6 +315,33 @@
         "Ressentiment"
       ]
     },
+    "practicalGuidance": {
+      "pro": [
+        "Clôturer un chantier devenu obsolète",
+        "Traiter les sujets sensibles avec stratégie et calme"
+      ],
+      "relationship": [
+        "Exprimer les vérités difficiles sans attaque",
+        "Sortir des dynamiques de contrôle"
+      ],
+      "wellbeing": [
+        "Pratiquer des rituels de libération émotionnelle",
+        "Protéger les temps de solitude réparatrice"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-05-01T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "11deg Scorpion",
+      "source": "Noctis internal dataset",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": ["Scorpion", "Taureau", "Lion", "Verseau"],
+      "moon": ["Scorpion", "Taureau", "Lion", "Verseau"],
+      "rising": ["Scorpion", "Taureau", "Lion", "Verseau"]
+    },
+    "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
 
     "rituals": [
       "Rituel de libération",
@@ -248,6 +383,33 @@
         "Promesses irréalistes"
       ]
     },
+    "practicalGuidance": {
+      "pro": [
+        "Réaligner la vision long terme avec des objectifs réalistes",
+        "Tester une nouvelle piste d'expansion à petite échelle"
+      ],
+      "relationship": [
+        "Partager ses convictions sans les imposer",
+        "Accueillir des points de vue différents"
+      ],
+      "wellbeing": [
+        "Équilibrer enthousiasme et récupération",
+        "Garder un ancrage quotidien pour éviter les excès"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-05-31T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "10deg Sagittaire",
+      "source": "Noctis internal dataset",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": ["Sagittaire", "Gémeaux", "Vierge", "Poissons"],
+      "moon": ["Sagittaire", "Gémeaux", "Vierge", "Poissons"],
+      "rising": ["Sagittaire", "Gémeaux", "Vierge", "Poissons"]
+    },
+    "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
 
     "rituals": [
       "Rituel de vision",
@@ -290,6 +452,33 @@
         "Auto-exigence trop dure"
       ]
     },
+    "practicalGuidance": {
+      "pro": [
+        "Mesurer les résultats du semestre et ajuster le plan",
+        "Renforcer la structure des projets les plus prometteurs"
+      ],
+      "relationship": [
+        "Poser des limites claires dans les engagements",
+        "Privilégier la fiabilité plutôt que la disponibilité totale"
+      ],
+      "wellbeing": [
+        "Remplacer l'auto-exigence par une progression mesurée",
+        "Planifier des temps de récupération non négociables"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-06-30T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "9deg Capricorne",
+      "source": "Noctis internal dataset",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": ["Capricorne", "Cancer", "Bélier", "Balance"],
+      "moon": ["Capricorne", "Cancer", "Bélier", "Balance"],
+      "rising": ["Capricorne", "Cancer", "Bélier", "Balance"]
+    },
+    "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
 
     "rituals": [
       "Rituel de manifestation",
@@ -332,6 +521,33 @@
         "Froideur émotionnelle"
       ]
     },
+    "practicalGuidance": {
+      "pro": [
+        "Questionner les anciennes méthodes avant d'itérer",
+        "Favoriser les initiatives collectives innovantes"
+      ],
+      "relationship": [
+        "Énoncer ses besoins d'espace sans couper le lien",
+        "Rester ouvert malgré le besoin d'indépendance"
+      ],
+      "wellbeing": [
+        "Réguler la surcharge mentale par des pauses de déconnexion",
+        "Équilibrer stimulation intellectuelle et ancrage corporel"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-07-29T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "8deg Verseau",
+      "source": "Noctis internal dataset",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": ["Verseau", "Lion", "Taureau", "Scorpion"],
+      "moon": ["Verseau", "Lion", "Taureau", "Scorpion"],
+      "rising": ["Verseau", "Lion", "Taureau", "Scorpion"]
+    },
+    "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
 
     "rituals": [
       "Rituel de libération",
@@ -374,6 +590,33 @@
         "Confusion émotionnelle"
       ]
     },
+    "practicalGuidance": {
+      "pro": [
+        "Reporter les décisions floues de 24h",
+        "Réduire le multitâche pour préserver la lucidité"
+      ],
+      "relationship": [
+        "Valider les faits avant de réagir émotionnellement",
+        "Poser des limites empathiques et claires"
+      ],
+      "wellbeing": [
+        "Augmenter les temps de repos profond",
+        "Pratiquer une activité de recentrage quotidienne"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-08-28T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "7deg Poissons",
+      "source": "Noctis internal dataset",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": ["Poissons", "Vierge", "Gémeaux", "Sagittaire"],
+      "moon": ["Poissons", "Vierge", "Gémeaux", "Sagittaire"],
+      "rising": ["Poissons", "Vierge", "Gémeaux", "Sagittaire"]
+    },
+    "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
 
     "rituals": [
       "Méditation",
@@ -416,6 +659,33 @@
         "Conflits inutiles"
       ]
     },
+    "practicalGuidance": {
+      "pro": [
+        "Clôturer un blocage en prenant une décision nette",
+        "Éviter les engagements pris dans l'urgence"
+      ],
+      "relationship": [
+        "Exprimer les frustrations sans agressivité",
+        "Privilégier la franchise calme aux réactions impulsives"
+      ],
+      "wellbeing": [
+        "Décharger l'intensité par une activité physique",
+        "Instaurer une pause avant toute décision sensible"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-09-26T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "6deg Bélier",
+      "source": "Noctis internal dataset",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": ["Bélier", "Balance", "Cancer", "Capricorne"],
+      "moon": ["Bélier", "Balance", "Cancer", "Capricorne"],
+      "rising": ["Bélier", "Balance", "Cancer", "Capricorne"]
+    },
+    "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
 
     "rituals": [
       "Rituel de courage",
@@ -458,6 +728,33 @@
         "Attachement excessif"
       ]
     },
+    "practicalGuidance": {
+      "pro": [
+        "Consolider le budget avant toute dépense majeure",
+        "Prioriser les actions à rendement stable"
+      ],
+      "relationship": [
+        "Exprimer les besoins matériels sans rigidité",
+        "Renforcer la confiance via des engagements tenables"
+      ],
+      "wellbeing": [
+        "Revenir à des routines sensorielles apaisantes",
+        "Limiter les excès de confort compensatoire"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-10-26T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "5deg Taureau",
+      "source": "Noctis internal dataset",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": ["Taureau", "Scorpion", "Lion", "Verseau"],
+      "moon": ["Taureau", "Scorpion", "Lion", "Verseau"],
+      "rising": ["Taureau", "Scorpion", "Lion", "Verseau"]
+    },
+    "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
 
     "rituals": [
       "Rituel d’ancrage",
@@ -499,6 +796,33 @@
         "Superficialité"
       ]
     },
+    "practicalGuidance": {
+      "pro": [
+        "Structurer les informations avant les réunions clés",
+        "Finaliser les échanges en listant les décisions prises"
+      ],
+      "relationship": [
+        "Vérifier la compréhension mutuelle dans les conversations sensibles",
+        "Éviter les interprétations rapides"
+      ],
+      "wellbeing": [
+        "Réduire la dispersion numérique",
+        "Pratiquer des pauses mentales courtes et régulières"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-11-24T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "4deg Gémeaux",
+      "source": "Noctis internal dataset",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": ["Gémeaux", "Sagittaire", "Vierge", "Poissons"],
+      "moon": ["Gémeaux", "Sagittaire", "Vierge", "Poissons"],
+      "rising": ["Gémeaux", "Sagittaire", "Vierge", "Poissons"]
+    },
+    "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
 
     "rituals": [
       "Écriture consciente",
@@ -541,6 +865,33 @@
         "Isolement"
       ]
     },
+    "practicalGuidance": {
+      "pro": [
+        "Faire le bilan annuel sans auto-jugement",
+        "Clôturer les engagements ouverts avant le nouveau cycle"
+      ],
+      "relationship": [
+        "Privilégier la qualité de présence avec les proches",
+        "Exprimer gratitude et besoins avec simplicité"
+      ],
+      "wellbeing": [
+        "Ralentir le rythme pour intégrer l'année écoulée",
+        "Créer un rituel de clôture émotionnelle"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-12-24T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "3deg Cancer",
+      "source": "Noctis internal dataset",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": ["Cancer", "Capricorne", "Bélier", "Balance"],
+      "moon": ["Cancer", "Capricorne", "Bélier", "Balance"],
+      "rising": ["Cancer", "Capricorne", "Bélier", "Balance"]
+    },
+    "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
 
     "rituals": [
       "Rituel de gratitude",

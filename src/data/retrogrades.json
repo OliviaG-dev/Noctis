@@ -3,7 +3,6 @@
     "planet": "Mercure",
     "start": "2026-02-26",
     "end": "2026-03-20",
-  
     "phases": [
       {
         "sign": "Poissons",
@@ -11,14 +10,10 @@
         "end": "2026-03-20"
       }
     ],
-  
     "title": "Mercure rétrograde en Poissons",
     "subtitle": "Intuition, confusion et réalignement",
-  
     "keywords": ["communication", "intuition", "révision", "sensibilité"],
-  
     "energy": { "intensity": 5, "emotional": 5, "mental": 4 },
-  
     "effects": {
       "general": [
         "Malentendus fréquents",
@@ -32,12 +27,37 @@
         "Connexion accrue à l’intuition"
       ]
     },
-  
     "advice": {
       "do": ["Écouter son intuition", "Relire avant d’envoyer"],
       "avoid": ["Signer sans vérifier", "Tirer des conclusions hâtives"]
     },
-  
+    "practicalGuidance": {
+      "pro": [
+        "Relire systématiquement les messages et contrats",
+        "Limiter les décisions irréversibles sur la période"
+      ],
+      "relationship": [
+        "Demander des clarifications plutôt que supposer",
+        "Privilégier les échanges calmes et explicites"
+      ],
+      "wellbeing": [
+        "Réduire la surcharge mentale en priorisant 3 tâches max par jour",
+        "Prévoir des temps de silence pour retrouver de la clarté"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-02-26T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Poissons",
+      "source": "Noctis internal dataset",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": ["Poissons", "Vierge", "Gémeaux", "Sagittaire"],
+      "moon": ["Poissons", "Vierge", "Gémeaux", "Sagittaire"],
+      "rising": ["Poissons", "Vierge", "Gémeaux", "Sagittaire"]
+    },
+    "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
     "rituals": ["Écriture intuitive", "Méditation silencieuse"],
     "affirmations": ["Je communique avec clarté et patience"]
   },
@@ -46,7 +66,6 @@
     "planet": "Vénus",
     "start": "2026-10-03",
     "end": "2026-11-13",
-  
     "phases": [
       {
         "sign": "Balance",
@@ -59,14 +78,10 @@
         "end": "2026-11-13"
       }
     ],
-  
     "title": "Vénus rétrograde",
     "subtitle": "Relations, valeurs et estime de soi",
-  
     "keywords": ["amour", "relations", "valeurs", "révision"],
-  
     "energy": { "intensity": 5, "emotional": 5, "mental": 3 },
-  
     "effects": {
       "general": [
         "Révision des relations",
@@ -80,12 +95,37 @@
         "Réalignement du cœur"
       ]
     },
-  
     "advice": {
       "do": ["Observer ses relations", "Redéfinir ses valeurs"],
       "avoid": ["Engagements impulsifs", "Dépendance affective"]
     },
-  
+    "practicalGuidance": {
+      "pro": [
+        "Réévaluer les collaborations selon les valeurs partagées",
+        "Reporter les investissements esthétiques non urgents"
+      ],
+      "relationship": [
+        "Identifier les dynamiques relationnelles répétitives",
+        "Exprimer les besoins affectifs sans accusation"
+      ],
+      "wellbeing": [
+        "Renforcer l'estime de soi par des routines d'auto-considération",
+        "Limiter la comparaison sociale"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-10-03T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "15deg Balance",
+      "source": "Noctis internal dataset",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": ["Balance", "Bélier", "Taureau", "Scorpion"],
+      "moon": ["Balance", "Bélier", "Taureau", "Scorpion"],
+      "rising": ["Balance", "Bélier", "Taureau", "Scorpion"]
+    },
+    "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
     "rituals": ["Rituel du cœur", "Journal émotionnel"],
     "affirmations": ["Je mérite un amour aligné"]
   },
@@ -93,7 +133,6 @@
     "planet": "Saturne",
     "start": "2026-07-26",
     "end": "2026-12-10",
-  
     "phases": [
       {
         "sign": "Poissons",
@@ -101,14 +140,10 @@
         "end": "2026-12-10"
       }
     ],
-  
     "title": "Saturne rétrograde en Poissons",
     "subtitle": "Responsabilité émotionnelle",
-  
     "keywords": ["discipline", "structure", "limites"],
-  
     "energy": { "intensity": 4, "emotional": 3, "mental": 5 },
-  
     "effects": {
       "general": [
         "Revoir ses responsabilités",
@@ -121,13 +156,38 @@
         "Maturité intérieure"
       ]
     },
-  
     "advice": {
       "do": ["Construire sur du solide", "Être patient"],
       "avoid": ["Auto-jugement excessif"]
     },
-  
+    "practicalGuidance": {
+      "pro": [
+        "Revoir les engagements long terme et éliminer les dettes organisationnelles",
+        "Formaliser les processus essentiels"
+      ],
+      "relationship": [
+        "Poser des limites nettes et respectueuses",
+        "Assumer les responsabilités relationnelles non traitées"
+      ],
+      "wellbeing": [
+        "Adopter une routine stable pour réduire l'anxiété",
+        "Pratiquer l'auto-discipline sans auto-critique"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-07-26T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "19deg Poissons",
+      "source": "Noctis internal dataset",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": ["Poissons", "Vierge", "Gémeaux", "Sagittaire"],
+      "moon": ["Poissons", "Vierge", "Gémeaux", "Sagittaire"],
+      "rising": ["Poissons", "Vierge", "Gémeaux", "Sagittaire"]
+    },
+    "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
     "rituals": ["Planification consciente"],
     "affirmations": ["Je bâtis avec sagesse"]
   }
-  ]
+]

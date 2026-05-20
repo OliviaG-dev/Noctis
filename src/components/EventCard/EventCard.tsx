@@ -133,6 +133,20 @@ const EventCard: React.FC<EventCardProps> = ({ event, type, isFirst = false, isP
   const sign = 'sign' in event ? event.sign : undefined;
   const planet = 'planet' in event ? event.planet : undefined;
   const eclipseType = type === 'eclipse' && 'type' in event ? event.type : undefined;
+  const practicalGuidance = 'practicalGuidance' in event ? event.practicalGuidance : undefined;
+  const metadata = 'metadata' in event ? event.metadata : undefined;
+  const disclaimer = 'disclaimer' in event ? event.disclaimer : undefined;
+
+  const renderEffectsItems = (items: string[]) => (
+    <div className="effects-lines">
+      {items.map((item, index) => (
+        <div key={index} className="effect-line">
+          <ArrowRightIcon className="effects-arrow" />
+          <span>{item}</span>
+        </div>
+      ))}
+    </div>
+  );
 
   return (
     <div className={`event-card ${isFirst ? 'event-card-first' : ''} ${isPast ? 'event-card-past' : ''}`}>
@@ -249,14 +263,7 @@ const EventCard: React.FC<EventCardProps> = ({ event, type, isFirst = false, isP
                       <StarIcon className="effects-icon" />
                       Général :
                     </strong>
-                    <ul>
-                      {event.effects.general.map((effect, index) => (
-                        <li key={index}>
-                          <ArrowRightIcon className="effects-arrow" />
-                          {effect}
-                        </li>
-                      ))}
-                    </ul>
+                    {renderEffectsItems(event.effects.general)}
                   </div>
                 )}
                 {event.effects.emotional && event.effects.emotional.length > 0 && (
@@ -265,14 +272,7 @@ const EventCard: React.FC<EventCardProps> = ({ event, type, isFirst = false, isP
                       <StarIcon className="effects-icon" />
                       Émotionnel :
                     </strong>
-                    <ul>
-                      {event.effects.emotional.map((effect, index) => (
-                        <li key={index}>
-                          <ArrowRightIcon className="effects-arrow" />
-                          {effect}
-                        </li>
-                      ))}
-                    </ul>
+                    {renderEffectsItems(event.effects.emotional)}
                   </div>
                 )}
                 {event.effects.spiritual && event.effects.spiritual.length > 0 && (
@@ -281,14 +281,7 @@ const EventCard: React.FC<EventCardProps> = ({ event, type, isFirst = false, isP
                       <StarIcon className="effects-icon" />
                       Spirituel :
                     </strong>
-                    <ul>
-                      {event.effects.spiritual.map((effect, index) => (
-                        <li key={index}>
-                          <ArrowRightIcon className="effects-arrow" />
-                          {effect}
-                        </li>
-                      ))}
-                    </ul>
+                    {renderEffectsItems(event.effects.spiritual)}
                   </div>
                 )}
               </div>
@@ -328,6 +321,75 @@ const EventCard: React.FC<EventCardProps> = ({ event, type, isFirst = false, isP
                   )}
                 </div>
               </div>
+            </div>
+          )}
+
+          {practicalGuidance && (
+            <div className="accordion-section">
+              <h4>Guidance pratique</h4>
+              <div className="event-card-effects">
+                {practicalGuidance.pro && practicalGuidance.pro.length > 0 && (
+                  <div className="effects-section">
+                    <strong>Pro :</strong>
+                    {renderEffectsItems(practicalGuidance.pro)}
+                  </div>
+                )}
+                {practicalGuidance.relationship && practicalGuidance.relationship.length > 0 && (
+                  <div className="effects-section">
+                    <strong>Relationnel :</strong>
+                    {renderEffectsItems(practicalGuidance.relationship)}
+                  </div>
+                )}
+                {practicalGuidance.wellbeing && practicalGuidance.wellbeing.length > 0 && (
+                  <div className="effects-section">
+                    <strong>Bien-être :</strong>
+                    {renderEffectsItems(practicalGuidance.wellbeing)}
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
+
+          {metadata && (
+            <div className="accordion-section">
+              <h4>Contexte astrologique</h4>
+              <div className="event-card-effects">
+                <div className="effects-section">
+                  <div className="effects-lines">
+                    {metadata.degree && (
+                      <div className="effect-line">
+                        <span className="effect-label">Degré :</span>
+                        <span className="effect-value">{metadata.degree}</span>
+                      </div>
+                    )}
+                    {metadata.exactTimeUtc && (
+                      <div className="effect-line">
+                        <span className="effect-label">Heure (UTC) :</span>
+                        <span className="effect-value">{metadata.exactTimeUtc}</span>
+                      </div>
+                    )}
+                    {metadata.referenceTimezone && (
+                      <div className="effect-line">
+                        <span className="effect-label">Timezone de référence :</span>
+                        <span className="effect-value">{metadata.referenceTimezone}</span>
+                      </div>
+                    )}
+                    {metadata.source && (
+                      <div className="effect-line">
+                        <span className="effect-label">Source :</span>
+                        <span className="effect-value">{metadata.source}</span>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {disclaimer && (
+            <div className="accordion-section">
+              <h4>Note</h4>
+              <p>{disclaimer}</p>
             </div>
           )}
 
@@ -449,14 +511,7 @@ const EventCard: React.FC<EventCardProps> = ({ event, type, isFirst = false, isP
                         <StarIcon className="effects-icon" />
                         Général :
                       </strong>
-                      <ul>
-                        {event.effects.general.map((effect, index) => (
-                          <li key={index}>
-                            <ArrowRightIcon className="effects-arrow" />
-                            {effect}
-                          </li>
-                        ))}
-                      </ul>
+                      {renderEffectsItems(event.effects.general)}
                     </div>
                   )}
                   {event.effects.emotional && event.effects.emotional.length > 0 && (
@@ -465,14 +520,7 @@ const EventCard: React.FC<EventCardProps> = ({ event, type, isFirst = false, isP
                         <StarIcon className="effects-icon" />
                         Émotionnel :
                       </strong>
-                      <ul>
-                        {event.effects.emotional.map((effect, index) => (
-                          <li key={index}>
-                            <ArrowRightIcon className="effects-arrow" />
-                            {effect}
-                          </li>
-                        ))}
-                      </ul>
+                      {renderEffectsItems(event.effects.emotional)}
                     </div>
                   )}
                   {event.effects.spiritual && event.effects.spiritual.length > 0 && (
@@ -481,14 +529,7 @@ const EventCard: React.FC<EventCardProps> = ({ event, type, isFirst = false, isP
                         <StarIcon className="effects-icon" />
                         Spirituel :
                       </strong>
-                      <ul>
-                        {event.effects.spiritual.map((effect, index) => (
-                          <li key={index}>
-                            <ArrowRightIcon className="effects-arrow" />
-                            {effect}
-                          </li>
-                        ))}
-                      </ul>
+                      {renderEffectsItems(event.effects.spiritual)}
                     </div>
                   )}
                 </div>
@@ -528,6 +569,75 @@ const EventCard: React.FC<EventCardProps> = ({ event, type, isFirst = false, isP
                     )}
                   </div>
                 </div>
+              </div>
+            )}
+
+            {practicalGuidance && (
+              <div className="accordion-section">
+                <h4>Guidance pratique</h4>
+                <div className="event-card-effects">
+                  {practicalGuidance.pro && practicalGuidance.pro.length > 0 && (
+                    <div className="effects-section">
+                      <strong>Pro :</strong>
+                      {renderEffectsItems(practicalGuidance.pro)}
+                    </div>
+                  )}
+                  {practicalGuidance.relationship && practicalGuidance.relationship.length > 0 && (
+                    <div className="effects-section">
+                      <strong>Relationnel :</strong>
+                      {renderEffectsItems(practicalGuidance.relationship)}
+                    </div>
+                  )}
+                  {practicalGuidance.wellbeing && practicalGuidance.wellbeing.length > 0 && (
+                    <div className="effects-section">
+                      <strong>Bien-être :</strong>
+                      {renderEffectsItems(practicalGuidance.wellbeing)}
+                    </div>
+                  )}
+                </div>
+              </div>
+            )}
+
+            {metadata && (
+              <div className="accordion-section">
+                <h4>Contexte astrologique</h4>
+                <div className="event-card-effects">
+                  <div className="effects-section">
+                    <div className="effects-lines">
+                      {metadata.degree && (
+                        <div className="effect-line">
+                          <span className="effect-label">Degré :</span>
+                          <span className="effect-value">{metadata.degree}</span>
+                        </div>
+                      )}
+                      {metadata.exactTimeUtc && (
+                        <div className="effect-line">
+                          <span className="effect-label">Heure (UTC) :</span>
+                          <span className="effect-value">{metadata.exactTimeUtc}</span>
+                        </div>
+                      )}
+                      {metadata.referenceTimezone && (
+                        <div className="effect-line">
+                          <span className="effect-label">Timezone de référence :</span>
+                          <span className="effect-value">{metadata.referenceTimezone}</span>
+                        </div>
+                      )}
+                      {metadata.source && (
+                        <div className="effect-line">
+                          <span className="effect-label">Source :</span>
+                          <span className="effect-value">{metadata.source}</span>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {disclaimer && (
+              <div className="accordion-section">
+                <h4>Note</h4>
+                <p>{disclaimer}</p>
               </div>
             )}
 

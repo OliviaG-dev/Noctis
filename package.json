@@ -9,6 +9,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "lint": "eslint .",
+    "validate:data": "node scripts/validate-astro-data.mjs",
     "preview": "vite preview"
   },
   "dependencies": {

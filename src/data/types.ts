@@ -22,6 +22,7 @@ export type AstrologicalSign =
 export type Planet =
   | "Mercure"
   | "Venus"
+  | "Vénus"
   | "Mars"
   | "Jupiter"
   | "Saturne"
@@ -54,8 +55,10 @@ export type EventType =
  * Interface pour la durée d'un ingrès planétaire
  */
 export interface IngressDuration {
-  years: number;
-  months: number;
+  years?: number;
+  months?: number;
+  weeks?: number;
+  days?: number;
 }
 
 /**
@@ -80,6 +83,10 @@ export interface PlanetIngress {
   advice: MoonAdvice;
   rituals: string[];
   affirmations: string[];
+  practicalGuidance?: PracticalGuidance;
+  metadata?: AstrologyMetadata;
+  audience?: EventAudience;
+  disclaimer?: string;
 }
 
 /**
@@ -107,6 +114,10 @@ export interface Retrograde {
   advice: MoonAdvice;
   rituals: string[];
   affirmations: string[];
+  practicalGuidance?: PracticalGuidance;
+  metadata?: AstrologyMetadata;
+  audience?: EventAudience;
+  disclaimer?: string;
 }
 
 /**
@@ -117,11 +128,16 @@ export interface Eclipse {
   type: EclipseType;
   title: string;
   subtitle: string;
+  sign?: AstrologicalSign;
   keywords: string[];
   energy: MoonEnergy;
   effects: MoonEffects;
   advice: MoonAdvice;
   rituals: string[];
+  practicalGuidance?: PracticalGuidance;
+  metadata?: AstrologyMetadata;
+  audience?: EventAudience;
+  disclaimer?: string;
 }
 
 /**
@@ -150,6 +166,26 @@ export interface MoonAdvice {
   avoid: string[];
 }
 
+export interface PracticalGuidance {
+  pro: string[];
+  relationship: string[];
+  wellbeing: string[];
+}
+
+export interface AstrologyMetadata {
+  exactTimeUtc?: string;
+  referenceTimezone?: string;
+  degree?: string;
+  source?: string;
+  confidence?: "low" | "medium" | "high";
+}
+
+export interface EventAudience {
+  sun?: string[];
+  moon?: string[];
+  rising?: string[];
+}
+
 /**
  * Interface pour les pleines lunes
  */
@@ -163,6 +199,10 @@ export interface FullMoon {
   effects: MoonEffects;
   advice: MoonAdvice;
   rituals: string[];
+  practicalGuidance?: PracticalGuidance;
+  metadata?: AstrologyMetadata;
+  audience?: EventAudience;
+  disclaimer?: string;
 }
 
 /**
@@ -180,6 +220,10 @@ export interface NewMoon {
   advice: MoonAdvice;
   affirmations: string[];
   rituals: string[];
+  practicalGuidance?: PracticalGuidance;
+  metadata?: AstrologyMetadata;
+  audience?: EventAudience;
+  disclaimer?: string;
 }
 
 /**

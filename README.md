@@ -260,6 +260,19 @@ L'application est entièrement responsive et optimisée pour :
 - [ ] Recherche d'événements
 - [ ] Partage social des événements
 
+## 🧭 Qualité astrologique (contenu v2)
+
+Pour renforcer la qualité éditoriale et la cohérence des interprétations, Noctis introduit un schéma de contenu `v2` dans `src/data/schemaV2.ts`.
+
+Ce schéma ajoute notamment :
+
+- un contexte astrologique traçable (`metadata`: heure exacte, timezone, source, confiance),
+- des conseils actionnables par domaine (`practicalGuidance`: pro, relationnel, bien-être),
+- un ciblage léger par profil (`audience`: solaire, lunaire, ascendant),
+- un cadre d'usage responsable via un `disclaimer` standard.
+
+Objectif : rendre les contenus plus utiles au quotidien, plus transparents et plus fiables.
+
 ## 📄 Licence
 
 Ce projet est privé.

@@ -17,6 +17,24 @@ import eclipsesData from "./eclipses.json";
 import fullMoonsData from "./fullMoons.json";
 import newMoonsData from "./newMoons.json";
 
+const SIGN_ALIASES: Record<string, string> = {
+  Aries: "Bélier",
+};
+
+const PLANET_ALIASES: Record<string, string> = {
+  Venus: "Vénus",
+};
+
+export function normalizeAstrologicalSign(sign?: string): string | undefined {
+  if (!sign) return undefined;
+  return SIGN_ALIASES[sign] ?? sign;
+}
+
+export function normalizePlanetName(planet?: string): string | undefined {
+  if (!planet) return undefined;
+  return PLANET_ALIASES[planet] ?? planet;
+}
+
 /**
  * Convertit une date au format YYYY-MM-DD en objet Date
  */
@@ -62,7 +80,7 @@ export function loadAstrologyEvents(): AstrologyEvent[] {
       type: "new_moon",
       title: moon.title,
       description: moon.subtitle,
-      sign: moon.sign,
+      sign: normalizeAstrologicalSign(moon.sign) as AstrologyEvent["sign"],
     });
   });
 
@@ -73,7 +91,7 @@ export function loadAstrologyEvents(): AstrologyEvent[] {
       type: "full_moon",
       title: moon.title,
       description: moon.subtitle,
-      sign: moon.sign,
+      sign: normalizeAstrologicalSign(moon.sign) as AstrologyEvent["sign"],
     });
   });
 
@@ -95,8 +113,8 @@ export function loadAstrologyEvents(): AstrologyEvent[] {
       type: "planet_ingress",
       title: ingress.title,
       description: ingress.subtitle,
-      planet: ingress.planet,
-      sign: ingress.sign,
+      planet: normalizePlanetName(ingress.planet) as AstrologyEvent["planet"],
+      sign: normalizeAstrologicalSign(ingress.sign) as AstrologyEvent["sign"],
       start: ingress.start,
       end: ingress.end,
     });
@@ -116,12 +134,12 @@ export function loadAstrologyEvents(): AstrologyEvent[] {
       events.push({
         date: dateKey,
         type: "retrograde",
-        title: `${retrograde.planet} rétrograde`,
+        title: `${normalizePlanetName(retrograde.planet)} rétrograde`,
         description: retrograde.subtitle,
-        planet: retrograde.planet,
+        planet: normalizePlanetName(retrograde.planet) as AstrologyEvent["planet"],
         start: retrograde.start,
         end: retrograde.end,
-        sign: phase?.sign,
+        sign: normalizeAstrologicalSign(phase?.sign) as AstrologyEvent["sign"],
       });
       currentDate.setDate(currentDate.getDate() + 1);
     }

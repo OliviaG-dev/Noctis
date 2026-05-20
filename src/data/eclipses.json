@@ -4,11 +4,9 @@
     "type": "solar_annular",
     "title": "Éclipse solaire annulaire",
     "subtitle": "Anneau de feu",
-    
+    "sign": "Verseau",
     "keywords": ["changement", "éveil", "transformation", "focus"],
-    
     "energy": { "intensity": 5, "emotional": 3, "mental": 4 },
-    
     "effects": {
       "general": [
         "Période de grands changements",
@@ -34,7 +32,33 @@
         "Conflits inutiles"
       ]
     },
-    
+    "practicalGuidance": {
+      "pro": [
+        "Reprioriser les projets sur 90 jours",
+        "Valider les objectifs avant de lancer une nouvelle initiative"
+      ],
+      "relationship": [
+        "Clarifier les attentes dans les échanges importants",
+        "Reporter les discussions sensibles si la tension monte"
+      ],
+      "wellbeing": [
+        "Réduire les stimulations pour garder de la clarté",
+        "Prévoir un temps de recentrage quotidien"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-02-17T10:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "28deg Verseau",
+      "source": "Noctis internal dataset",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": ["Verseau", "Lion"],
+      "moon": ["Verseau", "Lion"],
+      "rising": ["Verseau", "Lion"]
+    },
+    "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
     "rituals": [
       "Méditation de clarté",
       "Vision board"
@@ -46,11 +70,9 @@
     "type": "lunar_total",
     "title": "Éclipse lunaire totale",
     "subtitle": "Lune rouge – profonde transformation",
-    
+    "sign": "Poissons",
     "keywords": ["transformation", "fin de cycle", "illumination", "libération"],
-    
     "energy": { "intensity": 5, "emotional": 5, "mental": 4 },
-    
     "effects": {
       "general": [
         "Révélations profondes",
@@ -76,7 +98,33 @@
         "Blocages émotionnels"
       ]
     },
-    
+    "practicalGuidance": {
+      "pro": [
+        "Clôturer les tâches ouvertes avant d'en ouvrir de nouvelles",
+        "Identifier ce qui doit être abandonné dans l'organisation actuelle"
+      ],
+      "relationship": [
+        "Nommer les non-dits avec tact",
+        "Préférer l'écoute active aux réactions immédiates"
+      ],
+      "wellbeing": [
+        "Éviter la surcharge émotionnelle",
+        "Utiliser l'écriture pour décharger les tensions"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-03-03T03:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "12deg Poissons",
+      "source": "Noctis internal dataset",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": ["Poissons", "Vierge"],
+      "moon": ["Poissons", "Vierge"],
+      "rising": ["Poissons", "Vierge"]
+    },
+    "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
     "rituals": [
       "Rituel de libération",
       "Journal de transformation"
@@ -88,11 +136,9 @@
     "type": "solar_total",
     "title": "Éclipse solaire totale",
     "subtitle": "Transformation radicale",
-    
+    "sign": "Lion",
     "keywords": ["renouveau", "illumination", "rupture", "révélation"],
-    
     "energy": { "intensity": 5, "emotional": 4, "mental": 5 },
-    
     "effects": {
       "general": [
         "Temps fort de transformation",
@@ -117,7 +163,33 @@
         "Se laisser submerger"
       ]
     },
-    
+    "practicalGuidance": {
+      "pro": [
+        "Poser une décision structurante sur un projet clé",
+        "Réévaluer la visibilité et le leadership dans les équipes"
+      ],
+      "relationship": [
+        "Rester factuel dans les échanges sensibles",
+        "Exprimer les besoins sans posture défensive"
+      ],
+      "wellbeing": [
+        "Canaliser le surplus d'énergie par une activité physique",
+        "Préserver le sommeil pour éviter la réactivité"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-08-12T18:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "20deg Lion",
+      "source": "Noctis internal dataset",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": ["Lion", "Verseau"],
+      "moon": ["Lion", "Verseau"],
+      "rising": ["Lion", "Verseau"]
+    },
+    "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
     "rituals": [
       "Méditation profonde",
       "Rituel de renouveau"
@@ -129,11 +201,9 @@
     "type": "lunar_partial",
     "title": "Éclipse lunaire partielle",
     "subtitle": "Révélation douce",
-    
+    "sign": "Poissons",
     "keywords": ["révélation", "réflexion", "fin partielle", "vision"],
-    
     "energy": { "intensity": 4, "emotional": 4, "mental": 4 },
-    
     "effects": {
       "general": [
         "Révision de perceptions",
@@ -156,7 +226,33 @@
         "Conclusions hâtives"
       ]
     },
-    
+    "practicalGuidance": {
+      "pro": [
+        "Revoir les décisions prises dans l'urgence",
+        "Ajuster la feuille de route avec plus de nuance"
+      ],
+      "relationship": [
+        "Laisser de l'espace dans les conversations complexes",
+        "Formuler les ressentis avant les interprétations"
+      ],
+      "wellbeing": [
+        "S'accorder une journée plus lente",
+        "Favoriser les pratiques introspectives"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-08-28T06:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "5deg Poissons",
+      "source": "Noctis internal dataset",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": ["Poissons", "Vierge"],
+      "moon": ["Poissons", "Vierge"],
+      "rising": ["Poissons", "Vierge"]
+    },
+    "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
     "rituals": [
       "Observation consciente",
       "Cercle de réflexion"
@@ -168,11 +264,9 @@
     "type": "solar_annular",
     "title": "Éclipse solaire annulaire",
     "subtitle": "Anneau solaire – opportunité nouvelle",
-    
+    "sign": "Verseau",
     "keywords": ["renouveau", "vision", "possibilités", "activation"],
-    
     "energy": { "intensity": 4, "emotional": 3, "mental": 4 },
-    
     "effects": {
       "general": [
         "Temps d’opportunités",
@@ -196,7 +290,33 @@
         "Peurs du changement"
       ]
     },
-    
+    "practicalGuidance": {
+      "pro": [
+        "Tester une nouvelle piste à petite échelle",
+        "Planifier les prochaines étapes avec des jalons réalistes"
+      ],
+      "relationship": [
+        "Partager clairement l'intention derrière les changements",
+        "Éviter les promesses trop rapides"
+      ],
+      "wellbeing": [
+        "Installer une routine simple pour garder le cap",
+        "Limiter la dispersion mentale"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2027-02-06T11:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "17deg Verseau",
+      "source": "Noctis internal dataset",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": ["Verseau", "Lion"],
+      "moon": ["Verseau", "Lion"],
+      "rising": ["Verseau", "Lion"]
+    },
+    "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
     "rituals": [
       "Rituel d’intention",
       "Méditation d’ouverture"
@@ -208,11 +328,9 @@
     "type": "lunar_penumbral",
     "title": "Éclipse lunaire pénombrale",
     "subtitle": "Énergie subtile",
-    
+    "sign": "Poissons",
     "keywords": ["introspection", "subtilité", "observation", "réflexion"],
-    
     "energy": { "intensity": 3, "emotional": 3, "mental": 4 },
-    
     "effects": {
       "general": [
         "Observation intérieure",
@@ -235,10 +353,36 @@
         "Judgement facile"
       ]
     },
-    
+    "practicalGuidance": {
+      "pro": [
+        "Privilégier la révision plutôt que la prise de risque",
+        "Consolider les acquis avant d'accélérer"
+      ],
+      "relationship": [
+        "Revenir aux besoins essentiels dans le dialogue",
+        "Répondre avec lenteur plutôt qu'avec impulsivité"
+      ],
+      "wellbeing": [
+        "Alléger le rythme pour préserver la lucidité",
+        "Tenir un journal de ressenti sur 3 jours"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2027-02-20T02:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "2deg Poissons",
+      "source": "Noctis internal dataset",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": ["Poissons", "Vierge"],
+      "moon": ["Poissons", "Vierge"],
+      "rising": ["Poissons", "Vierge"]
+    },
+    "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
     "rituals": [
       "Journal intime",
       "Méditation calme"
     ]
   }
-  ]
+]
