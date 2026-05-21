@@ -225,3 +225,36 @@
   background: rgba(64, 224, 208, 0.25);
   border-color: rgba(64, 224, 208, 0.6);
 }
+
+@media (min-width: 1025px) {
+  .calendar-container {
+    /* Keep the whole calendar inside desktop viewport */
+    width: min(100%, calc((100dvh - 320px) * 1.16));
+    max-width: 760px;
+    padding: 1rem 1.25rem;
+  }
+
+  .calendar-header {
+    margin-bottom: 1rem;
+  }
+
+  .calendar-navigation {
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .calendar-title {
+    font-size: 1.7rem;
+    min-width: 170px;
+  }
+
+  .calendar-grid {
+    gap: 0.5rem;
+    padding: 1rem;
+  }
+
+  .calendar-weekday {
+    padding: 0.5rem 0;
+    font-size: 0.78rem;
+  }
+}

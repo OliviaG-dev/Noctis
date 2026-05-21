@@ -1,1 +1,188 @@
 @import '../NewMoons/NewMoons.css';
+
+.planet-ingress-page {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.planet-ingress-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  border-radius: 14px;
+  padding: 1rem;
+  border: 1px solid transparent;
+}
+
+.planet-ingress-section-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.planet-ingress-section-current {
+  background: linear-gradient(135deg, rgba(64, 224, 208, 0.12), rgba(64, 224, 208, 0.04));
+  border-color: rgba(64, 224, 208, 0.35);
+}
+
+.planet-ingress-section-upcoming {
+  background: linear-gradient(135deg, rgba(122, 162, 255, 0.12), rgba(122, 162, 255, 0.04));
+  border-color: rgba(122, 162, 255, 0.32);
+}
+
+.planet-ingress-section-history {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.02));
+  border-color: rgba(255, 255, 255, 0.16);
+}
+
+.planet-ingress-current-accordion {
+  border: 1px solid rgba(64, 224, 208, 0.25);
+  border-radius: 12px;
+  overflow: hidden;
+  background: rgba(64, 224, 208, 0.05);
+}
+
+.planet-ingress-current-toggle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  text-align: left;
+  background: rgba(64, 224, 208, 0.1);
+  border: none;
+  color: rgba(215, 255, 250, 0.96);
+  padding: 0.8rem 1rem;
+  font-size: 0.95rem;
+  letter-spacing: 0.3px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.planet-ingress-current-toggle:hover {
+  background: rgba(64, 224, 208, 0.16);
+}
+
+.planet-ingress-current-toggle.open {
+  border-bottom: 1px solid rgba(64, 224, 208, 0.25);
+}
+
+.planet-ingress-current-icon {
+  color: rgba(64, 224, 208, 0.95);
+  font-size: 0.95rem;
+}
+
+.planet-ingress-current-content {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+
+.planet-ingress-current-content.open {
+  max-height: 10000px;
+  opacity: 1;
+}
+
+.planet-ingress-section-title {
+  font-size: 1.15rem;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.planet-ingress-section-current .planet-ingress-section-title {
+  color: rgba(64, 224, 208, 0.98);
+}
+
+.planet-ingress-section-upcoming .planet-ingress-section-title {
+  color: rgba(168, 196, 255, 0.98);
+}
+
+.planet-ingress-history-toggle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 10px;
+  color: rgba(235, 235, 255, 0.96);
+  padding: 0.65rem 1rem;
+  font-size: 0.92rem;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.planet-ingress-history-toggle:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.28);
+  color: #ffffff;
+}
+
+.planet-ingress-history-toggle.open {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.planet-ingress-history-icon {
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 0.95rem;
+}
+
+.planet-ingress-history-content {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+
+.planet-ingress-history-content.open {
+  max-height: 10000px;
+  opacity: 1;
+}
+
+.planet-ingress-pagination-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  margin-top: 0.25rem;
+}
+
+.planet-ingress-pagination-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+.planet-ingress-pagination-btn {
+  background: rgba(122, 162, 255, 0.12);
+  border: 1px solid rgba(122, 162, 255, 0.3);
+  border-radius: 8px;
+  color: rgba(215, 227, 255, 0.95);
+  padding: 0.45rem 0.8rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.planet-ingress-pagination-btn:hover:not(:disabled) {
+  background: rgba(122, 162, 255, 0.2);
+  border-color: rgba(122, 162, 255, 0.48);
+}
+
+.planet-ingress-pagination-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.planet-ingress-pagination-indicator {
+  color: rgba(220, 228, 247, 0.86);
+  font-size: 0.84rem;
+  letter-spacing: 0.2px;
+}

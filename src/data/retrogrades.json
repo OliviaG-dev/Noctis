@@ -12,8 +12,17 @@
     ],
     "title": "Mercure rétrograde en Poissons",
     "subtitle": "Intuition, confusion et réalignement",
-    "keywords": ["communication", "intuition", "révision", "sensibilité"],
-    "energy": { "intensity": 5, "emotional": 5, "mental": 4 },
+    "keywords": [
+      "communication",
+      "intuition",
+      "révision",
+      "sensibilité"
+    ],
+    "energy": {
+      "intensity": 5,
+      "emotional": 5,
+      "mental": 4
+    },
     "effects": {
       "general": [
         "Malentendus fréquents",
@@ -28,8 +37,14 @@
       ]
     },
     "advice": {
-      "do": ["Écouter son intuition", "Relire avant d’envoyer"],
-      "avoid": ["Signer sans vérifier", "Tirer des conclusions hâtives"]
+      "do": [
+        "Écouter son intuition",
+        "Relire avant d’envoyer"
+      ],
+      "avoid": [
+        "Signer sans vérifier",
+        "Tirer des conclusions hâtives"
+      ]
     },
     "practicalGuidance": {
       "pro": [
@@ -53,15 +68,33 @@
       "confidence": "medium"
     },
     "audience": {
-      "sun": ["Poissons", "Vierge", "Gémeaux", "Sagittaire"],
-      "moon": ["Poissons", "Vierge", "Gémeaux", "Sagittaire"],
-      "rising": ["Poissons", "Vierge", "Gémeaux", "Sagittaire"]
+      "sun": [
+        "Poissons",
+        "Vierge",
+        "Gémeaux",
+        "Sagittaire"
+      ],
+      "moon": [
+        "Poissons",
+        "Vierge",
+        "Gémeaux",
+        "Sagittaire"
+      ],
+      "rising": [
+        "Poissons",
+        "Vierge",
+        "Gémeaux",
+        "Sagittaire"
+      ]
     },
-    "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
-    "rituals": ["Écriture intuitive", "Méditation silencieuse"],
-    "affirmations": ["Je communique avec clarté et patience"]
+    "rituals": [
+      "Écriture intuitive",
+      "Méditation silencieuse"
+    ],
+    "affirmations": [
+      "Je communique avec clarté et patience"
+    ]
   },
-
   {
     "planet": "Vénus",
     "start": "2026-10-03",
@@ -80,8 +113,17 @@
     ],
     "title": "Vénus rétrograde",
     "subtitle": "Relations, valeurs et estime de soi",
-    "keywords": ["amour", "relations", "valeurs", "révision"],
-    "energy": { "intensity": 5, "emotional": 5, "mental": 3 },
+    "keywords": [
+      "amour",
+      "relations",
+      "valeurs",
+      "révision"
+    ],
+    "energy": {
+      "intensity": 5,
+      "emotional": 5,
+      "mental": 3
+    },
     "effects": {
       "general": [
         "Révision des relations",
@@ -96,8 +138,14 @@
       ]
     },
     "advice": {
-      "do": ["Observer ses relations", "Redéfinir ses valeurs"],
-      "avoid": ["Engagements impulsifs", "Dépendance affective"]
+      "do": [
+        "Observer ses relations",
+        "Redéfinir ses valeurs"
+      ],
+      "avoid": [
+        "Engagements impulsifs",
+        "Dépendance affective"
+      ]
     },
     "practicalGuidance": {
       "pro": [
@@ -121,13 +169,32 @@
       "confidence": "medium"
     },
     "audience": {
-      "sun": ["Balance", "Bélier", "Taureau", "Scorpion"],
-      "moon": ["Balance", "Bélier", "Taureau", "Scorpion"],
-      "rising": ["Balance", "Bélier", "Taureau", "Scorpion"]
+      "sun": [
+        "Balance",
+        "Bélier",
+        "Taureau",
+        "Scorpion"
+      ],
+      "moon": [
+        "Balance",
+        "Bélier",
+        "Taureau",
+        "Scorpion"
+      ],
+      "rising": [
+        "Balance",
+        "Bélier",
+        "Taureau",
+        "Scorpion"
+      ]
     },
-    "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
-    "rituals": ["Rituel du cœur", "Journal émotionnel"],
-    "affirmations": ["Je mérite un amour aligné"]
+    "rituals": [
+      "Rituel du cœur",
+      "Journal émotionnel"
+    ],
+    "affirmations": [
+      "Je mérite un amour aligné"
+    ]
   },
   {
     "planet": "Saturne",
@@ -142,8 +209,16 @@
     ],
     "title": "Saturne rétrograde en Poissons",
     "subtitle": "Responsabilité émotionnelle",
-    "keywords": ["discipline", "structure", "limites"],
-    "energy": { "intensity": 4, "emotional": 3, "mental": 5 },
+    "keywords": [
+      "discipline",
+      "structure",
+      "limites"
+    ],
+    "energy": {
+      "intensity": 4,
+      "emotional": 3,
+      "mental": 5
+    },
     "effects": {
       "general": [
         "Revoir ses responsabilités",
@@ -157,8 +232,13 @@
       ]
     },
     "advice": {
-      "do": ["Construire sur du solide", "Être patient"],
-      "avoid": ["Auto-jugement excessif"]
+      "do": [
+        "Construire sur du solide",
+        "Être patient"
+      ],
+      "avoid": [
+        "Auto-jugement excessif"
+      ]
     },
     "practicalGuidance": {
       "pro": [
@@ -182,12 +262,30 @@
       "confidence": "medium"
     },
     "audience": {
-      "sun": ["Poissons", "Vierge", "Gémeaux", "Sagittaire"],
-      "moon": ["Poissons", "Vierge", "Gémeaux", "Sagittaire"],
-      "rising": ["Poissons", "Vierge", "Gémeaux", "Sagittaire"]
+      "sun": [
+        "Poissons",
+        "Vierge",
+        "Gémeaux",
+        "Sagittaire"
+      ],
+      "moon": [
+        "Poissons",
+        "Vierge",
+        "Gémeaux",
+        "Sagittaire"
+      ],
+      "rising": [
+        "Poissons",
+        "Vierge",
+        "Gémeaux",
+        "Sagittaire"
+      ]
     },
-    "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
-    "rituals": ["Planification consciente"],
-    "affirmations": ["Je bâtis avec sagesse"]
+    "rituals": [
+      "Planification consciente"
+    ],
+    "affirmations": [
+      "Je bâtis avec sagesse"
+    ]
   }
 ]

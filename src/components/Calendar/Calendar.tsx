@@ -3,9 +3,8 @@ import CalendarDay from "./CalendarDay";
 import CalendarModal from "./CalendarModal";
 import type { AstrologyEvent } from "../../data/types";
 import {
-  loadAstrologyEvents,
-  groupEventsByDate,
-  getEventsForDate,
+  formatDate,
+  loadCompleteEventsForDate,
 } from "../../data/utils";
 import "./Calendar.css";
 
@@ -37,21 +36,31 @@ const Calendar: React.FC = () => {
     setDisplayDate(target >= MIN_DATE ? target : MIN_DATE);
   };
 
-  // Charger et organiser les événements
-  const eventsByDate = useMemo(() => {
-    const events = loadAstrologyEvents();
-    return groupEventsByDate(events);
-  }, []);
+  const getDisplayEventsForDate = useMemo(
+    () => (date: Date): AstrologyEvent[] => {
+      const dateString = formatDate(date);
+      return loadCompleteEventsForDate(dateString).map(({ event, type }) => ({
+        date: dateString,
+        type,
+        title: event.title,
+        description: event.subtitle,
+        sign: "sign" in event ? event.sign : undefined,
+        planet: "planet" in event ? event.planet : undefined,
+        start: "start" in event ? event.start : undefined,
+        end: "end" in event ? event.end : undefined,
+        eclipseType: type === "eclipse" && "type" in event ? event.type : undefined,
+      }));
+    },
+    []
+  );
 
   // État de la modale
   const [selectedDate, setSelectedDate] = useState<Date | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const handleDayClick = (date: Date, dayEvents: AstrologyEvent[]) => {
-    if (dayEvents.length > 0) {
-      setSelectedDate(date);
-      setIsModalOpen(true);
-    }
+  const handleDayClick = (date: Date) => {
+    setSelectedDate(date);
+    setIsModalOpen(true);
   };
 
   const closeModal = () => {
@@ -83,7 +92,7 @@ const Calendar: React.FC = () => {
       date.getDate() === today.getDate() &&
       date.getMonth() === today.getMonth() &&
       date.getFullYear() === today.getFullYear();
-    const events = getEventsForDate(date, eventsByDate);
+    const events = getDisplayEventsForDate(date);
 
     days.push({ day, date, isToday, events });
   }
@@ -164,7 +173,7 @@ const Calendar: React.FC = () => {
             day={day}
             isToday={isToday}
             events={events}
-            onClick={date ? () => handleDayClick(date, events) : undefined}
+            onClick={date ? () => handleDayClick(date) : undefined}
           />
         ))}
       </div>
@@ -173,9 +182,7 @@ const Calendar: React.FC = () => {
         isOpen={isModalOpen}
         onClose={closeModal}
         date={selectedDate}
-        events={
-          selectedDate ? getEventsForDate(selectedDate, eventsByDate) : []
-        }
+        events={selectedDate ? getDisplayEventsForDate(selectedDate) : []}
       />
     </div>
   );

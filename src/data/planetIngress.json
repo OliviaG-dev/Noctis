@@ -2,22 +2,25 @@
     {
       "planet": "Neptune",
       "sign": "Bélier",
-  
       "start": "2026-01-26",
       "end": "2039-03-23",
-  
       "duration": {
         "years": 13,
         "months": 158
       },
-  
       "title": "Neptune entre en Bélier",
       "subtitle": "Naissance d’une vision audacieuse",
-  
-      "keywords": ["intuition", "idéalisme", "audace", "inspiration"],
-  
-      "energy": { "intensity": 4, "emotional": 4, "mental": 3 },
-  
+    "keywords": [
+      "intuition",
+      "idéalisme",
+      "audace",
+      "inspiration"
+    ],
+    "energy": {
+      "intensity": 4,
+      "emotional": 4,
+      "mental": 3
+    },
       "effects": {
         "general": [
           "Nouvelle impulsion collective",
@@ -31,7 +34,6 @@
           "Vision incarnée"
         ]
       },
-  
       "advice": {
         "do": [
           "Suivre son intuition",
@@ -42,63 +44,77 @@
           "Fuite dans l’illusion"
         ]
       },
-      "practicalGuidance": {
-        "pro": [
-          "Aligner les projets long terme avec une vision claire",
-          "Éviter de lancer sans cadre opérationnel minimal"
-        ],
-        "relationship": [
-          "Exprimer ses élans avec sincérité et stabilité",
-          "Distinguer inspiration réelle et projection"
-        ],
-        "wellbeing": [
-          "Ancrer les intuitions par des routines concrètes",
-          "Limiter les décisions prises dans le flou émotionnel"
-        ]
-      },
-      "metadata": {
-        "exactTimeUtc": "2026-01-26T00:00:00Z",
-        "referenceTimezone": "UTC",
-        "degree": "0deg Bélier",
-        "source": "Noctis internal dataset",
-        "confidence": "medium"
-      },
-      "audience": {
-        "sun": ["Bélier", "Balance", "Cancer", "Capricorne"],
-        "moon": ["Bélier", "Balance", "Cancer", "Capricorne"],
-        "rising": ["Bélier", "Balance", "Cancer", "Capricorne"]
-      },
-      "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
-  
+    "practicalGuidance": {
+      "pro": [
+        "Aligner les projets long terme avec une vision claire",
+        "Éviter de lancer sans cadre opérationnel minimal"
+      ],
+      "relationship": [
+        "Exprimer ses élans avec sincérité et stabilité",
+        "Distinguer inspiration réelle et projection"
+      ],
+      "wellbeing": [
+        "Ancrer les intuitions par des routines concrètes",
+        "Limiter les décisions prises dans le flou émotionnel"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-01-26T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Bélier",
+      "source": "Noctis internal dataset",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Bélier",
+        "Balance",
+        "Cancer",
+        "Capricorne"
+      ],
+      "moon": [
+        "Bélier",
+        "Balance",
+        "Cancer",
+        "Capricorne"
+      ],
+      "rising": [
+        "Bélier",
+        "Balance",
+        "Cancer",
+        "Capricorne"
+      ]
+    },
       "rituals": [
         "Rituel de vision",
         "Méditation créative"
       ],
-  
       "affirmations": [
         "J’ose incarner ma vision intérieure"
       ]
     },
-  
     {
       "planet": "Saturne",
       "sign": "Bélier",
-  
       "start": "2026-02-13",
       "end": "2028-04-12",
-  
       "duration": {
         "years": 2,
         "months": 26
       },
-  
       "title": "Saturne entre en Bélier",
       "subtitle": "Responsabilité et affirmation de soi",
-  
-      "keywords": ["discipline", "leadership", "structure", "maturité"],
-  
-      "energy": { "intensity": 5, "emotional": 3, "mental": 5 },
-  
+    "keywords": [
+      "discipline",
+      "leadership",
+      "structure",
+      "maturité"
+    ],
+    "energy": {
+      "intensity": 5,
+      "emotional": 3,
+      "mental": 5
+    },
       "effects": {
         "general": [
           "Construction de l’autonomie",
@@ -111,7 +127,6 @@
           "Alignement entre volonté et devoir"
         ]
       },
-  
       "advice": {
         "do": [
           "Construire sur le long terme",
@@ -122,63 +137,77 @@
           "Rigidité excessive"
         ]
       },
-      "practicalGuidance": {
-        "pro": [
-          "Structurer les responsabilités avant d'accélérer",
-          "Créer des objectifs trimestriels mesurables"
-        ],
-        "relationship": [
-          "Poser des limites claires et cohérentes",
-          "Assumer ses décisions sans posture défensive"
-        ],
-        "wellbeing": [
-          "Canaliser l'impulsivité via des routines stables",
-          "Réduire la pression par une planification réaliste"
-        ]
-      },
-      "metadata": {
-        "exactTimeUtc": "2026-02-13T00:00:00Z",
-        "referenceTimezone": "UTC",
-        "degree": "0deg Bélier",
-        "source": "Noctis internal dataset",
-        "confidence": "medium"
-      },
-      "audience": {
-        "sun": ["Bélier", "Balance", "Cancer", "Capricorne"],
-        "moon": ["Bélier", "Balance", "Cancer", "Capricorne"],
-        "rising": ["Bélier", "Balance", "Cancer", "Capricorne"]
-      },
-      "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
-  
+    "practicalGuidance": {
+      "pro": [
+        "Structurer les responsabilités avant d'accélérer",
+        "Créer des objectifs trimestriels mesurables"
+      ],
+      "relationship": [
+        "Poser des limites claires et cohérentes",
+        "Assumer ses décisions sans posture défensive"
+      ],
+      "wellbeing": [
+        "Canaliser l'impulsivité via des routines stables",
+        "Réduire la pression par une planification réaliste"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-02-13T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Bélier",
+      "source": "Noctis internal dataset",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Bélier",
+        "Balance",
+        "Cancer",
+        "Capricorne"
+      ],
+      "moon": [
+        "Bélier",
+        "Balance",
+        "Cancer",
+        "Capricorne"
+      ],
+      "rising": [
+        "Bélier",
+        "Balance",
+        "Cancer",
+        "Capricorne"
+      ]
+    },
       "rituals": [
         "Rituel d’engagement",
         "Planification consciente"
       ],
-  
       "affirmations": [
         "Je construis ma force intérieure avec patience"
       ]
     },
-  
     {
       "planet": "Jupiter",
       "sign": "Lion",
-  
       "start": "2026-04-15",
       "end": "2027-06-30",
-  
       "duration": {
         "years": 1,
         "months": 14
       },
-  
       "title": "Jupiter entre en Lion",
       "subtitle": "Expansion créative et rayonnement",
-  
-      "keywords": ["expansion", "confiance", "créativité", "abondance"],
-  
-      "energy": { "intensity": 5, "emotional": 4, "mental": 4 },
-  
+    "keywords": [
+      "expansion",
+      "confiance",
+      "créativité",
+      "abondance"
+    ],
+    "energy": {
+      "intensity": 5,
+      "emotional": 4,
+      "mental": 4
+    },
       "effects": {
         "general": [
           "Croissance par l’expression personnelle",
@@ -193,7 +222,6 @@
           "Vision amplifiée"
         ]
       },
-  
       "advice": {
         "do": [
           "Partager sa lumière",
@@ -204,63 +232,77 @@
           "Égo surdimensionné"
         ]
       },
-      "practicalGuidance": {
-        "pro": [
-          "Mettre en avant un projet créatif avec plan d'exécution",
-          "Capitaliser sur la visibilité sans surpromesse"
-        ],
-        "relationship": [
-          "Rayonner sans monopoliser l'espace relationnel",
-          "Valoriser les talents des autres dans les collaborations"
-        ],
-        "wellbeing": [
-          "Équilibrer expression intense et récupération",
-          "Garder un rythme soutenable malgré l'enthousiasme"
-        ]
-      },
-      "metadata": {
-        "exactTimeUtc": "2026-04-15T00:00:00Z",
-        "referenceTimezone": "UTC",
-        "degree": "0deg Lion",
-        "source": "Noctis internal dataset",
-        "confidence": "medium"
-      },
-      "audience": {
-        "sun": ["Lion", "Verseau", "Taureau", "Scorpion"],
-        "moon": ["Lion", "Verseau", "Taureau", "Scorpion"],
-        "rising": ["Lion", "Verseau", "Taureau", "Scorpion"]
-      },
-      "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
-  
+    "practicalGuidance": {
+      "pro": [
+        "Mettre en avant un projet créatif avec plan d'exécution",
+        "Capitaliser sur la visibilité sans surpromesse"
+      ],
+      "relationship": [
+        "Rayonner sans monopoliser l'espace relationnel",
+        "Valoriser les talents des autres dans les collaborations"
+      ],
+      "wellbeing": [
+        "Équilibrer expression intense et récupération",
+        "Garder un rythme soutenable malgré l'enthousiasme"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-04-15T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Lion",
+      "source": "Noctis internal dataset",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Lion",
+        "Verseau",
+        "Taureau",
+        "Scorpion"
+      ],
+      "moon": [
+        "Lion",
+        "Verseau",
+        "Taureau",
+        "Scorpion"
+      ],
+      "rising": [
+        "Lion",
+        "Verseau",
+        "Taureau",
+        "Scorpion"
+      ]
+    },
       "rituals": [
         "Rituel d’abondance",
         "Visualisation créative"
       ],
-  
       "affirmations": [
         "Je rayonne pleinement et généreusement"
       ]
     },
-  
     {
       "planet": "Jupiter",
       "sign": "Vierge",
-  
       "start": "2027-06-30",
       "end": "2028-07-26",
-  
       "duration": {
         "years": 1,
         "months": 13
       },
-  
       "title": "Jupiter entre en Vierge",
       "subtitle": "Croissance par le service",
-  
-      "keywords": ["organisation", "santé", "amélioration", "service"],
-  
-      "energy": { "intensity": 4, "emotional": 3, "mental": 5 },
-  
+    "keywords": [
+      "organisation",
+      "santé",
+      "amélioration",
+      "service"
+    ],
+    "energy": {
+      "intensity": 4,
+      "emotional": 3,
+      "mental": 5
+    },
       "effects": {
         "general": [
           "Expansion dans le quotidien",
@@ -273,7 +315,6 @@
           "Alignement par la simplicité"
         ]
       },
-  
       "advice": {
         "do": [
           "Améliorer ses routines",
@@ -283,63 +324,77 @@
           "Perfectionnisme excessif"
         ]
       },
-      "practicalGuidance": {
-        "pro": [
-          "Optimiser les méthodes de travail avec des indicateurs simples",
-          "Consolider les acquis avant d'ouvrir un nouveau chantier"
-        ],
-        "relationship": [
-          "Soutenir l'autre par des actions concrètes",
-          "Éviter la critique excessive dans les échanges"
-        ],
-        "wellbeing": [
-          "Renforcer les routines santé quotidiennes",
-          "Privilégier la constance aux efforts extrêmes"
-        ]
-      },
-      "metadata": {
-        "exactTimeUtc": "2027-06-30T00:00:00Z",
-        "referenceTimezone": "UTC",
-        "degree": "0deg Vierge",
-        "source": "Noctis internal dataset",
-        "confidence": "medium"
-      },
-      "audience": {
-        "sun": ["Vierge", "Poissons", "Gémeaux", "Sagittaire"],
-        "moon": ["Vierge", "Poissons", "Gémeaux", "Sagittaire"],
-        "rising": ["Vierge", "Poissons", "Gémeaux", "Sagittaire"]
-      },
-      "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
-  
+    "practicalGuidance": {
+      "pro": [
+        "Optimiser les méthodes de travail avec des indicateurs simples",
+        "Consolider les acquis avant d'ouvrir un nouveau chantier"
+      ],
+      "relationship": [
+        "Soutenir l'autre par des actions concrètes",
+        "Éviter la critique excessive dans les échanges"
+      ],
+      "wellbeing": [
+        "Renforcer les routines santé quotidiennes",
+        "Privilégier la constance aux efforts extrêmes"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2027-06-30T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Vierge",
+      "source": "Noctis internal dataset",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Vierge",
+        "Poissons",
+        "Gémeaux",
+        "Sagittaire"
+      ],
+      "moon": [
+        "Vierge",
+        "Poissons",
+        "Gémeaux",
+        "Sagittaire"
+      ],
+      "rising": [
+        "Vierge",
+        "Poissons",
+        "Gémeaux",
+        "Sagittaire"
+      ]
+    },
       "rituals": [
         "Rituel d’ancrage",
         "Planification quotidienne"
       ],
-  
       "affirmations": [
         "Je progresse chaque jour avec conscience"
       ]
     },
-  
     {
       "planet": "Mars",
       "sign": "Scorpion",
-  
       "start": "2026-08-22",
       "end": "2026-10-07",
-  
       "duration": {
         "weeks": 6,
         "days": 46
       },
-  
       "title": "Mars entre en Scorpion",
       "subtitle": "Action intense et transformation",
-  
-      "keywords": ["action", "intensité", "courage", "transformation"],
-  
-      "energy": { "intensity": 5, "emotional": 4, "mental": 4 },
-  
+    "keywords": [
+      "action",
+      "intensité",
+      "courage",
+      "transformation"
+    ],
+    "energy": {
+      "intensity": 5,
+      "emotional": 4,
+      "mental": 4
+    },
       "effects": {
         "general": [
           "Volonté concentrée",
@@ -352,7 +407,6 @@
           "Puissance intérieure"
         ]
       },
-  
       "advice": {
         "do": [
           "Canaliser son énergie",
@@ -363,41 +417,4959 @@
           "Destruction impulsive"
         ]
       },
-      "practicalGuidance": {
-        "pro": [
-          "Concentrer l'énergie sur un objectif stratégique unique",
-          "Éviter les actions réactives sans analyse des risques"
-        ],
-        "relationship": [
-          "Exprimer l'intensité sans entrer en confrontation",
-          "Transformer les tensions en décisions explicites"
-        ],
-        "wellbeing": [
-          "Décharger la pression par une activité physique cadrée",
-          "Utiliser des pratiques de centrage avant les décisions"
-        ]
-      },
-      "metadata": {
-        "exactTimeUtc": "2026-08-22T00:00:00Z",
-        "referenceTimezone": "UTC",
-        "degree": "0deg Scorpion",
-        "source": "Noctis internal dataset",
-        "confidence": "medium"
-      },
-      "audience": {
-        "sun": ["Scorpion", "Taureau", "Lion", "Verseau"],
-        "moon": ["Scorpion", "Taureau", "Lion", "Verseau"],
-        "rising": ["Scorpion", "Taureau", "Lion", "Verseau"]
-      },
-      "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
-  
+    "practicalGuidance": {
+      "pro": [
+        "Concentrer l'énergie sur un objectif stratégique unique",
+        "Éviter les actions réactives sans analyse des risques"
+      ],
+      "relationship": [
+        "Exprimer l'intensité sans entrer en confrontation",
+        "Transformer les tensions en décisions explicites"
+      ],
+      "wellbeing": [
+        "Décharger la pression par une activité physique cadrée",
+        "Utiliser des pratiques de centrage avant les décisions"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-08-22T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Scorpion",
+      "source": "Noctis internal dataset",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Scorpion",
+        "Taureau",
+        "Lion",
+        "Verseau"
+      ],
+      "moon": [
+        "Scorpion",
+        "Taureau",
+        "Lion",
+        "Verseau"
+      ],
+      "rising": [
+        "Scorpion",
+        "Taureau",
+        "Lion",
+        "Verseau"
+      ]
+    },
       "rituals": [
         "Rituel de courage",
         "Méditation de centrage"
       ],
-  
       "affirmations": [
         "J’agis avec puissance et maîtrise"
       ]
-    }
-  ]
+  },
+  {
+    "planet": "Uranus",
+    "sign": "Gémeaux",
+    "start": "2025-07-07",
+    "end": "2033-05-22",
+    "duration": {
+      "years": 7,
+      "months": 94
+    },
+    "title": "Uranus entre en Gémeaux",
+    "subtitle": "Innovation mentale et mutation des échanges",
+    "keywords": [
+      "innovation",
+      "rupture",
+      "communication",
+      "réseaux"
+    ],
+    "energy": {
+      "intensity": 4,
+      "emotional": 2,
+      "mental": 5
+    },
+    "effects": {
+      "general": [
+        "Accélération des changements intellectuels",
+        "Transformation des modes de communication"
+      ],
+      "emotional": [
+        "Besoin de liberté mentale"
+      ],
+      "spiritual": [
+        "Éveil par la pensée non conventionnelle"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Expérimenter de nouveaux formats d’apprentissage",
+        "Rester flexible dans les idées"
+      ],
+      "avoid": [
+        "Rigidité mentale",
+        "Rejet systématique de l’inédit"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Tester des outils et méthodes innovants à petite échelle",
+        "Réviser régulièrement les processus de communication interne"
+      ],
+      "relationship": [
+        "Favoriser des échanges plus ouverts et transparents",
+        "Accepter les différences de rythme et de vision"
+      ],
+      "wellbeing": [
+        "Canaliser la surcharge mentale par des pauses régulières",
+        "Alterner stimulation intellectuelle et ancrage corporel"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2025-07-07T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Gémeaux",
+      "source": "Noctis internal dataset",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Gémeaux",
+        "Sagittaire",
+        "Vierge",
+        "Poissons"
+      ],
+      "moon": [
+        "Gémeaux",
+        "Sagittaire",
+        "Vierge",
+        "Poissons"
+      ],
+      "rising": [
+        "Gémeaux",
+        "Sagittaire",
+        "Vierge",
+        "Poissons"
+      ]
+    },
+    "rituals": [
+      "Rituel de désencombrement mental",
+      "Écriture de nouvelles idées"
+    ],
+    "affirmations": [
+      "J’accueille le changement avec curiosité et intelligence"
+    ]
+  },
+  {
+    "planet": "Pluton",
+    "sign": "Verseau",
+    "start": "2024-11-19",
+    "end": "2044-03-08",
+    "duration": {
+      "years": 19,
+      "months": 232
+    },
+    "title": "Pluton entre en Verseau",
+    "subtitle": "Transformation collective et pouvoir des réseaux",
+    "keywords": [
+      "transformation",
+      "collectif",
+      "pouvoir",
+      "réinvention"
+    ],
+    "energy": {
+      "intensity": 5,
+      "emotional": 3,
+      "mental": 5
+    },
+    "effects": {
+      "general": [
+        "Mutation profonde des structures collectives",
+        "Remise à zéro des systèmes obsolètes"
+      ],
+      "emotional": [
+        "Détachement des anciens repères de groupe"
+      ],
+      "spiritual": [
+        "Évolution par la conscience collective"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Accepter les fins nécessaires",
+        "Construire des alliances alignées"
+      ],
+      "avoid": [
+        "Contrôle excessif",
+        "Résistance au renouveau collectif"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Réévaluer les projets sous l’angle impact collectif",
+        "Supprimer les structures qui freinent l’évolution"
+      ],
+      "relationship": [
+        "Repenser les dynamiques de pouvoir dans les groupes",
+        "Privilégier la coopération consciente"
+      ],
+      "wellbeing": [
+        "Travailler le lâcher-prise sur l’ancien",
+        "Maintenir un ancrage émotionnel durant les transitions"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2024-11-19T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Verseau",
+      "source": "Noctis internal dataset",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Verseau",
+        "Lion",
+        "Taureau",
+        "Scorpion"
+      ],
+      "moon": [
+        "Verseau",
+        "Lion",
+        "Taureau",
+        "Scorpion"
+      ],
+      "rising": [
+        "Verseau",
+        "Lion",
+        "Taureau",
+        "Scorpion"
+      ]
+    },
+    "rituals": [
+      "Rituel de libération collective",
+      "Méditation sur la vision long terme"
+    ],
+    "affirmations": [
+      "Je participe à une transformation collective alignée"
+    ]
+  },
+  {
+    "planet": "Mercure",
+    "sign": "Capricorne",
+    "start": "2026-01-01",
+    "end": "2026-01-19",
+    "duration": {
+      "months": 0,
+      "days": 19
+    },
+    "title": "Mercure en Capricorne",
+    "subtitle": "Clarté stratégique et structuration mentale",
+    "keywords": [
+      "communication",
+      "analyse",
+      "organisation",
+      "clarté"
+    ],
+    "energy": {
+      "intensity": 3,
+      "emotional": 2,
+      "mental": 5
+    },
+    "effects": {
+      "general": [
+        "Pensée structurée"
+      ],
+      "emotional": [
+        "Distance émotionnelle"
+      ],
+      "spiritual": [
+        "Discipline intérieure"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Planifier"
+      ],
+      "avoid": [
+        "Décider trop vite"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Structurer les priorités"
+      ],
+      "relationship": [
+        "Clarifier les attentes"
+      ],
+      "wellbeing": [
+        "Limiter la surcharge mentale"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-01-01T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Capricorne",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Capricorne",
+        "Cancer"
+      ],
+      "moon": [
+        "Capricorne",
+        "Cancer"
+      ],
+      "rising": [
+        "Capricorne",
+        "Cancer"
+      ]
+    },
+    "rituals": [
+      "Écriture de priorités"
+    ],
+    "affirmations": [
+      "Ma pensée est claire et structurée"
+    ]
+  },
+  {
+    "planet": "Mercure",
+    "sign": "Verseau",
+    "start": "2026-01-20",
+    "end": "2026-02-05",
+    "duration": {
+      "months": 0,
+      "days": 17
+    },
+    "title": "Mercure en Verseau",
+    "subtitle": "Vision et innovation mentale",
+    "keywords": [
+      "innovation",
+      "communication",
+      "idées",
+      "réseaux"
+    ],
+    "energy": {
+      "intensity": 3,
+      "emotional": 2,
+      "mental": 5
+    },
+    "effects": {
+      "general": [
+        "Pensée innovante"
+      ],
+      "emotional": [
+        "Besoin d'espace"
+      ],
+      "spiritual": [
+        "Ouverture collective"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Expérimenter"
+      ],
+      "avoid": [
+        "Rigidité"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Tester des idées nouvelles"
+      ],
+      "relationship": [
+        "Écouter des points de vue différents"
+      ],
+      "wellbeing": [
+        "Faire des pauses numériques"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-01-20T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Verseau",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Verseau",
+        "Lion"
+      ],
+      "moon": [
+        "Verseau",
+        "Lion"
+      ],
+      "rising": [
+        "Verseau",
+        "Lion"
+      ]
+    },
+    "rituals": [
+      "Brainstorm structuré"
+    ],
+    "affirmations": [
+      "J'accueille des idées neuves avec clarté"
+    ]
+  },
+  {
+    "planet": "Mercure",
+    "sign": "Poissons",
+    "start": "2026-02-06",
+    "end": "2026-04-14",
+    "duration": {
+      "months": 2,
+      "days": 67
+    },
+    "title": "Mercure en Poissons",
+    "subtitle": "Intuition et sensibilité cognitive",
+    "keywords": [
+      "intuition",
+      "communication",
+      "sensibilité",
+      "imagination"
+    ],
+    "energy": {
+      "intensity": 4,
+      "emotional": 4,
+      "mental": 4
+    },
+    "effects": {
+      "general": [
+        "Pensée intuitive"
+      ],
+      "emotional": [
+        "Sensibilité accrue"
+      ],
+      "spiritual": [
+        "Connexion subtile"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Vérifier les détails"
+      ],
+      "avoid": [
+        "Supposer"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Relire avant validation"
+      ],
+      "relationship": [
+        "Poser des questions de clarification"
+      ],
+      "wellbeing": [
+        "Ancrage quotidien"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-02-06T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Poissons",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Poissons",
+        "Vierge"
+      ],
+      "moon": [
+        "Poissons",
+        "Vierge"
+      ],
+      "rising": [
+        "Poissons",
+        "Vierge"
+      ]
+    },
+    "rituals": [
+      "Méditation de clarté"
+    ],
+    "affirmations": [
+      "Je communique avec sensibilité et précision"
+    ]
+  },
+  {
+    "planet": "Mercure",
+    "sign": "Bélier",
+    "start": "2026-04-15",
+    "end": "2026-05-02",
+    "duration": {
+      "months": 0,
+      "days": 18
+    },
+    "title": "Mercure en Bélier",
+    "subtitle": "Expression directe et décisions rapides",
+    "keywords": [
+      "initiative",
+      "communication",
+      "rapidité",
+      "affirmation"
+    ],
+    "energy": {
+      "intensity": 4,
+      "emotional": 3,
+      "mental": 4
+    },
+    "effects": {
+      "general": [
+        "Esprit d'initiative"
+      ],
+      "emotional": [
+        "Réactivité"
+      ],
+      "spiritual": [
+        "Courage d'expression"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Aller à l'essentiel"
+      ],
+      "avoid": [
+        "Impulsivité verbale"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Prioriser les décisions urgentes"
+      ],
+      "relationship": [
+        "Parler franchement avec tact"
+      ],
+      "wellbeing": [
+        "Respirer avant de répondre"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-04-15T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Bélier",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Bélier",
+        "Balance"
+      ],
+      "moon": [
+        "Bélier",
+        "Balance"
+      ],
+      "rising": [
+        "Bélier",
+        "Balance"
+      ]
+    },
+    "rituals": [
+      "Écriture d'intentions courtes"
+    ],
+    "affirmations": [
+      "Je m'exprime avec courage et clarté"
+    ]
+  },
+  {
+    "planet": "Mercure",
+    "sign": "Taureau",
+    "start": "2026-05-03",
+    "end": "2026-05-16",
+    "duration": {
+      "months": 0,
+      "days": 14
+    },
+    "title": "Mercure en Taureau",
+    "subtitle": "Stabilité mentale et concret",
+    "keywords": [
+      "stabilité",
+      "analyse",
+      "concret",
+      "valeurs"
+    ],
+    "energy": {
+      "intensity": 3,
+      "emotional": 3,
+      "mental": 4
+    },
+    "effects": {
+      "general": [
+        "Pensée pragmatique"
+      ],
+      "emotional": [
+        "Besoin de sécurité"
+      ],
+      "spiritual": [
+        "Ancrage"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Valider les bases"
+      ],
+      "avoid": [
+        "Entêtement"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Consolider les plans"
+      ],
+      "relationship": [
+        "Clarifier les engagements"
+      ],
+      "wellbeing": [
+        "Ralentir le rythme"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-05-03T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Taureau",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Taureau",
+        "Scorpion"
+      ],
+      "moon": [
+        "Taureau",
+        "Scorpion"
+      ],
+      "rising": [
+        "Taureau",
+        "Scorpion"
+      ]
+    },
+    "rituals": [
+      "Revue budgétaire"
+    ],
+    "affirmations": [
+      "Je pense avec calme et réalisme"
+    ]
+  },
+  {
+    "planet": "Mercure",
+    "sign": "Gémeaux",
+    "start": "2026-05-17",
+    "end": "2026-05-31",
+    "duration": {
+      "months": 0,
+      "days": 15
+    },
+    "title": "Mercure en Gémeaux",
+    "subtitle": "Fluidité et échanges rapides",
+    "keywords": [
+      "communication",
+      "agilité",
+      "idées",
+      "échanges"
+    ],
+    "energy": {
+      "intensity": 3,
+      "emotional": 2,
+      "mental": 5
+    },
+    "effects": {
+      "general": [
+        "Vivacité mentale"
+      ],
+      "emotional": [
+        "Légèreté"
+      ],
+      "spiritual": [
+        "Curiosité"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Partager les idées"
+      ],
+      "avoid": [
+        "Dispersion"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Documenter les décisions"
+      ],
+      "relationship": [
+        "Écoute active"
+      ],
+      "wellbeing": [
+        "Couper les notifications"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-05-17T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Gémeaux",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Gémeaux",
+        "Sagittaire"
+      ],
+      "moon": [
+        "Gémeaux",
+        "Sagittaire"
+      ],
+      "rising": [
+        "Gémeaux",
+        "Sagittaire"
+      ]
+    },
+    "rituals": [
+      "Journal d'idées"
+    ],
+    "affirmations": [
+      "Mes idées circulent avec clarté"
+    ]
+  },
+  {
+    "planet": "Mercure",
+    "sign": "Cancer",
+    "start": "2026-06-01",
+    "end": "2026-08-08",
+    "duration": {
+      "months": 2,
+      "days": 69
+    },
+    "title": "Mercure en Cancer",
+    "subtitle": "Communication émotionnelle et mémoire",
+    "keywords": [
+      "émotions",
+      "communication",
+      "mémoire",
+      "intimité"
+    ],
+    "energy": {
+      "intensity": 4,
+      "emotional": 4,
+      "mental": 4
+    },
+    "effects": {
+      "general": [
+        "Échanges plus sensibles"
+      ],
+      "emotional": [
+        "Réceptivité"
+      ],
+      "spiritual": [
+        "Intuition relationnelle"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Nommer les ressentis"
+      ],
+      "avoid": [
+        "Ressasser"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Adapter le ton de communication"
+      ],
+      "relationship": [
+        "Créer un cadre sécurisant"
+      ],
+      "wellbeing": [
+        "Journal émotionnel"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-06-01T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Cancer",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Cancer",
+        "Capricorne"
+      ],
+      "moon": [
+        "Cancer",
+        "Capricorne"
+      ],
+      "rising": [
+        "Cancer",
+        "Capricorne"
+      ]
+    },
+    "rituals": [
+      "Écriture émotionnelle"
+    ],
+    "affirmations": [
+      "Je m'exprime avec douceur et clarté"
+    ]
+  },
+  {
+    "planet": "Mercure",
+    "sign": "Lion",
+    "start": "2026-08-09",
+    "end": "2026-08-24",
+    "duration": {
+      "months": 0,
+      "days": 16
+    },
+    "title": "Mercure en Lion",
+    "subtitle": "Expression créative et assumée",
+    "keywords": [
+      "créativité",
+      "expression",
+      "confiance",
+      "communication"
+    ],
+    "energy": {
+      "intensity": 4,
+      "emotional": 3,
+      "mental": 4
+    },
+    "effects": {
+      "general": [
+        "Communication affirmée"
+      ],
+      "emotional": [
+        "Besoin de reconnaissance"
+      ],
+      "spiritual": [
+        "Rayonnement personnel"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Présenter ses idées"
+      ],
+      "avoid": [
+        "Ego défensif"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Pitcher les projets clés"
+      ],
+      "relationship": [
+        "Valoriser les autres aussi"
+      ],
+      "wellbeing": [
+        "Canaliser l'intensité"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-08-09T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Lion",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Lion",
+        "Verseau"
+      ],
+      "moon": [
+        "Lion",
+        "Verseau"
+      ],
+      "rising": [
+        "Lion",
+        "Verseau"
+      ]
+    },
+    "rituals": [
+      "Expression créative"
+    ],
+    "affirmations": [
+      "Je m'exprime avec confiance et justesse"
+    ]
+  },
+  {
+    "planet": "Mercure",
+    "sign": "Vierge",
+    "start": "2026-08-25",
+    "end": "2026-09-09",
+    "duration": {
+      "months": 0,
+      "days": 16
+    },
+    "title": "Mercure en Vierge",
+    "subtitle": "Précision et organisation mentale",
+    "keywords": [
+      "analyse",
+      "précision",
+      "organisation",
+      "clarté"
+    ],
+    "energy": {
+      "intensity": 3,
+      "emotional": 2,
+      "mental": 5
+    },
+    "effects": {
+      "general": [
+        "Sens du détail"
+      ],
+      "emotional": [
+        "Exigence"
+      ],
+      "spiritual": [
+        "Service conscient"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Vérifier"
+      ],
+      "avoid": [
+        "Perfectionnisme excessif"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Standardiser les process"
+      ],
+      "relationship": [
+        "Feedback bienveillant"
+      ],
+      "wellbeing": [
+        "Routine saine"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-08-25T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Vierge",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Vierge",
+        "Poissons"
+      ],
+      "moon": [
+        "Vierge",
+        "Poissons"
+      ],
+      "rising": [
+        "Vierge",
+        "Poissons"
+      ]
+    },
+    "rituals": [
+      "Tri opérationnel"
+    ],
+    "affirmations": [
+      "Je transforme la clarté en action utile"
+    ]
+  },
+  {
+    "planet": "Mercure",
+    "sign": "Balance",
+    "start": "2026-09-10",
+    "end": "2026-09-29",
+    "duration": {
+      "months": 0,
+      "days": 20
+    },
+    "title": "Mercure en Balance",
+    "subtitle": "Dialogue, diplomatie et équilibre",
+    "keywords": [
+      "dialogue",
+      "équilibre",
+      "relations",
+      "négociation"
+    ],
+    "energy": {
+      "intensity": 3,
+      "emotional": 3,
+      "mental": 4
+    },
+    "effects": {
+      "general": [
+        "Communication relationnelle"
+      ],
+      "emotional": [
+        "Recherche d'harmonie"
+      ],
+      "spiritual": [
+        "Équilibre intérieur"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Négocier"
+      ],
+      "avoid": [
+        "Indécision"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Arbitrer avec équité"
+      ],
+      "relationship": [
+        "Écouter sans suradapter"
+      ],
+      "wellbeing": [
+        "Limiter le sur-mental"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-09-10T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Balance",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Balance",
+        "Bélier"
+      ],
+      "moon": [
+        "Balance",
+        "Bélier"
+      ],
+      "rising": [
+        "Balance",
+        "Bélier"
+      ]
+    },
+    "rituals": [
+      "Médiation intérieure"
+    ],
+    "affirmations": [
+      "Je crée des échanges équilibrés et sincères"
+    ]
+  },
+  {
+    "planet": "Mercure",
+    "sign": "Scorpion",
+    "start": "2026-09-30",
+    "end": "2026-12-05",
+    "duration": {
+      "months": 2,
+      "days": 67
+    },
+    "title": "Mercure en Scorpion",
+    "subtitle": "Pensée profonde et vérité",
+    "keywords": [
+      "profondeur",
+      "stratégie",
+      "vérité",
+      "investigation"
+    ],
+    "energy": {
+      "intensity": 4,
+      "emotional": 4,
+      "mental": 5
+    },
+    "effects": {
+      "general": [
+        "Analyse intense"
+      ],
+      "emotional": [
+        "Sensibilité cachée"
+      ],
+      "spiritual": [
+        "Transformation mentale"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Aller au fond"
+      ],
+      "avoid": [
+        "Soupçon permanent"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Traiter les sujets complexes"
+      ],
+      "relationship": [
+        "Dire les non-dits avec tact"
+      ],
+      "wellbeing": [
+        "Décharger la tension mentale"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-09-30T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Scorpion",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Scorpion",
+        "Taureau"
+      ],
+      "moon": [
+        "Scorpion",
+        "Taureau"
+      ],
+      "rising": [
+        "Scorpion",
+        "Taureau"
+      ]
+    },
+    "rituals": [
+      "Écriture d'intégration"
+    ],
+    "affirmations": [
+      "Je vois clair au-delà des apparences"
+    ]
+  },
+  {
+    "planet": "Mercure",
+    "sign": "Sagittaire",
+    "start": "2026-12-06",
+    "end": "2026-12-24",
+    "duration": {
+      "months": 0,
+      "days": 19
+    },
+    "title": "Mercure en Sagittaire",
+    "subtitle": "Vision et expansion des idées",
+    "keywords": [
+      "vision",
+      "sens",
+      "expansion",
+      "vérité"
+    ],
+    "energy": {
+      "intensity": 3,
+      "emotional": 3,
+      "mental": 4
+    },
+    "effects": {
+      "general": [
+        "Vue d'ensemble"
+      ],
+      "emotional": [
+        "Enthousiasme"
+      ],
+      "spiritual": [
+        "Recherche de sens"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Partager la vision"
+      ],
+      "avoid": [
+        "Promettre trop"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Cadrer les objectifs"
+      ],
+      "relationship": [
+        "Exprimer sans imposer"
+      ],
+      "wellbeing": [
+        "Rester ancré"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-12-06T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Sagittaire",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Sagittaire",
+        "Gémeaux"
+      ],
+      "moon": [
+        "Sagittaire",
+        "Gémeaux"
+      ],
+      "rising": [
+        "Sagittaire",
+        "Gémeaux"
+      ]
+    },
+    "rituals": [
+      "Bilan de vision"
+    ],
+    "affirmations": [
+      "Je pense grand avec lucidité"
+    ]
+  },
+  {
+    "planet": "Mercure",
+    "sign": "Capricorne",
+    "start": "2026-12-25",
+    "end": "2027-01-12",
+    "duration": {
+      "months": 0,
+      "days": 19
+    },
+    "title": "Mercure en Capricorne",
+    "subtitle": "Retour à la structure et au concret",
+    "keywords": [
+      "structure",
+      "stratégie",
+      "clarté",
+      "discipline"
+    ],
+    "energy": {
+      "intensity": 3,
+      "emotional": 2,
+      "mental": 5
+    },
+    "effects": {
+      "general": [
+        "Organisation mentale"
+      ],
+      "emotional": [
+        "Sobriété"
+      ],
+      "spiritual": [
+        "Maîtrise"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Prioriser"
+      ],
+      "avoid": [
+        "Rigidité"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Plan de début d'année"
+      ],
+      "relationship": [
+        "Fixer des attentes claires"
+      ],
+      "wellbeing": [
+        "Routine stable"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-12-25T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Capricorne",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Capricorne",
+        "Cancer"
+      ],
+      "moon": [
+        "Capricorne",
+        "Cancer"
+      ],
+      "rising": [
+        "Capricorne",
+        "Cancer"
+      ]
+    },
+    "rituals": [
+      "Planification consciente"
+    ],
+    "affirmations": [
+      "Je pose des fondations solides"
+    ]
+  },
+  {
+    "planet": "Mercure",
+    "sign": "Verseau",
+    "start": "2027-01-13",
+    "end": "2027-01-31",
+    "duration": {
+      "months": 0,
+      "days": 19
+    },
+    "title": "Mercure en Verseau",
+    "subtitle": "Idées novatrices et vision collective",
+    "keywords": [
+      "innovation",
+      "réseau",
+      "idées",
+      "vision"
+    ],
+    "energy": {
+      "intensity": 3,
+      "emotional": 2,
+      "mental": 5
+    },
+    "effects": {
+      "general": [
+        "Esprit novateur"
+      ],
+      "emotional": [
+        "Détachement"
+      ],
+      "spiritual": [
+        "Conscience collective"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Tester l'innovation"
+      ],
+      "avoid": [
+        "Dogmatisme"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Expérimenter des outils"
+      ],
+      "relationship": [
+        "Dialoguer ouvertement"
+      ],
+      "wellbeing": [
+        "Déconnexion numérique"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2027-01-13T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Verseau",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Verseau",
+        "Lion"
+      ],
+      "moon": [
+        "Verseau",
+        "Lion"
+      ],
+      "rising": [
+        "Verseau",
+        "Lion"
+      ]
+    },
+    "rituals": [
+      "Carte d'idées"
+    ],
+    "affirmations": [
+      "Je pense librement et utilement"
+    ]
+  },
+  {
+    "planet": "Mercure",
+    "sign": "Poissons",
+    "start": "2027-02-01",
+    "end": "2027-02-17",
+    "duration": {
+      "months": 0,
+      "days": 17
+    },
+    "title": "Mercure en Poissons",
+    "subtitle": "Intuition et ressenti",
+    "keywords": [
+      "intuition",
+      "rêves",
+      "communication",
+      "sensibilité"
+    ],
+    "energy": {
+      "intensity": 4,
+      "emotional": 4,
+      "mental": 4
+    },
+    "effects": {
+      "general": [
+        "Communication intuitive"
+      ],
+      "emotional": [
+        "Réceptivité"
+      ],
+      "spiritual": [
+        "Ouverture subtile"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Confirmer les faits"
+      ],
+      "avoid": [
+        "Flou"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Doubler les vérifications"
+      ],
+      "relationship": [
+        "Clarifier les intentions"
+      ],
+      "wellbeing": [
+        "Ancrage émotionnel"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2027-02-01T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Poissons",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Poissons",
+        "Vierge"
+      ],
+      "moon": [
+        "Poissons",
+        "Vierge"
+      ],
+      "rising": [
+        "Poissons",
+        "Vierge"
+      ]
+    },
+    "rituals": [
+      "Méditation d'ancrage"
+    ],
+    "affirmations": [
+      "Mon intuition reste claire et alignée"
+    ]
+  },
+  {
+    "planet": "Mercure",
+    "sign": "Verseau",
+    "start": "2027-02-18",
+    "end": "2027-03-17",
+    "duration": {
+      "months": 0,
+      "days": 28
+    },
+    "title": "Mercure en Verseau (retour)",
+    "subtitle": "Révision des idées et des réseaux",
+    "keywords": [
+      "révision",
+      "innovation",
+      "réseau",
+      "ajustement"
+    ],
+    "energy": {
+      "intensity": 3,
+      "emotional": 2,
+      "mental": 5
+    },
+    "effects": {
+      "general": [
+        "Relecture stratégique"
+      ],
+      "emotional": [
+        "Distance utile"
+      ],
+      "spiritual": [
+        "Perspectives nouvelles"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Réviser"
+      ],
+      "avoid": [
+        "Conclusion finale trop tôt"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Corriger les plans"
+      ],
+      "relationship": [
+        "Réouvrir un dialogue"
+      ],
+      "wellbeing": [
+        "Ralentir le flux d'information"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2027-02-18T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Verseau",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Verseau",
+        "Lion"
+      ],
+      "moon": [
+        "Verseau",
+        "Lion"
+      ],
+      "rising": [
+        "Verseau",
+        "Lion"
+      ]
+    },
+    "rituals": [
+      "Revue de processus"
+    ],
+    "affirmations": [
+      "Je corrige avec lucidité et ouverture"
+    ]
+  },
+  {
+    "planet": "Mercure",
+    "sign": "Poissons",
+    "start": "2027-03-18",
+    "end": "2027-04-07",
+    "duration": {
+      "months": 0,
+      "days": 21
+    },
+    "title": "Mercure en Poissons",
+    "subtitle": "Sensibilité et perception fine",
+    "keywords": [
+      "intuition",
+      "empathie",
+      "communication",
+      "subtilité"
+    ],
+    "energy": {
+      "intensity": 4,
+      "emotional": 4,
+      "mental": 4
+    },
+    "effects": {
+      "general": [
+        "Compréhension intuitive"
+      ],
+      "emotional": [
+        "Empathie"
+      ],
+      "spiritual": [
+        "Connexion intérieure"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Écouter"
+      ],
+      "avoid": [
+        "Interpréter trop vite"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Clarifier les consignes"
+      ],
+      "relationship": [
+        "Nommer les ressentis"
+      ],
+      "wellbeing": [
+        "Repos mental"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2027-03-18T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Poissons",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Poissons",
+        "Vierge"
+      ],
+      "moon": [
+        "Poissons",
+        "Vierge"
+      ],
+      "rising": [
+        "Poissons",
+        "Vierge"
+      ]
+    },
+    "rituals": [
+      "Silence conscient"
+    ],
+    "affirmations": [
+      "Je reste clair au cœur du sensible"
+    ]
+  },
+  {
+    "planet": "Mercure",
+    "sign": "Bélier",
+    "start": "2027-04-08",
+    "end": "2027-04-23",
+    "duration": {
+      "months": 0,
+      "days": 16
+    },
+    "title": "Mercure en Bélier",
+    "subtitle": "Décision et action mentale",
+    "keywords": [
+      "initiative",
+      "vitesse",
+      "communication",
+      "action"
+    ],
+    "energy": {
+      "intensity": 4,
+      "emotional": 3,
+      "mental": 4
+    },
+    "effects": {
+      "general": [
+        "Réactivité"
+      ],
+      "emotional": [
+        "Impulsion"
+      ],
+      "spiritual": [
+        "Alignement par l'action"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Décider clairement"
+      ],
+      "avoid": [
+        "Couper la parole"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Décider sur les urgences"
+      ],
+      "relationship": [
+        "Parler net avec tact"
+      ],
+      "wellbeing": [
+        "Pause avant réponse"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2027-04-08T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Bélier",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Bélier",
+        "Balance"
+      ],
+      "moon": [
+        "Bélier",
+        "Balance"
+      ],
+      "rising": [
+        "Bélier",
+        "Balance"
+      ]
+    },
+    "rituals": [
+      "Intention d'action"
+    ],
+    "affirmations": [
+      "Je décide avec courage et présence"
+    ]
+  },
+  {
+    "planet": "Mercure",
+    "sign": "Taureau",
+    "start": "2027-04-24",
+    "end": "2027-05-08",
+    "duration": {
+      "months": 0,
+      "days": 15
+    },
+    "title": "Mercure en Taureau",
+    "subtitle": "Consolidation et stabilité",
+    "keywords": [
+      "stabilité",
+      "pragmatisme",
+      "valeurs",
+      "constance"
+    ],
+    "energy": {
+      "intensity": 3,
+      "emotional": 3,
+      "mental": 4
+    },
+    "effects": {
+      "general": [
+        "Pragmatisme"
+      ],
+      "emotional": [
+        "Besoin de sécurité"
+      ],
+      "spiritual": [
+        "Ancrage"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Consolider"
+      ],
+      "avoid": [
+        "Rigidité mentale"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Sécuriser les acquis"
+      ],
+      "relationship": [
+        "Rendre les attentes explicites"
+      ],
+      "wellbeing": [
+        "Routine apaisante"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2027-04-24T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Taureau",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Taureau",
+        "Scorpion"
+      ],
+      "moon": [
+        "Taureau",
+        "Scorpion"
+      ],
+      "rising": [
+        "Taureau",
+        "Scorpion"
+      ]
+    },
+    "rituals": [
+      "Ancrage corporel"
+    ],
+    "affirmations": [
+      "Je pense de manière stable et utile"
+    ]
+  },
+  {
+    "planet": "Mercure",
+    "sign": "Gémeaux",
+    "start": "2027-05-09",
+    "end": "2027-05-27",
+    "duration": {
+      "months": 0,
+      "days": 19
+    },
+    "title": "Mercure en Gémeaux",
+    "subtitle": "Fluidité intellectuelle et échange",
+    "keywords": [
+      "échanges",
+      "idées",
+      "mobilité",
+      "communication"
+    ],
+    "energy": {
+      "intensity": 3,
+      "emotional": 2,
+      "mental": 5
+    },
+    "effects": {
+      "general": [
+        "Dynamisme mental"
+      ],
+      "emotional": [
+        "Légèreté"
+      ],
+      "spiritual": [
+        "Curiosité active"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Dialoguer"
+      ],
+      "avoid": [
+        "Dispersion"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Synthétiser les informations"
+      ],
+      "relationship": [
+        "Vérifier la compréhension"
+      ],
+      "wellbeing": [
+        "Respiration régulière"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2027-05-09T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Gémeaux",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Gémeaux",
+        "Sagittaire"
+      ],
+      "moon": [
+        "Gémeaux",
+        "Sagittaire"
+      ],
+      "rising": [
+        "Gémeaux",
+        "Sagittaire"
+      ]
+    },
+    "rituals": [
+      "Écriture rapide"
+    ],
+    "affirmations": [
+      "Je communique avec souplesse et précision"
+    ]
+  },
+  {
+    "planet": "Mercure",
+    "sign": "Cancer",
+    "start": "2027-05-28",
+    "end": "2027-06-25",
+    "duration": {
+      "months": 0,
+      "days": 29
+    },
+    "title": "Mercure en Cancer",
+    "subtitle": "Mémoire émotionnelle et sensibilité",
+    "keywords": [
+      "émotions",
+      "communication",
+      "mémoire",
+      "protection"
+    ],
+    "energy": {
+      "intensity": 4,
+      "emotional": 4,
+      "mental": 4
+    },
+    "effects": {
+      "general": [
+        "Communication sensible"
+      ],
+      "emotional": [
+        "Réceptivité"
+      ],
+      "spiritual": [
+        "Écoute intérieure"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Exprimer les besoins"
+      ],
+      "avoid": [
+        "Ressasser"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Adapter les messages au contexte humain"
+      ],
+      "relationship": [
+        "Écouter avant de répondre"
+      ],
+      "wellbeing": [
+        "Hygiène émotionnelle"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2027-05-28T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Cancer",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Cancer",
+        "Capricorne"
+      ],
+      "moon": [
+        "Cancer",
+        "Capricorne"
+      ],
+      "rising": [
+        "Cancer",
+        "Capricorne"
+      ]
+    },
+    "rituals": [
+      "Journal du ressenti"
+    ],
+    "affirmations": [
+      "Je relie sensibilité et clarté"
+    ]
+  },
+  {
+    "planet": "Mercure",
+    "sign": "Gémeaux",
+    "start": "2027-06-26",
+    "end": "2027-07-11",
+    "duration": {
+      "months": 0,
+      "days": 16
+    },
+    "title": "Mercure en Gémeaux (retour)",
+    "subtitle": "Révision des idées et ajustements",
+    "keywords": [
+      "révision",
+      "communication",
+      "analyse",
+      "ajustement"
+    ],
+    "energy": {
+      "intensity": 3,
+      "emotional": 2,
+      "mental": 5
+    },
+    "effects": {
+      "general": [
+        "Relecture utile"
+      ],
+      "emotional": [
+        "Nervosité possible"
+      ],
+      "spiritual": [
+        "Discernement"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Relire"
+      ],
+      "avoid": [
+        "Aller trop vite"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Corriger avant publication"
+      ],
+      "relationship": [
+        "Reformuler calmement"
+      ],
+      "wellbeing": [
+        "Réduire la charge cognitive"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2027-06-26T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Gémeaux",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Gémeaux",
+        "Sagittaire"
+      ],
+      "moon": [
+        "Gémeaux",
+        "Sagittaire"
+      ],
+      "rising": [
+        "Gémeaux",
+        "Sagittaire"
+      ]
+    },
+    "rituals": [
+      "Checklist de validation"
+    ],
+    "affirmations": [
+      "Je corrige avec intelligence et calme"
+    ]
+  },
+  {
+    "planet": "Mercure",
+    "sign": "Cancer",
+    "start": "2027-07-12",
+    "end": "2027-08-01",
+    "duration": {
+      "months": 0,
+      "days": 21
+    },
+    "title": "Mercure en Cancer",
+    "subtitle": "Communication empathique",
+    "keywords": [
+      "empathie",
+      "mémoire",
+      "communication",
+      "foyer"
+    ],
+    "energy": {
+      "intensity": 4,
+      "emotional": 4,
+      "mental": 4
+    },
+    "effects": {
+      "general": [
+        "Échanges sensibles"
+      ],
+      "emotional": [
+        "Réceptivité"
+      ],
+      "spiritual": [
+        "Connexion au cœur"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Parler avec douceur"
+      ],
+      "avoid": [
+        "Susceptibilité"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Humaniser les messages"
+      ],
+      "relationship": [
+        "Nommer les besoins"
+      ],
+      "wellbeing": [
+        "Ralentir le rythme"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2027-07-12T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Cancer",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Cancer",
+        "Capricorne"
+      ],
+      "moon": [
+        "Cancer",
+        "Capricorne"
+      ],
+      "rising": [
+        "Cancer",
+        "Capricorne"
+      ]
+    },
+    "rituals": [
+      "Écriture de gratitude"
+    ],
+    "affirmations": [
+      "Je m'exprime avec sensibilité équilibrée"
+    ]
+  },
+  {
+    "planet": "Mercure",
+    "sign": "Lion",
+    "start": "2027-08-02",
+    "end": "2027-08-16",
+    "duration": {
+      "months": 0,
+      "days": 15
+    },
+    "title": "Mercure en Lion",
+    "subtitle": "Leadership verbal et créativité",
+    "keywords": [
+      "leadership",
+      "créativité",
+      "expression",
+      "assurance"
+    ],
+    "energy": {
+      "intensity": 4,
+      "emotional": 3,
+      "mental": 4
+    },
+    "effects": {
+      "general": [
+        "Prise de parole forte"
+      ],
+      "emotional": [
+        "Fierté"
+      ],
+      "spiritual": [
+        "Rayonnement"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Assumer sa voix"
+      ],
+      "avoid": [
+        "Monologue"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Présenter avec clarté"
+      ],
+      "relationship": [
+        "Valoriser l'autre"
+      ],
+      "wellbeing": [
+        "Canaliser la pression"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2027-08-02T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Lion",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Lion",
+        "Verseau"
+      ],
+      "moon": [
+        "Lion",
+        "Verseau"
+      ],
+      "rising": [
+        "Lion",
+        "Verseau"
+      ]
+    },
+    "rituals": [
+      "Prise de parole consciente"
+    ],
+    "affirmations": [
+      "Ma voix est claire, posée et alignée"
+    ]
+  },
+  {
+    "planet": "Mercure",
+    "sign": "Vierge",
+    "start": "2027-08-17",
+    "end": "2027-09-02",
+    "duration": {
+      "months": 0,
+      "days": 17
+    },
+    "title": "Mercure en Vierge",
+    "subtitle": "Précision, méthode et efficacité",
+    "keywords": [
+      "méthode",
+      "précision",
+      "analyse",
+      "efficacité"
+    ],
+    "energy": {
+      "intensity": 3,
+      "emotional": 2,
+      "mental": 5
+    },
+    "effects": {
+      "general": [
+        "Sens du détail"
+      ],
+      "emotional": [
+        "Exigence"
+      ],
+      "spiritual": [
+        "Service"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Optimiser"
+      ],
+      "avoid": [
+        "Sur-contrôle"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Nettoyer les process"
+      ],
+      "relationship": [
+        "Feedback précis"
+      ],
+      "wellbeing": [
+        "Routine saine"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2027-08-17T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Vierge",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Vierge",
+        "Poissons"
+      ],
+      "moon": [
+        "Vierge",
+        "Poissons"
+      ],
+      "rising": [
+        "Vierge",
+        "Poissons"
+      ]
+    },
+    "rituals": [
+      "Organisation consciente"
+    ],
+    "affirmations": [
+      "Je transforme la précision en sérénité"
+    ]
+  },
+  {
+    "planet": "Mercure",
+    "sign": "Balance",
+    "start": "2027-09-03",
+    "end": "2027-09-26",
+    "duration": {
+      "months": 0,
+      "days": 24
+    },
+    "title": "Mercure en Balance",
+    "subtitle": "Négociation et harmonie",
+    "keywords": [
+      "équilibre",
+      "dialogue",
+      "négociation",
+      "harmonie"
+    ],
+    "energy": {
+      "intensity": 3,
+      "emotional": 3,
+      "mental": 4
+    },
+    "effects": {
+      "general": [
+        "Communication diplomatique"
+      ],
+      "emotional": [
+        "Besoin d'accord"
+      ],
+      "spiritual": [
+        "Paix intérieure"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Chercher un terrain commun"
+      ],
+      "avoid": [
+        "Indécision"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Arbitrer équitablement"
+      ],
+      "relationship": [
+        "Dialoguer sans s'effacer"
+      ],
+      "wellbeing": [
+        "Préserver son centre"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2027-09-03T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Balance",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Balance",
+        "Bélier"
+      ],
+      "moon": [
+        "Balance",
+        "Bélier"
+      ],
+      "rising": [
+        "Balance",
+        "Bélier"
+      ]
+    },
+    "rituals": [
+      "Méditation relationnelle"
+    ],
+    "affirmations": [
+      "Je communique avec justesse et équilibre"
+    ]
+  },
+  {
+    "planet": "Mercure",
+    "sign": "Scorpion",
+    "start": "2027-09-27",
+    "end": "2027-10-15",
+    "duration": {
+      "months": 0,
+      "days": 19
+    },
+    "title": "Mercure en Scorpion",
+    "subtitle": "Vérité, profondeur et stratégie",
+    "keywords": [
+      "vérité",
+      "profondeur",
+      "stratégie",
+      "investigation"
+    ],
+    "energy": {
+      "intensity": 4,
+      "emotional": 4,
+      "mental": 5
+    },
+    "effects": {
+      "general": [
+        "Analyse en profondeur"
+      ],
+      "emotional": [
+        "Intensité"
+      ],
+      "spiritual": [
+        "Transformation"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Approfondir"
+      ],
+      "avoid": [
+        "Obsession"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Traiter les dossiers sensibles"
+      ],
+      "relationship": [
+        "Dire vrai sans blesser"
+      ],
+      "wellbeing": [
+        "Décompression mentale"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2027-09-27T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Scorpion",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Scorpion",
+        "Taureau"
+      ],
+      "moon": [
+        "Scorpion",
+        "Taureau"
+      ],
+      "rising": [
+        "Scorpion",
+        "Taureau"
+      ]
+    },
+    "rituals": [
+      "Rituel de libération mentale"
+    ],
+    "affirmations": [
+      "Je vais à l'essentiel avec lucidité"
+    ]
+  },
+  {
+    "planet": "Mercure",
+    "sign": "Balance",
+    "start": "2027-10-16",
+    "end": "2027-11-09",
+    "duration": {
+      "months": 0,
+      "days": 25
+    },
+    "title": "Mercure en Balance (retour)",
+    "subtitle": "Révision relationnelle et rééquilibrage",
+    "keywords": [
+      "rééquilibrage",
+      "dialogue",
+      "relations",
+      "révision"
+    ],
+    "energy": {
+      "intensity": 3,
+      "emotional": 3,
+      "mental": 4
+    },
+    "effects": {
+      "general": [
+        "Ajustement des accords"
+      ],
+      "emotional": [
+        "Besoin d'harmonie"
+      ],
+      "spiritual": [
+        "Médiation"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Réviser les ententes"
+      ],
+      "avoid": [
+        "Éviter le conflit à tout prix"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Corriger les attentes mutuelles"
+      ],
+      "relationship": [
+        "Reformuler les besoins"
+      ],
+      "wellbeing": [
+        "Se recentrer"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2027-10-16T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Balance",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Balance",
+        "Bélier"
+      ],
+      "moon": [
+        "Balance",
+        "Bélier"
+      ],
+      "rising": [
+        "Balance",
+        "Bélier"
+      ]
+    },
+    "rituals": [
+      "Relecture des engagements"
+    ],
+    "affirmations": [
+      "Je rééquilibre mes échanges avec conscience"
+    ]
+  },
+  {
+    "planet": "Mercure",
+    "sign": "Scorpion",
+    "start": "2027-11-10",
+    "end": "2027-11-28",
+    "duration": {
+      "months": 0,
+      "days": 19
+    },
+    "title": "Mercure en Scorpion",
+    "subtitle": "Concentration et lucidité",
+    "keywords": [
+      "concentration",
+      "vérité",
+      "profondeur",
+      "stratégie"
+    ],
+    "energy": {
+      "intensity": 4,
+      "emotional": 4,
+      "mental": 5
+    },
+    "effects": {
+      "general": [
+        "Clarté stratégique"
+      ],
+      "emotional": [
+        "Intensité"
+      ],
+      "spiritual": [
+        "Transformation"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Concentrer l'énergie mentale"
+      ],
+      "avoid": [
+        "Rumination"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Finaliser les dossiers clés"
+      ],
+      "relationship": [
+        "Dialogue vrai"
+      ],
+      "wellbeing": [
+        "Détendre le système nerveux"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2027-11-10T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Scorpion",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Scorpion",
+        "Taureau"
+      ],
+      "moon": [
+        "Scorpion",
+        "Taureau"
+      ],
+      "rising": [
+        "Scorpion",
+        "Taureau"
+      ]
+    },
+    "rituals": [
+      "Focus stratégique"
+    ],
+    "affirmations": [
+      "Je pense en profondeur sans me perdre"
+    ]
+  },
+  {
+    "planet": "Mercure",
+    "sign": "Sagittaire",
+    "start": "2027-11-29",
+    "end": "2027-12-17",
+    "duration": {
+      "months": 0,
+      "days": 19
+    },
+    "title": "Mercure en Sagittaire",
+    "subtitle": "Vision large et sens",
+    "keywords": [
+      "vision",
+      "sens",
+      "expansion",
+      "communication"
+    ],
+    "energy": {
+      "intensity": 3,
+      "emotional": 3,
+      "mental": 4
+    },
+    "effects": {
+      "general": [
+        "Pensée expansive"
+      ],
+      "emotional": [
+        "Enthousiasme"
+      ],
+      "spiritual": [
+        "Quête de vérité"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Partager la vision"
+      ],
+      "avoid": [
+        "Exagération"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Aligner les objectifs"
+      ],
+      "relationship": [
+        "Exprimer sans imposer"
+      ],
+      "wellbeing": [
+        "Revenir au concret"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2027-11-29T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Sagittaire",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Sagittaire",
+        "Gémeaux"
+      ],
+      "moon": [
+        "Sagittaire",
+        "Gémeaux"
+      ],
+      "rising": [
+        "Sagittaire",
+        "Gémeaux"
+      ]
+    },
+    "rituals": [
+      "Écriture de vision"
+    ],
+    "affirmations": [
+      "Je relie mes idées à un sens clair"
+    ]
+  },
+  {
+    "planet": "Mercure",
+    "sign": "Capricorne",
+    "start": "2027-12-18",
+    "end": "2027-12-31",
+    "duration": {
+      "months": 0,
+      "days": 14
+    },
+    "title": "Mercure en Capricorne",
+    "subtitle": "Clôture structurée et stratégie",
+    "keywords": [
+      "structure",
+      "stratégie",
+      "discipline",
+      "organisation"
+    ],
+    "energy": {
+      "intensity": 3,
+      "emotional": 2,
+      "mental": 5
+    },
+    "effects": {
+      "general": [
+        "Pensée structurée"
+      ],
+      "emotional": [
+        "Sobriété"
+      ],
+      "spiritual": [
+        "Maîtrise"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Organiser"
+      ],
+      "avoid": [
+        "Rigidifier"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Préparer le plan annuel"
+      ],
+      "relationship": [
+        "Clarifier les engagements"
+      ],
+      "wellbeing": [
+        "Routine stable"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2027-12-18T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Capricorne",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Capricorne",
+        "Cancer"
+      ],
+      "moon": [
+        "Capricorne",
+        "Cancer"
+      ],
+      "rising": [
+        "Capricorne",
+        "Cancer"
+      ]
+    },
+    "rituals": [
+      "Bilan structuré"
+    ],
+    "affirmations": [
+      "Je termine avec clarté et responsabilité"
+    ]
+  },
+  {
+    "planet": "Vénus",
+    "sign": "Capricorne",
+    "start": "2026-01-01",
+    "end": "2026-01-16",
+    "duration": {
+      "months": 0,
+      "days": 16
+    },
+    "title": "Vénus en Capricorne",
+    "subtitle": "Engagement et valeurs durables",
+    "keywords": [
+      "valeurs",
+      "engagement",
+      "stabilité",
+      "relations"
+    ],
+    "energy": {
+      "intensity": 3,
+      "emotional": 3,
+      "mental": 3
+    },
+    "effects": {
+      "general": [
+        "Besoin de solidité"
+      ],
+      "emotional": [
+        "Réserve affective"
+      ],
+      "spiritual": [
+        "Maturité relationnelle"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Clarifier les engagements"
+      ],
+      "avoid": [
+        "Froideur"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Négocier sur du long terme"
+      ],
+      "relationship": [
+        "Exprimer la fiabilité"
+      ],
+      "wellbeing": [
+        "Rituel de stabilité"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-01-01T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Capricorne",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Capricorne",
+        "Cancer"
+      ],
+      "moon": [
+        "Capricorne",
+        "Cancer"
+      ],
+      "rising": [
+        "Capricorne",
+        "Cancer"
+      ]
+    },
+    "rituals": [
+      "Journal de valeurs"
+    ],
+    "affirmations": [
+      "Je choisis des liens fiables et alignés"
+    ]
+  },
+  {
+    "planet": "Vénus",
+    "sign": "Verseau",
+    "start": "2026-01-17",
+    "end": "2026-02-09",
+    "duration": {
+      "months": 0,
+      "days": 24
+    },
+    "title": "Vénus en Verseau",
+    "subtitle": "Liberté relationnelle et ouverture",
+    "keywords": [
+      "liberté",
+      "relations",
+      "originalité",
+      "collectif"
+    ],
+    "energy": {
+      "intensity": 3,
+      "emotional": 3,
+      "mental": 4
+    },
+    "effects": {
+      "general": [
+        "Nouveaux codes relationnels"
+      ],
+      "emotional": [
+        "Besoin d'espace"
+      ],
+      "spiritual": [
+        "Amour conscient"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Innover dans le lien"
+      ],
+      "avoid": [
+        "Détachement froid"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Favoriser les coopérations modernes"
+      ],
+      "relationship": [
+        "Dialoguer sans pression"
+      ],
+      "wellbeing": [
+        "Équilibrer autonomie et lien"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-01-17T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Verseau",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Verseau",
+        "Lion"
+      ],
+      "moon": [
+        "Verseau",
+        "Lion"
+      ],
+      "rising": [
+        "Verseau",
+        "Lion"
+      ]
+    },
+    "rituals": [
+      "Rituel d'ouverture"
+    ],
+    "affirmations": [
+      "Je crée des liens libres et authentiques"
+    ]
+  },
+  {
+    "planet": "Vénus",
+    "sign": "Poissons",
+    "start": "2026-02-10",
+    "end": "2026-03-05",
+    "duration": {
+      "months": 0,
+      "days": 24
+    },
+    "title": "Vénus en Poissons",
+    "subtitle": "Sensibilité, compassion et inspiration",
+    "keywords": [
+      "compassion",
+      "amour",
+      "sensibilité",
+      "inspiration"
+    ],
+    "energy": {
+      "intensity": 4,
+      "emotional": 5,
+      "mental": 3
+    },
+    "effects": {
+      "general": [
+        "Empathie accrue"
+      ],
+      "emotional": [
+        "Ouverture du cœur"
+      ],
+      "spiritual": [
+        "Connexion subtile"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Poser des limites saines"
+      ],
+      "avoid": [
+        "Idéalisation"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Allier intuition et cadre"
+      ],
+      "relationship": [
+        "Exprimer la tendresse clairement"
+      ],
+      "wellbeing": [
+        "Récupération émotionnelle"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-02-10T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Poissons",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Poissons",
+        "Vierge"
+      ],
+      "moon": [
+        "Poissons",
+        "Vierge"
+      ],
+      "rising": [
+        "Poissons",
+        "Vierge"
+      ]
+    },
+    "rituals": [
+      "Méditation du cœur"
+    ],
+    "affirmations": [
+      "Je relie amour et clarté"
+    ]
+  },
+  {
+    "planet": "Vénus",
+    "sign": "Bélier",
+    "start": "2026-03-06",
+    "end": "2026-03-29",
+    "duration": {
+      "months": 0,
+      "days": 24
+    },
+    "title": "Vénus en Bélier",
+    "subtitle": "Désir, spontanéité et initiative",
+    "keywords": [
+      "désir",
+      "initiative",
+      "amour",
+      "impulsion"
+    ],
+    "energy": {
+      "intensity": 4,
+      "emotional": 4,
+      "mental": 3
+    },
+    "effects": {
+      "general": [
+        "Élan affectif"
+      ],
+      "emotional": [
+        "Passion"
+      ],
+      "spiritual": [
+        "Authenticité"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Exprimer ses envies"
+      ],
+      "avoid": [
+        "Impulsivité relationnelle"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Lancer avec clarté"
+      ],
+      "relationship": [
+        "Dire les besoins calmement"
+      ],
+      "wellbeing": [
+        "Canaliser le feu émotionnel"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-03-06T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Bélier",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Bélier",
+        "Balance"
+      ],
+      "moon": [
+        "Bélier",
+        "Balance"
+      ],
+      "rising": [
+        "Bélier",
+        "Balance"
+      ]
+    },
+    "rituals": [
+      "Rituel d'affirmation"
+    ],
+    "affirmations": [
+      "J'aime avec courage et présence"
+    ]
+  },
+  {
+    "planet": "Vénus",
+    "sign": "Taureau",
+    "start": "2026-03-30",
+    "end": "2026-04-23",
+    "duration": {
+      "months": 0,
+      "days": 25
+    },
+    "title": "Vénus en Taureau",
+    "subtitle": "Stabilité, plaisir et valeur",
+    "keywords": [
+      "plaisir",
+      "stabilité",
+      "valeurs",
+      "douceur"
+    ],
+    "energy": {
+      "intensity": 3,
+      "emotional": 4,
+      "mental": 3
+    },
+    "effects": {
+      "general": [
+        "Ancrage affectif"
+      ],
+      "emotional": [
+        "Besoin de sécurité"
+      ],
+      "spiritual": [
+        "Connexion au corps"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Consolider"
+      ],
+      "avoid": [
+        "Possessivité"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Sécuriser les ressources"
+      ],
+      "relationship": [
+        "Nourrir la confiance"
+      ],
+      "wellbeing": [
+        "Routine sensorielle"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-03-30T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Taureau",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Taureau",
+        "Scorpion"
+      ],
+      "moon": [
+        "Taureau",
+        "Scorpion"
+      ],
+      "rising": [
+        "Taureau",
+        "Scorpion"
+      ]
+    },
+    "rituals": [
+      "Rituel d'ancrage"
+    ],
+    "affirmations": [
+      "Je cultive des liens stables et nourrissants"
+    ]
+  },
+  {
+    "planet": "Vénus",
+    "sign": "Gémeaux",
+    "start": "2026-04-24",
+    "end": "2026-05-18",
+    "duration": {
+      "months": 0,
+      "days": 25
+    },
+    "title": "Vénus en Gémeaux",
+    "subtitle": "Légèreté, curiosité et dialogue",
+    "keywords": [
+      "dialogue",
+      "curiosité",
+      "légèreté",
+      "relation"
+    ],
+    "energy": {
+      "intensity": 3,
+      "emotional": 3,
+      "mental": 4
+    },
+    "effects": {
+      "general": [
+        "Échanges stimulants"
+      ],
+      "emotional": [
+        "Légèreté"
+      ],
+      "spiritual": [
+        "Ouverture"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Dialoguer"
+      ],
+      "avoid": [
+        "Superficialité"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Rendre les échanges fluides"
+      ],
+      "relationship": [
+        "Exprimer sans ambiguïté"
+      ],
+      "wellbeing": [
+        "Éviter la dispersion"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-04-24T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Gémeaux",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Gémeaux",
+        "Sagittaire"
+      ],
+      "moon": [
+        "Gémeaux",
+        "Sagittaire"
+      ],
+      "rising": [
+        "Gémeaux",
+        "Sagittaire"
+      ]
+    },
+    "rituals": [
+      "Dialogue conscient"
+    ],
+    "affirmations": [
+      "Je crée du lien par la communication claire"
+    ]
+  },
+  {
+    "planet": "Vénus",
+    "sign": "Cancer",
+    "start": "2026-05-19",
+    "end": "2026-06-12",
+    "duration": {
+      "months": 0,
+      "days": 25
+    },
+    "title": "Vénus en Cancer",
+    "subtitle": "Tendresse et sécurité émotionnelle",
+    "keywords": [
+      "tendresse",
+      "famille",
+      "sécurité",
+      "intimité"
+    ],
+    "energy": {
+      "intensity": 4,
+      "emotional": 5,
+      "mental": 3
+    },
+    "effects": {
+      "general": [
+        "Besoin de cocon"
+      ],
+      "emotional": [
+        "Sensibilité"
+      ],
+      "spiritual": [
+        "Guérison du cœur"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Nourrir les liens proches"
+      ],
+      "avoid": [
+        "Dépendance affective"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Soigner la dynamique d'équipe"
+      ],
+      "relationship": [
+        "Exprimer les besoins de sécurité"
+      ],
+      "wellbeing": [
+        "Prendre soin de soi"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-05-19T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Cancer",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Cancer",
+        "Capricorne"
+      ],
+      "moon": [
+        "Cancer",
+        "Capricorne"
+      ],
+      "rising": [
+        "Cancer",
+        "Capricorne"
+      ]
+    },
+    "rituals": [
+      "Rituel de douceur"
+    ],
+    "affirmations": [
+      "Je cultive des liens sûrs et sincères"
+    ]
+  },
+  {
+    "planet": "Vénus",
+    "sign": "Lion",
+    "start": "2026-06-13",
+    "end": "2026-07-08",
+    "duration": {
+      "months": 0,
+      "days": 26
+    },
+    "title": "Vénus en Lion",
+    "subtitle": "Cœur, créativité et rayonnement",
+    "keywords": [
+      "rayonnement",
+      "créativité",
+      "amour",
+      "joie"
+    ],
+    "energy": {
+      "intensity": 4,
+      "emotional": 4,
+      "mental": 3
+    },
+    "effects": {
+      "general": [
+        "Expression affective forte"
+      ],
+      "emotional": [
+        "Besoin de reconnaissance"
+      ],
+      "spiritual": [
+        "Joie d'être"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Créer et partager"
+      ],
+      "avoid": [
+        "Ego blessé"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Valoriser les talents"
+      ],
+      "relationship": [
+        "Exprimer l'affection"
+      ],
+      "wellbeing": [
+        "Équilibrer intensité et repos"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-06-13T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Lion",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Lion",
+        "Verseau"
+      ],
+      "moon": [
+        "Lion",
+        "Verseau"
+      ],
+      "rising": [
+        "Lion",
+        "Verseau"
+      ]
+    },
+    "rituals": [
+      "Rituel créatif"
+    ],
+    "affirmations": [
+      "Je rayonne avec authenticité"
+    ]
+  },
+  {
+    "planet": "Vénus",
+    "sign": "Vierge",
+    "start": "2026-07-09",
+    "end": "2026-08-05",
+    "duration": {
+      "months": 0,
+      "days": 28
+    },
+    "title": "Vénus en Vierge",
+    "subtitle": "Soin, précision et présence",
+    "keywords": [
+      "soin",
+      "précision",
+      "service",
+      "attention"
+    ],
+    "energy": {
+      "intensity": 3,
+      "emotional": 3,
+      "mental": 4
+    },
+    "effects": {
+      "general": [
+        "Amour concret"
+      ],
+      "emotional": [
+        "Besoin d'utilité"
+      ],
+      "spiritual": [
+        "Humilité"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Montrer par les actes"
+      ],
+      "avoid": [
+        "Perfectionnisme"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Améliorer les routines"
+      ],
+      "relationship": [
+        "Soutenir avec simplicité"
+      ],
+      "wellbeing": [
+        "Hygiène de vie"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-07-09T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Vierge",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Vierge",
+        "Poissons"
+      ],
+      "moon": [
+        "Vierge",
+        "Poissons"
+      ],
+      "rising": [
+        "Vierge",
+        "Poissons"
+      ]
+    },
+    "rituals": [
+      "Rituel de routine saine"
+    ],
+    "affirmations": [
+      "Je prends soin avec justesse et simplicité"
+    ]
+  },
+  {
+    "planet": "Vénus",
+    "sign": "Balance",
+    "start": "2026-08-06",
+    "end": "2026-09-09",
+    "duration": {
+      "months": 1,
+      "days": 35
+    },
+    "title": "Vénus en Balance",
+    "subtitle": "Harmonie, beauté et coopération",
+    "keywords": [
+      "harmonie",
+      "relations",
+      "cohésion",
+      "esthétique"
+    ],
+    "energy": {
+      "intensity": 3,
+      "emotional": 4,
+      "mental": 3
+    },
+    "effects": {
+      "general": [
+        "Recherche d'équilibre"
+      ],
+      "emotional": [
+        "Besoin de lien juste"
+      ],
+      "spiritual": [
+        "Beauté relationnelle"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Dialoguer"
+      ],
+      "avoid": [
+        "Se nier pour plaire"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Négocier équitablement"
+      ],
+      "relationship": [
+        "Ajuster les attentes"
+      ],
+      "wellbeing": [
+        "Rétablir l'équilibre"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-08-06T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Balance",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Balance",
+        "Bélier"
+      ],
+      "moon": [
+        "Balance",
+        "Bélier"
+      ],
+      "rising": [
+        "Balance",
+        "Bélier"
+      ]
+    },
+    "rituals": [
+      "Rituel d'harmonisation"
+    ],
+    "affirmations": [
+      "Je choisis des relations équilibrées"
+    ]
+  },
+  {
+    "planet": "Vénus",
+    "sign": "Scorpion",
+    "start": "2026-09-10",
+    "end": "2026-10-24",
+    "duration": {
+      "months": 1,
+      "days": 45
+    },
+    "title": "Vénus en Scorpion",
+    "subtitle": "Intensité affective et profondeur",
+    "keywords": [
+      "intensité",
+      "profondeur",
+      "transformation",
+      "vérité"
+    ],
+    "energy": {
+      "intensity": 5,
+      "emotional": 5,
+      "mental": 3
+    },
+    "effects": {
+      "general": [
+        "Vécu relationnel intense"
+      ],
+      "emotional": [
+        "Passion"
+      ],
+      "spiritual": [
+        "Transmutation"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Aller au vrai"
+      ],
+      "avoid": [
+        "Jeux de pouvoir"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Évaluer la confiance dans les partenariats"
+      ],
+      "relationship": [
+        "Dire les non-dits"
+      ],
+      "wellbeing": [
+        "Libération émotionnelle"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-09-10T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Scorpion",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Scorpion",
+        "Taureau"
+      ],
+      "moon": [
+        "Scorpion",
+        "Taureau"
+      ],
+      "rising": [
+        "Scorpion",
+        "Taureau"
+      ]
+    },
+    "rituals": [
+      "Rituel de vérité"
+    ],
+    "affirmations": [
+      "J'aime avec profondeur et conscience"
+    ]
+  },
+  {
+    "planet": "Vénus",
+    "sign": "Balance",
+    "start": "2026-10-25",
+    "end": "2026-12-03",
+    "duration": {
+      "months": 1,
+      "days": 40
+    },
+    "title": "Vénus en Balance (retour)",
+    "subtitle": "Rééquilibrage relationnel",
+    "keywords": [
+      "rééquilibrage",
+      "relations",
+      "harmonie",
+      "révision"
+    ],
+    "energy": {
+      "intensity": 3,
+      "emotional": 4,
+      "mental": 3
+    },
+    "effects": {
+      "general": [
+        "Ajustement des liens"
+      ],
+      "emotional": [
+        "Besoin de justesse"
+      ],
+      "spiritual": [
+        "Paix relationnelle"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Réviser les accords"
+      ],
+      "avoid": [
+        "Compromis toxiques"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Renégocier clairement"
+      ],
+      "relationship": [
+        "Réparer les déséquilibres"
+      ],
+      "wellbeing": [
+        "Revenir à soi"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-10-25T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Balance",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Balance",
+        "Bélier"
+      ],
+      "moon": [
+        "Balance",
+        "Bélier"
+      ],
+      "rising": [
+        "Balance",
+        "Bélier"
+      ]
+    },
+    "rituals": [
+      "Rituel d'accord conscient"
+    ],
+    "affirmations": [
+      "Je rééquilibre mes liens avec lucidité"
+    ]
+  },
+  {
+    "planet": "Vénus",
+    "sign": "Scorpion",
+    "start": "2026-12-04",
+    "end": "2027-01-06",
+    "duration": {
+      "months": 1,
+      "days": 34
+    },
+    "title": "Vénus en Scorpion",
+    "subtitle": "Retour à la profondeur émotionnelle",
+    "keywords": [
+      "intensité",
+      "vérité",
+      "transformation",
+      "amour"
+    ],
+    "energy": {
+      "intensity": 5,
+      "emotional": 5,
+      "mental": 3
+    },
+    "effects": {
+      "general": [
+        "Lien profond"
+      ],
+      "emotional": [
+        "Passion"
+      ],
+      "spiritual": [
+        "Renaissance affective"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Aller au fond"
+      ],
+      "avoid": [
+        "Possessivité"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Clarifier les intérêts partagés"
+      ],
+      "relationship": [
+        "Travailler la confiance"
+      ],
+      "wellbeing": [
+        "Évacuer les tensions"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2026-12-04T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Scorpion",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Scorpion",
+        "Taureau"
+      ],
+      "moon": [
+        "Scorpion",
+        "Taureau"
+      ],
+      "rising": [
+        "Scorpion",
+        "Taureau"
+      ]
+    },
+    "rituals": [
+      "Rituel de libération émotionnelle"
+    ],
+    "affirmations": [
+      "Je transforme mes liens avec maturité"
+    ]
+  },
+  {
+    "planet": "Vénus",
+    "sign": "Sagittaire",
+    "start": "2027-01-07",
+    "end": "2027-02-02",
+    "duration": {
+      "months": 0,
+      "days": 27
+    },
+    "title": "Vénus en Sagittaire",
+    "subtitle": "Ouverture, aventure et sens",
+    "keywords": [
+      "expansion",
+      "aventure",
+      "vision",
+      "valeurs"
+    ],
+    "energy": {
+      "intensity": 3,
+      "emotional": 4,
+      "mental": 3
+    },
+    "effects": {
+      "general": [
+        "Besoin d'élan"
+      ],
+      "emotional": [
+        "Optimisme"
+      ],
+      "spiritual": [
+        "Quête de sens"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Explorer"
+      ],
+      "avoid": [
+        "Promesses irréalistes"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Étendre les opportunités"
+      ],
+      "relationship": [
+        "Partager la vision"
+      ],
+      "wellbeing": [
+        "Rester ancré"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2027-01-07T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Sagittaire",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Sagittaire",
+        "Gémeaux"
+      ],
+      "moon": [
+        "Sagittaire",
+        "Gémeaux"
+      ],
+      "rising": [
+        "Sagittaire",
+        "Gémeaux"
+      ]
+    },
+    "rituals": [
+      "Rituel de vision"
+    ],
+    "affirmations": [
+      "J'ouvre mon cœur avec discernement"
+    ]
+  },
+  {
+    "planet": "Vénus",
+    "sign": "Capricorne",
+    "start": "2027-02-03",
+    "end": "2027-02-28",
+    "duration": {
+      "months": 0,
+      "days": 26
+    },
+    "title": "Vénus en Capricorne",
+    "subtitle": "Fiabilité et maturité relationnelle",
+    "keywords": [
+      "fiabilité",
+      "structure",
+      "valeurs",
+      "engagement"
+    ],
+    "energy": {
+      "intensity": 3,
+      "emotional": 3,
+      "mental": 3
+    },
+    "effects": {
+      "general": [
+        "Relations cadrées"
+      ],
+      "emotional": [
+        "Réserve"
+      ],
+      "spiritual": [
+        "Alignement sérieux"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Assumer ses engagements"
+      ],
+      "avoid": [
+        "Fermeture"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Consolider les partenariats"
+      ],
+      "relationship": [
+        "Montrer la constance"
+      ],
+      "wellbeing": [
+        "Stabilité de routine"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2027-02-03T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Capricorne",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Capricorne",
+        "Cancer"
+      ],
+      "moon": [
+        "Capricorne",
+        "Cancer"
+      ],
+      "rising": [
+        "Capricorne",
+        "Cancer"
+      ]
+    },
+    "rituals": [
+      "Rituel d'engagement"
+    ],
+    "affirmations": [
+      "Je crée des liens solides et alignés"
+    ]
+  },
+  {
+    "planet": "Vénus",
+    "sign": "Verseau",
+    "start": "2027-03-01",
+    "end": "2027-03-25",
+    "duration": {
+      "months": 0,
+      "days": 25
+    },
+    "title": "Vénus en Verseau",
+    "subtitle": "Autonomie et modernité du lien",
+    "keywords": [
+      "autonomie",
+      "innovation",
+      "relations",
+      "collectif"
+    ],
+    "energy": {
+      "intensity": 3,
+      "emotional": 3,
+      "mental": 4
+    },
+    "effects": {
+      "general": [
+        "Nouveaux codes"
+      ],
+      "emotional": [
+        "Besoin d'espace"
+      ],
+      "spiritual": [
+        "Ouverture"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Expérimenter autrement"
+      ],
+      "avoid": [
+        "Distance froide"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Adapter les collaborations"
+      ],
+      "relationship": [
+        "Respecter les besoins d'autonomie"
+      ],
+      "wellbeing": [
+        "Équilibrer social et solitude"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2027-03-01T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Verseau",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Verseau",
+        "Lion"
+      ],
+      "moon": [
+        "Verseau",
+        "Lion"
+      ],
+      "rising": [
+        "Verseau",
+        "Lion"
+      ]
+    },
+    "rituals": [
+      "Rituel d'ouverture"
+    ],
+    "affirmations": [
+      "Je vis des liens libres et conscients"
+    ]
+  },
+  {
+    "planet": "Vénus",
+    "sign": "Poissons",
+    "start": "2027-03-26",
+    "end": "2027-04-19",
+    "duration": {
+      "months": 0,
+      "days": 25
+    },
+    "title": "Vénus en Poissons",
+    "subtitle": "Empathie et tendresse profonde",
+    "keywords": [
+      "empathie",
+      "tendresse",
+      "inspiration",
+      "compassion"
+    ],
+    "energy": {
+      "intensity": 4,
+      "emotional": 5,
+      "mental": 3
+    },
+    "effects": {
+      "general": [
+        "Sensibilité relationnelle"
+      ],
+      "emotional": [
+        "Cœur ouvert"
+      ],
+      "spiritual": [
+        "Élan de compassion"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Aimer avec limites"
+      ],
+      "avoid": [
+        "Sacrifice excessif"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Allier cœur et cadre"
+      ],
+      "relationship": [
+        "Exprimer la vulnérabilité"
+      ],
+      "wellbeing": [
+        "Récupération émotionnelle"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2027-03-26T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Poissons",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Poissons",
+        "Vierge"
+      ],
+      "moon": [
+        "Poissons",
+        "Vierge"
+      ],
+      "rising": [
+        "Poissons",
+        "Vierge"
+      ]
+    },
+    "rituals": [
+      "Méditation du cœur"
+    ],
+    "affirmations": [
+      "Je choisis l'amour avec discernement"
+    ]
+  },
+  {
+    "planet": "Vénus",
+    "sign": "Bélier",
+    "start": "2027-04-20",
+    "end": "2027-05-13",
+    "duration": {
+      "months": 0,
+      "days": 24
+    },
+    "title": "Vénus en Bélier",
+    "subtitle": "Élan affectif et spontanéité",
+    "keywords": [
+      "élan",
+      "désir",
+      "affirmation",
+      "amour"
+    ],
+    "energy": {
+      "intensity": 4,
+      "emotional": 4,
+      "mental": 3
+    },
+    "effects": {
+      "general": [
+        "Dynamique relationnelle"
+      ],
+      "emotional": [
+        "Passion"
+      ],
+      "spiritual": [
+        "Authenticité"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Exprimer les envies"
+      ],
+      "avoid": [
+        "Réactivité brute"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Agir avec clarté"
+      ],
+      "relationship": [
+        "Dire ses besoins"
+      ],
+      "wellbeing": [
+        "Canaliser l'énergie"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2027-04-20T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Bélier",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Bélier",
+        "Balance"
+      ],
+      "moon": [
+        "Bélier",
+        "Balance"
+      ],
+      "rising": [
+        "Bélier",
+        "Balance"
+      ]
+    },
+    "rituals": [
+      "Rituel d'affirmation"
+    ],
+    "affirmations": [
+      "J'aime avec courage et respect"
+    ]
+  },
+  {
+    "planet": "Vénus",
+    "sign": "Taureau",
+    "start": "2027-05-14",
+    "end": "2027-06-07",
+    "duration": {
+      "months": 0,
+      "days": 25
+    },
+    "title": "Vénus en Taureau",
+    "subtitle": "Ancrage affectif et douceur",
+    "keywords": [
+      "douceur",
+      "stabilité",
+      "plaisir",
+      "valeurs"
+    ],
+    "energy": {
+      "intensity": 3,
+      "emotional": 4,
+      "mental": 3
+    },
+    "effects": {
+      "general": [
+        "Besoin de concret"
+      ],
+      "emotional": [
+        "Sécurité"
+      ],
+      "spiritual": [
+        "Présence"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Nourrir les liens"
+      ],
+      "avoid": [
+        "Rigidité affective"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Sécuriser la valeur créée"
+      ],
+      "relationship": [
+        "Montrer par les actes"
+      ],
+      "wellbeing": [
+        "Rythme apaisé"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2027-05-14T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Taureau",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Taureau",
+        "Scorpion"
+      ],
+      "moon": [
+        "Taureau",
+        "Scorpion"
+      ],
+      "rising": [
+        "Taureau",
+        "Scorpion"
+      ]
+    },
+    "rituals": [
+      "Rituel d'ancrage"
+    ],
+    "affirmations": [
+      "Je choisis la stabilité qui nourrit"
+    ]
+  },
+  {
+    "planet": "Vénus",
+    "sign": "Gémeaux",
+    "start": "2027-06-08",
+    "end": "2027-07-02",
+    "duration": {
+      "months": 0,
+      "days": 25
+    },
+    "title": "Vénus en Gémeaux",
+    "subtitle": "Curiosité relationnelle et souplesse",
+    "keywords": [
+      "curiosité",
+      "dialogue",
+      "souplesse",
+      "échanges"
+    ],
+    "energy": {
+      "intensity": 3,
+      "emotional": 3,
+      "mental": 4
+    },
+    "effects": {
+      "general": [
+        "Échanges vivants"
+      ],
+      "emotional": [
+        "Légèreté"
+      ],
+      "spiritual": [
+        "Ouverture"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Dialoguer clairement"
+      ],
+      "avoid": [
+        "Flou relationnel"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Fluidifier la communication"
+      ],
+      "relationship": [
+        "Nommer les attentes"
+      ],
+      "wellbeing": [
+        "Éviter la dispersion"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2027-06-08T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Gémeaux",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Gémeaux",
+        "Sagittaire"
+      ],
+      "moon": [
+        "Gémeaux",
+        "Sagittaire"
+      ],
+      "rising": [
+        "Gémeaux",
+        "Sagittaire"
+      ]
+    },
+    "rituals": [
+      "Conversation consciente"
+    ],
+    "affirmations": [
+      "Je crée du lien avec clarté et légèreté"
+    ]
+  },
+  {
+    "planet": "Vénus",
+    "sign": "Cancer",
+    "start": "2027-07-03",
+    "end": "2027-07-26",
+    "duration": {
+      "months": 0,
+      "days": 24
+    },
+    "title": "Vénus en Cancer",
+    "subtitle": "Tendresse et cocon affectif",
+    "keywords": [
+      "tendresse",
+      "famille",
+      "intimité",
+      "sécurité"
+    ],
+    "energy": {
+      "intensity": 4,
+      "emotional": 5,
+      "mental": 3
+    },
+    "effects": {
+      "general": [
+        "Besoin de proximité"
+      ],
+      "emotional": [
+        "Sensibilité"
+      ],
+      "spiritual": [
+        "Guérison"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Prendre soin du lien"
+      ],
+      "avoid": [
+        "Repli défensif"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Humaniser les interactions"
+      ],
+      "relationship": [
+        "Créer un espace sûr"
+      ],
+      "wellbeing": [
+        "Nourrir le repos émotionnel"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2027-07-03T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Cancer",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Cancer",
+        "Capricorne"
+      ],
+      "moon": [
+        "Cancer",
+        "Capricorne"
+      ],
+      "rising": [
+        "Cancer",
+        "Capricorne"
+      ]
+    },
+    "rituals": [
+      "Rituel de douceur"
+    ],
+    "affirmations": [
+      "Je protège ce qui compte avec amour"
+    ]
+  },
+  {
+    "planet": "Vénus",
+    "sign": "Lion",
+    "start": "2027-07-27",
+    "end": "2027-08-19",
+    "duration": {
+      "months": 0,
+      "days": 24
+    },
+    "title": "Vénus en Lion",
+    "subtitle": "Générosité et expression du cœur",
+    "keywords": [
+      "générosité",
+      "créativité",
+      "amour",
+      "rayonnement"
+    ],
+    "energy": {
+      "intensity": 4,
+      "emotional": 4,
+      "mental": 3
+    },
+    "effects": {
+      "general": [
+        "Expression affective forte"
+      ],
+      "emotional": [
+        "Fierté"
+      ],
+      "spiritual": [
+        "Joie"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Exprimer l'affection"
+      ],
+      "avoid": [
+        "Chercher l'approbation"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Montrer la valeur du travail"
+      ],
+      "relationship": [
+        "Donner et recevoir"
+      ],
+      "wellbeing": [
+        "Conserver l'équilibre"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2027-07-27T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Lion",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Lion",
+        "Verseau"
+      ],
+      "moon": [
+        "Lion",
+        "Verseau"
+      ],
+      "rising": [
+        "Lion",
+        "Verseau"
+      ]
+    },
+    "rituals": [
+      "Rituel de rayonnement"
+    ],
+    "affirmations": [
+      "Je rayonne avec générosité et cœur"
+    ]
+  },
+  {
+    "planet": "Vénus",
+    "sign": "Vierge",
+    "start": "2027-08-20",
+    "end": "2027-09-13",
+    "duration": {
+      "months": 0,
+      "days": 25
+    },
+    "title": "Vénus en Vierge",
+    "subtitle": "Soin concret et ajustements",
+    "keywords": [
+      "soin",
+      "détail",
+      "service",
+      "ajustement"
+    ],
+    "energy": {
+      "intensity": 3,
+      "emotional": 3,
+      "mental": 4
+    },
+    "effects": {
+      "general": [
+        "Attention aux besoins réels"
+      ],
+      "emotional": [
+        "Prudence"
+      ],
+      "spiritual": [
+        "Humilité"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Simplifier"
+      ],
+      "avoid": [
+        "Critique excessive"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Améliorer les routines"
+      ],
+      "relationship": [
+        "Soutenir par les actes"
+      ],
+      "wellbeing": [
+        "Hygiène de vie stable"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2027-08-20T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Vierge",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Vierge",
+        "Poissons"
+      ],
+      "moon": [
+        "Vierge",
+        "Poissons"
+      ],
+      "rising": [
+        "Vierge",
+        "Poissons"
+      ]
+    },
+    "rituals": [
+      "Rituel de simplification"
+    ],
+    "affirmations": [
+      "Je prends soin avec justesse et constance"
+    ]
+  },
+  {
+    "planet": "Vénus",
+    "sign": "Balance",
+    "start": "2027-09-14",
+    "end": "2027-10-07",
+    "duration": {
+      "months": 0,
+      "days": 24
+    },
+    "title": "Vénus en Balance",
+    "subtitle": "Équilibre relationnel et harmonie",
+    "keywords": [
+      "équilibre",
+      "harmonie",
+      "relations",
+      "cohésion"
+    ],
+    "energy": {
+      "intensity": 3,
+      "emotional": 4,
+      "mental": 3
+    },
+    "effects": {
+      "general": [
+        "Recherche de justesse"
+      ],
+      "emotional": [
+        "Besoin de paix"
+      ],
+      "spiritual": [
+        "Alignement relationnel"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Coopérer"
+      ],
+      "avoid": [
+        "S'oublier"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Créer des accords clairs"
+      ],
+      "relationship": [
+        "Écoute mutuelle"
+      ],
+      "wellbeing": [
+        "Rétablir l'équilibre"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2027-09-14T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Balance",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Balance",
+        "Bélier"
+      ],
+      "moon": [
+        "Balance",
+        "Bélier"
+      ],
+      "rising": [
+        "Balance",
+        "Bélier"
+      ]
+    },
+    "rituals": [
+      "Rituel d'harmonisation"
+    ],
+    "affirmations": [
+      "Je cultive des liens justes et apaisés"
+    ]
+  },
+  {
+    "planet": "Vénus",
+    "sign": "Scorpion",
+    "start": "2027-10-08",
+    "end": "2027-10-31",
+    "duration": {
+      "months": 0,
+      "days": 24
+    },
+    "title": "Vénus en Scorpion",
+    "subtitle": "Intensité et transformation du cœur",
+    "keywords": [
+      "intensité",
+      "vérité",
+      "transformation",
+      "passion"
+    ],
+    "energy": {
+      "intensity": 5,
+      "emotional": 5,
+      "mental": 3
+    },
+    "effects": {
+      "general": [
+        "Passion profonde"
+      ],
+      "emotional": [
+        "Vécu intense"
+      ],
+      "spiritual": [
+        "Transformation affective"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Aller au vrai"
+      ],
+      "avoid": [
+        "Contrôle"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Clarifier la confiance"
+      ],
+      "relationship": [
+        "Exprimer la vérité avec maturité"
+      ],
+      "wellbeing": [
+        "Relâcher les tensions"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2027-10-08T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Scorpion",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Scorpion",
+        "Taureau"
+      ],
+      "moon": [
+        "Scorpion",
+        "Taureau"
+      ],
+      "rising": [
+        "Scorpion",
+        "Taureau"
+      ]
+    },
+    "rituals": [
+      "Rituel de vérité"
+    ],
+    "affirmations": [
+      "Je choisis la profondeur alignée"
+    ]
+  },
+  {
+    "planet": "Vénus",
+    "sign": "Sagittaire",
+    "start": "2027-11-01",
+    "end": "2027-11-24",
+    "duration": {
+      "months": 0,
+      "days": 24
+    },
+    "title": "Vénus en Sagittaire",
+    "subtitle": "Expansion des valeurs et du cœur",
+    "keywords": [
+      "expansion",
+      "sens",
+      "liberté",
+      "optimisme"
+    ],
+    "energy": {
+      "intensity": 3,
+      "emotional": 4,
+      "mental": 3
+    },
+    "effects": {
+      "general": [
+        "Élan positif"
+      ],
+      "emotional": [
+        "Optimisme"
+      ],
+      "spiritual": [
+        "Vision"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Explorer"
+      ],
+      "avoid": [
+        "Excès"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Ouvrir de nouvelles perspectives"
+      ],
+      "relationship": [
+        "Partager les valeurs"
+      ],
+      "wellbeing": [
+        "Garder l'ancrage"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2027-11-01T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Sagittaire",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Sagittaire",
+        "Gémeaux"
+      ],
+      "moon": [
+        "Sagittaire",
+        "Gémeaux"
+      ],
+      "rising": [
+        "Sagittaire",
+        "Gémeaux"
+      ]
+    },
+    "rituals": [
+      "Rituel de vision"
+    ],
+    "affirmations": [
+      "J'élargis mon cœur avec discernement"
+    ]
+  },
+  {
+    "planet": "Vénus",
+    "sign": "Capricorne",
+    "start": "2027-11-25",
+    "end": "2027-12-18",
+    "duration": {
+      "months": 0,
+      "days": 24
+    },
+    "title": "Vénus en Capricorne",
+    "subtitle": "Structure des engagements affectifs",
+    "keywords": [
+      "engagement",
+      "stabilité",
+      "valeurs",
+      "structure"
+    ],
+    "energy": {
+      "intensity": 3,
+      "emotional": 3,
+      "mental": 3
+    },
+    "effects": {
+      "general": [
+        "Solidité relationnelle"
+      ],
+      "emotional": [
+        "Réserve"
+      ],
+      "spiritual": [
+        "Maturité"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Construire"
+      ],
+      "avoid": [
+        "Fermeture émotionnelle"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Sécuriser les partenariats"
+      ],
+      "relationship": [
+        "Tenir ses engagements"
+      ],
+      "wellbeing": [
+        "Stabiliser les routines"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2027-11-25T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Capricorne",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Capricorne",
+        "Cancer"
+      ],
+      "moon": [
+        "Capricorne",
+        "Cancer"
+      ],
+      "rising": [
+        "Capricorne",
+        "Cancer"
+      ]
+    },
+    "rituals": [
+      "Rituel d'engagement conscient"
+    ],
+    "affirmations": [
+      "Je crée des liens durables et alignés"
+    ]
+  },
+  {
+    "planet": "Vénus",
+    "sign": "Verseau",
+    "start": "2027-12-19",
+    "end": "2027-12-31",
+    "duration": {
+      "months": 0,
+      "days": 13
+    },
+    "title": "Vénus en Verseau",
+    "subtitle": "Vision relationnelle moderne",
+    "keywords": [
+      "liberté",
+      "innovation",
+      "relations",
+      "collectif"
+    ],
+    "energy": {
+      "intensity": 3,
+      "emotional": 3,
+      "mental": 4
+    },
+    "effects": {
+      "general": [
+        "Renouveau des liens"
+      ],
+      "emotional": [
+        "Besoin d'autonomie"
+      ],
+      "spiritual": [
+        "Conscience collective"
+      ]
+    },
+    "advice": {
+      "do": [
+        "Expérimenter"
+      ],
+      "avoid": [
+        "Distance froide"
+      ]
+    },
+    "practicalGuidance": {
+      "pro": [
+        "Adopter des formats collaboratifs"
+      ],
+      "relationship": [
+        "Respecter les espaces"
+      ],
+      "wellbeing": [
+        "Équilibrer lien et autonomie"
+      ]
+    },
+    "metadata": {
+      "exactTimeUtc": "2027-12-19T00:00:00Z",
+      "referenceTimezone": "UTC",
+      "degree": "0deg Verseau",
+      "source": "MoonTracks",
+      "confidence": "medium"
+    },
+    "audience": {
+      "sun": [
+        "Verseau",
+        "Lion"
+      ],
+      "moon": [
+        "Verseau",
+        "Lion"
+      ],
+      "rising": [
+        "Verseau",
+        "Lion"
+      ]
+    },
+    "rituals": [
+      "Rituel de renouveau relationnel"
+    ],
+    "affirmations": [
+      "Je vis des liens libres et évolutifs"
+    ]
+  }
+]

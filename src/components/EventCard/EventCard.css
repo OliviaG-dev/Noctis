@@ -381,7 +381,7 @@
   line-height: 1.5;
   transition: color 0.2s ease, background 0.2s ease, border-color 0.2s ease;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 0.55rem;
   padding: 0.55rem 0.65rem;
   border-radius: 10px;
@@ -406,16 +406,20 @@
   background: rgba(64, 224, 208, 0.08);
 }
 
-.effects-arrow {
-  margin-top: 0.15rem;
-  color: rgba(64, 224, 208, 0.8);
+.effects-marker {
+  color: rgba(186, 145, 255, 0.95);
   flex-shrink: 0;
-  transition: transform 0.2s ease;
+  font-size: 0.78rem;
+  line-height: 1;
+  transform: translateY(-0.5px);
+  text-shadow: 0 0 8px rgba(186, 145, 255, 0.4);
+  transition: color 0.2s ease, text-shadow 0.2s ease, transform 0.2s ease;
 }
 
-.effect-line:hover .effects-arrow {
-  transform: translateX(3px);
-  color: rgba(64, 224, 208, 1);
+.effect-line:hover .effects-marker {
+  color: rgba(213, 188, 255, 1);
+  text-shadow: 0 0 10px rgba(186, 145, 255, 0.55);
+  transform: translateY(-0.5px) scale(1.06);
 }
 
 .advice-section {

@@ -18,7 +18,6 @@ const REQUIRED_V2_FIELDS = [
   "practicalGuidance",
   "metadata",
   "audience",
-  "disclaimer",
 ];
 
 function fail(errors, file, index, message) {
@@ -104,9 +103,6 @@ function validateV2(errors, file, index, item) {
     }
   }
 
-  if (typeof item.disclaimer !== "string" || item.disclaimer.trim().length === 0) {
-    fail(errors, file, index, "disclaimer must be a non-empty string");
-  }
 }
 
 function validateCommonEvent(errors, file, index, item) {

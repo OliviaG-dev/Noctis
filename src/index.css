@@ -20,10 +20,17 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
 body {
   margin: 0;
   min-width: 320px;
-  min-height: 100vh;
+  min-height: 100%;
   background: #0b0c1b;
   overflow-x: hidden;
   overflow-y: auto;
@@ -31,5 +38,11 @@ body {
 
 #root {
   width: 100%;
-  min-height: 100vh;
+  min-height: 100%;
+}
+
+@media (min-width: 1025px) {
+  body {
+    overflow: hidden;
+  }
 }

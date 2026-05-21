@@ -5,8 +5,17 @@
     "title": "Éclipse solaire annulaire",
     "subtitle": "Anneau de feu",
     "sign": "Verseau",
-    "keywords": ["changement", "éveil", "transformation", "focus"],
-    "energy": { "intensity": 5, "emotional": 3, "mental": 4 },
+    "keywords": [
+      "changement",
+      "éveil",
+      "transformation",
+      "focus"
+    ],
+    "energy": {
+      "intensity": 5,
+      "emotional": 3,
+      "mental": 4
+    },
     "effects": {
       "general": [
         "Période de grands changements",
@@ -21,7 +30,6 @@
         "Intuition amplifiée"
       ]
     },
-    
     "advice": {
       "do": [
         "Noter ses priorités",
@@ -54,25 +62,41 @@
       "confidence": "medium"
     },
     "audience": {
-      "sun": ["Verseau", "Lion"],
-      "moon": ["Verseau", "Lion"],
-      "rising": ["Verseau", "Lion"]
+      "sun": [
+        "Verseau",
+        "Lion"
+      ],
+      "moon": [
+        "Verseau",
+        "Lion"
+      ],
+      "rising": [
+        "Verseau",
+        "Lion"
+      ]
     },
-    "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
     "rituals": [
       "Méditation de clarté",
       "Vision board"
     ]
   },
-
   {
     "date": "2026-03-03",
     "type": "lunar_total",
     "title": "Éclipse lunaire totale",
     "subtitle": "Lune rouge – profonde transformation",
     "sign": "Poissons",
-    "keywords": ["transformation", "fin de cycle", "illumination", "libération"],
-    "energy": { "intensity": 5, "emotional": 5, "mental": 4 },
+    "keywords": [
+      "transformation",
+      "fin de cycle",
+      "illumination",
+      "libération"
+    ],
+    "energy": {
+      "intensity": 5,
+      "emotional": 5,
+      "mental": 4
+    },
     "effects": {
       "general": [
         "Révélations profondes",
@@ -87,7 +111,6 @@
         "Clairvoyance"
       ]
     },
-    
     "advice": {
       "do": [
         "Accepter le changement",
@@ -120,25 +143,41 @@
       "confidence": "medium"
     },
     "audience": {
-      "sun": ["Poissons", "Vierge"],
-      "moon": ["Poissons", "Vierge"],
-      "rising": ["Poissons", "Vierge"]
+      "sun": [
+        "Poissons",
+        "Vierge"
+      ],
+      "moon": [
+        "Poissons",
+        "Vierge"
+      ],
+      "rising": [
+        "Poissons",
+        "Vierge"
+      ]
     },
-    "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
     "rituals": [
       "Rituel de libération",
       "Journal de transformation"
     ]
   },
-
   {
     "date": "2026-08-12",
     "type": "solar_total",
     "title": "Éclipse solaire totale",
     "subtitle": "Transformation radicale",
     "sign": "Lion",
-    "keywords": ["renouveau", "illumination", "rupture", "révélation"],
-    "energy": { "intensity": 5, "emotional": 4, "mental": 5 },
+    "keywords": [
+      "renouveau",
+      "illumination",
+      "rupture",
+      "révélation"
+    ],
+    "energy": {
+      "intensity": 5,
+      "emotional": 4,
+      "mental": 5
+    },
     "effects": {
       "general": [
         "Temps fort de transformation",
@@ -152,7 +191,6 @@
         "Éveil"
       ]
     },
-    
     "advice": {
       "do": [
         "Accueillir les changements",
@@ -185,25 +223,41 @@
       "confidence": "medium"
     },
     "audience": {
-      "sun": ["Lion", "Verseau"],
-      "moon": ["Lion", "Verseau"],
-      "rising": ["Lion", "Verseau"]
+      "sun": [
+        "Lion",
+        "Verseau"
+      ],
+      "moon": [
+        "Lion",
+        "Verseau"
+      ],
+      "rising": [
+        "Lion",
+        "Verseau"
+      ]
     },
-    "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
     "rituals": [
       "Méditation profonde",
       "Rituel de renouveau"
     ]
   },
-
   {
     "date": "2026-08-28",
     "type": "lunar_partial",
     "title": "Éclipse lunaire partielle",
     "subtitle": "Révélation douce",
     "sign": "Poissons",
-    "keywords": ["révélation", "réflexion", "fin partielle", "vision"],
-    "energy": { "intensity": 4, "emotional": 4, "mental": 4 },
+    "keywords": [
+      "révélation",
+      "réflexion",
+      "fin partielle",
+      "vision"
+    ],
+    "energy": {
+      "intensity": 4,
+      "emotional": 4,
+      "mental": 4
+    },
     "effects": {
       "general": [
         "Révision de perceptions",
@@ -216,7 +270,6 @@
         "Éveil par observation"
       ]
     },
-    
     "advice": {
       "do": [
         "Observer, ne pas juger",
@@ -248,25 +301,41 @@
       "confidence": "medium"
     },
     "audience": {
-      "sun": ["Poissons", "Vierge"],
-      "moon": ["Poissons", "Vierge"],
-      "rising": ["Poissons", "Vierge"]
+      "sun": [
+        "Poissons",
+        "Vierge"
+      ],
+      "moon": [
+        "Poissons",
+        "Vierge"
+      ],
+      "rising": [
+        "Poissons",
+        "Vierge"
+      ]
     },
-    "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
     "rituals": [
       "Observation consciente",
       "Cercle de réflexion"
     ]
   },
-
   {
     "date": "2027-02-06",
     "type": "solar_annular",
     "title": "Éclipse solaire annulaire",
     "subtitle": "Anneau solaire – opportunité nouvelle",
     "sign": "Verseau",
-    "keywords": ["renouveau", "vision", "possibilités", "activation"],
-    "energy": { "intensity": 4, "emotional": 3, "mental": 4 },
+    "keywords": [
+      "renouveau",
+      "vision",
+      "possibilités",
+      "activation"
+    ],
+    "energy": {
+      "intensity": 4,
+      "emotional": 3,
+      "mental": 4
+    },
     "effects": {
       "general": [
         "Temps d’opportunités",
@@ -279,7 +348,6 @@
         "Accès à nouvelles perspectives"
       ]
     },
-    
     "advice": {
       "do": [
         "Planifier",
@@ -312,25 +380,41 @@
       "confidence": "medium"
     },
     "audience": {
-      "sun": ["Verseau", "Lion"],
-      "moon": ["Verseau", "Lion"],
-      "rising": ["Verseau", "Lion"]
+      "sun": [
+        "Verseau",
+        "Lion"
+      ],
+      "moon": [
+        "Verseau",
+        "Lion"
+      ],
+      "rising": [
+        "Verseau",
+        "Lion"
+      ]
     },
-    "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
     "rituals": [
       "Rituel d’intention",
       "Méditation d’ouverture"
     ]
   },
-
   {
     "date": "2027-02-20",
     "type": "lunar_penumbral",
     "title": "Éclipse lunaire pénombrale",
     "subtitle": "Énergie subtile",
     "sign": "Poissons",
-    "keywords": ["introspection", "subtilité", "observation", "réflexion"],
-    "energy": { "intensity": 3, "emotional": 3, "mental": 4 },
+    "keywords": [
+      "introspection",
+      "subtilité",
+      "observation",
+      "réflexion"
+    ],
+    "energy": {
+      "intensity": 3,
+      "emotional": 3,
+      "mental": 4
+    },
     "effects": {
       "general": [
         "Observation intérieure",
@@ -343,7 +427,6 @@
         "Réflexion silencieuse"
       ]
     },
-    
     "advice": {
       "do": [
         "Observer",
@@ -375,11 +458,19 @@
       "confidence": "medium"
     },
     "audience": {
-      "sun": ["Poissons", "Vierge"],
-      "moon": ["Poissons", "Vierge"],
-      "rising": ["Poissons", "Vierge"]
+      "sun": [
+        "Poissons",
+        "Vierge"
+      ],
+      "moon": [
+        "Poissons",
+        "Vierge"
+      ],
+      "rising": [
+        "Poissons",
+        "Vierge"
+      ]
     },
-    "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
     "rituals": [
       "Journal intime",
       "Méditation calme"

@@ -20,16 +20,19 @@ const CalendarDay: React.FC<CalendarDayProps> = ({ day, isToday, events, onClick
   const uniqueEvents = Array.from(eventTypes).map(type => 
     events.find(e => e.type === type)!
   );
+  const visibleIconEvents = uniqueEvents.filter(
+    (event) => event.type !== "planet_ingress" && event.type !== "retrograde"
+  );
 
   return (
     <div 
       className={`calendar-day ${isToday ? 'today' : ''} ${events.length > 0 ? 'has-event' : ''}`}
-      onClick={events.length > 0 ? onClick : undefined}
+      onClick={onClick}
     >
       <span className="day-number">{day}</span>
-      {uniqueEvents.length > 0 && (
+      {visibleIconEvents.length > 0 && (
         <div className="calendar-day-events">
-          {uniqueEvents.map((event, index) => (
+          {visibleIconEvents.map((event, index) => (
             <img
               key={index}
               src={getEventIcon(event.type)}

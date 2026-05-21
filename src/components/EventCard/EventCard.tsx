@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import type { NewMoon, FullMoon, Eclipse, PlanetIngress, Retrograde, AstrologicalSign, Planet, EclipseType } from '../../data/types';
 import { parseDate } from '../../data/utils';
-import { StarIcon, ArrowRightIcon, CheckIcon, XIcon, SparkleIcon, ShootingStarIcon } from './Icons';
+import { StarIcon, CheckIcon, XIcon, SparkleIcon, ShootingStarIcon } from './Icons';
 import './EventCard.css';
 
 const formatIngressDuration = (start: string, end: string): string => {
@@ -141,7 +141,7 @@ const EventCard: React.FC<EventCardProps> = ({ event, type, isFirst = false, isP
     <div className="effects-lines">
       {items.map((item, index) => (
         <div key={index} className="effect-line">
-          <ArrowRightIcon className="effects-arrow" />
+          <span className="effects-marker" aria-hidden="true">✦</span>
           <span>{item}</span>
         </div>
       ))}
@@ -330,19 +330,28 @@ const EventCard: React.FC<EventCardProps> = ({ event, type, isFirst = false, isP
               <div className="event-card-effects">
                 {practicalGuidance.pro && practicalGuidance.pro.length > 0 && (
                   <div className="effects-section">
-                    <strong>Pro :</strong>
+                    <strong>
+                      <StarIcon className="effects-icon" />
+                      Pro :
+                    </strong>
                     {renderEffectsItems(practicalGuidance.pro)}
                   </div>
                 )}
                 {practicalGuidance.relationship && practicalGuidance.relationship.length > 0 && (
                   <div className="effects-section">
-                    <strong>Relationnel :</strong>
+                    <strong>
+                      <StarIcon className="effects-icon" />
+                      Relationnel :
+                    </strong>
                     {renderEffectsItems(practicalGuidance.relationship)}
                   </div>
                 )}
                 {practicalGuidance.wellbeing && practicalGuidance.wellbeing.length > 0 && (
                   <div className="effects-section">
-                    <strong>Bien-être :</strong>
+                    <strong>
+                      <StarIcon className="effects-icon" />
+                      Bien-être :
+                    </strong>
                     {renderEffectsItems(practicalGuidance.wellbeing)}
                   </div>
                 )}
@@ -350,7 +359,7 @@ const EventCard: React.FC<EventCardProps> = ({ event, type, isFirst = false, isP
             </div>
           )}
 
-          {metadata && (
+          {metadata && type !== 'planet_ingress' && (
             <div className="accordion-section">
               <h4>Contexte astrologique</h4>
               <div className="event-card-effects">
@@ -578,19 +587,28 @@ const EventCard: React.FC<EventCardProps> = ({ event, type, isFirst = false, isP
                 <div className="event-card-effects">
                   {practicalGuidance.pro && practicalGuidance.pro.length > 0 && (
                     <div className="effects-section">
-                      <strong>Pro :</strong>
+                      <strong>
+                        <StarIcon className="effects-icon" />
+                        Pro :
+                      </strong>
                       {renderEffectsItems(practicalGuidance.pro)}
                     </div>
                   )}
                   {practicalGuidance.relationship && practicalGuidance.relationship.length > 0 && (
                     <div className="effects-section">
-                      <strong>Relationnel :</strong>
+                      <strong>
+                        <StarIcon className="effects-icon" />
+                        Relationnel :
+                      </strong>
                       {renderEffectsItems(practicalGuidance.relationship)}
                     </div>
                   )}
                   {practicalGuidance.wellbeing && practicalGuidance.wellbeing.length > 0 && (
                     <div className="effects-section">
-                      <strong>Bien-être :</strong>
+                      <strong>
+                        <StarIcon className="effects-icon" />
+                        Bien-être :
+                      </strong>
                       {renderEffectsItems(practicalGuidance.wellbeing)}
                     </div>
                   )}
@@ -598,7 +616,7 @@ const EventCard: React.FC<EventCardProps> = ({ event, type, isFirst = false, isP
               </div>
             )}
 
-            {metadata && (
+            {metadata && type !== 'planet_ingress' && (
               <div className="accordion-section">
                 <h4>Contexte astrologique</h4>
                 <div className="event-card-effects">

@@ -18,10 +18,10 @@ Noctis est un calendrier astrologique qui transforme l'astrologie en une expéri
 ### 📅 Calendrier astrologique interactif
 
 - Vue mensuelle claire et élégante
-- Jours enrichis d'événements célestes
+- Jours cliquables, même sans nouvel événement
 - Modale interactive au clic sur un jour
 - Bouton "Voir +" pour accéder aux détails complets
-- Accès rapide aux détails par date
+- Accès rapide aux détails par date, incluant les planètes en cours
 
 ### 🌕 Phases de la lune
 
@@ -54,6 +54,9 @@ Idéal pour anticiper :
 - Neptune, Saturne, Uranus, Jupiter…
 - Date précise de chaque changement de signe
 - Description de l'impact astrologique
+- Vue organisée en sections : en cours, à venir, historique
+- Historique repliable en accordéon
+- Pagination des ingrès à venir
 
 Permet de comprendre :
 
@@ -142,6 +145,9 @@ npm run preview
 
 # Linter
 npm run lint
+
+# Validation de la cohérence des données astrologiques
+npm run validate:data
 ```
 
 ## 🛠️ Technologies utilisées
@@ -268,8 +274,7 @@ Ce schéma ajoute notamment :
 
 - un contexte astrologique traçable (`metadata`: heure exacte, timezone, source, confiance),
 - des conseils actionnables par domaine (`practicalGuidance`: pro, relationnel, bien-être),
-- un ciblage léger par profil (`audience`: solaire, lunaire, ascendant),
-- un cadre d'usage responsable via un `disclaimer` standard.
+- un ciblage léger par profil (`audience`: solaire, lunaire, ascendant).
 
 Objectif : rendre les contenus plus utiles au quotidien, plus transparents et plus fiables.
 

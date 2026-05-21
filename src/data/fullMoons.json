@@ -4,11 +4,17 @@
     "sign": "Cancer",
     "title": "Pleine lune en Cancer",
     "subtitle": "Émotions et sécurité intérieure",
-
-    "keywords": ["émotions", "famille", "intuition", "protection"],
-
-    "energy": { "intensity": 4, "emotional": 5, "mental": 3 },
-
+    "keywords": [
+      "émotions",
+      "famille",
+      "intuition",
+      "protection"
+    ],
+    "energy": {
+      "intensity": 4,
+      "emotional": 5,
+      "mental": 3
+    },
     "effects": {
       "general": [
         "Sensibilité accrue",
@@ -25,7 +31,6 @@
         "Travail sur l’enfant intérieur"
       ]
     },
-
     "advice": {
       "do": [
         "Prendre soin de soi",
@@ -59,29 +64,47 @@
       "confidence": "medium"
     },
     "audience": {
-      "sun": ["Cancer", "Capricorne", "Bélier", "Balance"],
-      "moon": ["Cancer", "Capricorne", "Bélier", "Balance"],
-      "rising": ["Cancer", "Capricorne", "Bélier", "Balance"]
+      "sun": [
+        "Cancer",
+        "Capricorne",
+        "Bélier",
+        "Balance"
+      ],
+      "moon": [
+        "Cancer",
+        "Capricorne",
+        "Bélier",
+        "Balance"
+      ],
+      "rising": [
+        "Cancer",
+        "Capricorne",
+        "Bélier",
+        "Balance"
+      ]
     },
-    "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
-
     "rituals": [
       "Rituel de protection",
       "Bain purifiant",
       "Écriture émotionnelle"
     ]
   },
-
   {
     "date": "2026-02-01",
     "sign": "Lion",
     "title": "Pleine lune en Lion",
     "subtitle": "Expression et affirmation",
-
-    "keywords": ["créativité", "confiance", "visibilité", "ego"],
-
-    "energy": { "intensity": 5, "emotional": 4, "mental": 3 },
-
+    "keywords": [
+      "créativité",
+      "confiance",
+      "visibilité",
+      "ego"
+    ],
+    "energy": {
+      "intensity": 5,
+      "emotional": 4,
+      "mental": 3
+    },
     "effects": {
       "general": [
         "Besoin de reconnaissance",
@@ -97,7 +120,6 @@
         "Rayonnement personnel"
       ]
     },
-
     "advice": {
       "do": [
         "Exprimer sa créativité",
@@ -131,28 +153,46 @@
       "confidence": "medium"
     },
     "audience": {
-      "sun": ["Lion", "Verseau", "Taureau", "Scorpion"],
-      "moon": ["Lion", "Verseau", "Taureau", "Scorpion"],
-      "rising": ["Lion", "Verseau", "Taureau", "Scorpion"]
+      "sun": [
+        "Lion",
+        "Verseau",
+        "Taureau",
+        "Scorpion"
+      ],
+      "moon": [
+        "Lion",
+        "Verseau",
+        "Taureau",
+        "Scorpion"
+      ],
+      "rising": [
+        "Lion",
+        "Verseau",
+        "Taureau",
+        "Scorpion"
+      ]
     },
-    "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
-
     "rituals": [
       "Rituel de confiance",
       "Affirmations positives"
     ]
   },
-
   {
     "date": "2026-03-03",
     "sign": "Vierge",
     "title": "Pleine lune en Vierge",
     "subtitle": "Clarté et réalignement",
-
-    "keywords": ["organisation", "guérison", "réalisme", "discipline"],
-
-    "energy": { "intensity": 4, "emotional": 3, "mental": 5 },
-
+    "keywords": [
+      "organisation",
+      "guérison",
+      "réalisme",
+      "discipline"
+    ],
+    "energy": {
+      "intensity": 4,
+      "emotional": 3,
+      "mental": 5
+    },
     "effects": {
       "general": [
         "Besoin de mettre de l’ordre",
@@ -167,7 +207,6 @@
         "Alignement corps-esprit"
       ]
     },
-
     "advice": {
       "do": [
         "Faire du tri",
@@ -201,28 +240,46 @@
       "confidence": "medium"
     },
     "audience": {
-      "sun": ["Vierge", "Poissons", "Gémeaux", "Sagittaire"],
-      "moon": ["Vierge", "Poissons", "Gémeaux", "Sagittaire"],
-      "rising": ["Vierge", "Poissons", "Gémeaux", "Sagittaire"]
+      "sun": [
+        "Vierge",
+        "Poissons",
+        "Gémeaux",
+        "Sagittaire"
+      ],
+      "moon": [
+        "Vierge",
+        "Poissons",
+        "Gémeaux",
+        "Sagittaire"
+      ],
+      "rising": [
+        "Vierge",
+        "Poissons",
+        "Gémeaux",
+        "Sagittaire"
+      ]
     },
-    "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
-
     "rituals": [
       "Nettoyage énergétique",
       "Organisation consciente"
     ]
   },
-
   {
     "date": "2026-04-02",
     "sign": "Balance",
     "title": "Pleine lune en Balance",
     "subtitle": "Relations et équilibre",
-
-    "keywords": ["relations", "harmonie", "justice", "équilibre"],
-
-    "energy": { "intensity": 4, "emotional": 4, "mental": 4 },
-
+    "keywords": [
+      "relations",
+      "harmonie",
+      "justice",
+      "équilibre"
+    ],
+    "energy": {
+      "intensity": 4,
+      "emotional": 4,
+      "mental": 4
+    },
     "effects": {
       "general": [
         "Focus sur les relations",
@@ -236,7 +293,6 @@
         "Paix intérieure"
       ]
     },
-
     "advice": {
       "do": [
         "Dialoguer",
@@ -268,28 +324,46 @@
       "confidence": "medium"
     },
     "audience": {
-      "sun": ["Balance", "Bélier", "Cancer", "Capricorne"],
-      "moon": ["Balance", "Bélier", "Cancer", "Capricorne"],
-      "rising": ["Balance", "Bélier", "Cancer", "Capricorne"]
+      "sun": [
+        "Balance",
+        "Bélier",
+        "Cancer",
+        "Capricorne"
+      ],
+      "moon": [
+        "Balance",
+        "Bélier",
+        "Cancer",
+        "Capricorne"
+      ],
+      "rising": [
+        "Balance",
+        "Bélier",
+        "Cancer",
+        "Capricorne"
+      ]
     },
-    "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
-
     "rituals": [
       "Rituel d’harmonisation",
       "Méditation relationnelle"
     ]
   },
-
   {
     "date": "2026-05-01",
     "sign": "Scorpion",
     "title": "Pleine lune en Scorpion",
     "subtitle": "Transformation profonde",
-
-    "keywords": ["transformation", "intensité", "lâcher-prise", "vérité"],
-
-    "energy": { "intensity": 5, "emotional": 5, "mental": 4 },
-
+    "keywords": [
+      "transformation",
+      "intensité",
+      "lâcher-prise",
+      "vérité"
+    ],
+    "energy": {
+      "intensity": 5,
+      "emotional": 5,
+      "mental": 4
+    },
     "effects": {
       "general": [
         "Révélations",
@@ -304,7 +378,6 @@
         "Libération émotionnelle"
       ]
     },
-
     "advice": {
       "do": [
         "Lâcher prise",
@@ -337,12 +410,25 @@
       "confidence": "medium"
     },
     "audience": {
-      "sun": ["Scorpion", "Taureau", "Lion", "Verseau"],
-      "moon": ["Scorpion", "Taureau", "Lion", "Verseau"],
-      "rising": ["Scorpion", "Taureau", "Lion", "Verseau"]
+      "sun": [
+        "Scorpion",
+        "Taureau",
+        "Lion",
+        "Verseau"
+      ],
+      "moon": [
+        "Scorpion",
+        "Taureau",
+        "Lion",
+        "Verseau"
+      ],
+      "rising": [
+        "Scorpion",
+        "Taureau",
+        "Lion",
+        "Verseau"
+      ]
     },
-    "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
-
     "rituals": [
       "Rituel de libération",
       "Écriture cathartique"
@@ -353,11 +439,17 @@
     "sign": "Sagittaire",
     "title": "Pleine lune en Sagittaire",
     "subtitle": "Expansion et quête de sens",
-
-    "keywords": ["vérité", "expansion", "liberté", "vision"],
-
-    "energy": { "intensity": 4, "emotional": 4, "mental": 4 },
-
+    "keywords": [
+      "vérité",
+      "expansion",
+      "liberté",
+      "vision"
+    ],
+    "energy": {
+      "intensity": 4,
+      "emotional": 4,
+      "mental": 4
+    },
     "effects": {
       "general": [
         "Besoin d’élargir ses horizons",
@@ -372,7 +464,6 @@
         "Alignement avec sa vision"
       ]
     },
-
     "advice": {
       "do": [
         "Explorer de nouvelles idées",
@@ -405,28 +496,46 @@
       "confidence": "medium"
     },
     "audience": {
-      "sun": ["Sagittaire", "Gémeaux", "Vierge", "Poissons"],
-      "moon": ["Sagittaire", "Gémeaux", "Vierge", "Poissons"],
-      "rising": ["Sagittaire", "Gémeaux", "Vierge", "Poissons"]
+      "sun": [
+        "Sagittaire",
+        "Gémeaux",
+        "Vierge",
+        "Poissons"
+      ],
+      "moon": [
+        "Sagittaire",
+        "Gémeaux",
+        "Vierge",
+        "Poissons"
+      ],
+      "rising": [
+        "Sagittaire",
+        "Gémeaux",
+        "Vierge",
+        "Poissons"
+      ]
     },
-    "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
-
     "rituals": [
       "Rituel de vision",
       "Écriture d’intentions à long terme"
     ]
   },
-
   {
     "date": "2026-06-30",
     "sign": "Capricorne",
     "title": "Pleine lune en Capricorne",
     "subtitle": "Responsabilité et accomplissement",
-
-    "keywords": ["structure", "ambition", "discipline", "réussite"],
-
-    "energy": { "intensity": 4, "emotional": 3, "mental": 5 },
-
+    "keywords": [
+      "structure",
+      "ambition",
+      "discipline",
+      "réussite"
+    ],
+    "energy": {
+      "intensity": 4,
+      "emotional": 3,
+      "mental": 5
+    },
     "effects": {
       "general": [
         "Focus sur les objectifs",
@@ -441,7 +550,6 @@
         "Alignement avec sa mission"
       ]
     },
-
     "advice": {
       "do": [
         "Faire le point sur ses objectifs",
@@ -474,28 +582,46 @@
       "confidence": "medium"
     },
     "audience": {
-      "sun": ["Capricorne", "Cancer", "Bélier", "Balance"],
-      "moon": ["Capricorne", "Cancer", "Bélier", "Balance"],
-      "rising": ["Capricorne", "Cancer", "Bélier", "Balance"]
+      "sun": [
+        "Capricorne",
+        "Cancer",
+        "Bélier",
+        "Balance"
+      ],
+      "moon": [
+        "Capricorne",
+        "Cancer",
+        "Bélier",
+        "Balance"
+      ],
+      "rising": [
+        "Capricorne",
+        "Cancer",
+        "Bélier",
+        "Balance"
+      ]
     },
-    "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
-
     "rituals": [
       "Rituel de manifestation",
       "Bilan personnel"
     ]
   },
-
   {
     "date": "2026-07-29",
     "sign": "Verseau",
     "title": "Pleine lune en Verseau",
     "subtitle": "Liberté et innovation",
-
-    "keywords": ["liberté", "originalité", "collectif", "changement"],
-
-    "energy": { "intensity": 4, "emotional": 3, "mental": 5 },
-
+    "keywords": [
+      "liberté",
+      "originalité",
+      "collectif",
+      "changement"
+    ],
+    "energy": {
+      "intensity": 4,
+      "emotional": 3,
+      "mental": 5
+    },
     "effects": {
       "general": [
         "Besoin d’indépendance",
@@ -510,7 +636,6 @@
         "Vision du futur"
       ]
     },
-
     "advice": {
       "do": [
         "Oser être soi-même",
@@ -543,28 +668,46 @@
       "confidence": "medium"
     },
     "audience": {
-      "sun": ["Verseau", "Lion", "Taureau", "Scorpion"],
-      "moon": ["Verseau", "Lion", "Taureau", "Scorpion"],
-      "rising": ["Verseau", "Lion", "Taureau", "Scorpion"]
+      "sun": [
+        "Verseau",
+        "Lion",
+        "Taureau",
+        "Scorpion"
+      ],
+      "moon": [
+        "Verseau",
+        "Lion",
+        "Taureau",
+        "Scorpion"
+      ],
+      "rising": [
+        "Verseau",
+        "Lion",
+        "Taureau",
+        "Scorpion"
+      ]
     },
-    "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
-
     "rituals": [
       "Rituel de libération",
       "Visualisation du futur"
     ]
   },
-
   {
     "date": "2026-08-28",
     "sign": "Poissons",
     "title": "Pleine lune en Poissons",
     "subtitle": "Intuition et dissolution",
-
-    "keywords": ["intuition", "sensibilité", "compassion", "lâcher-prise"],
-
-    "energy": { "intensity": 5, "emotional": 5, "mental": 3 },
-
+    "keywords": [
+      "intuition",
+      "sensibilité",
+      "compassion",
+      "lâcher-prise"
+    ],
+    "energy": {
+      "intensity": 5,
+      "emotional": 5,
+      "mental": 3
+    },
     "effects": {
       "general": [
         "Hypersensibilité",
@@ -579,7 +722,6 @@
         "Dissolution des limites"
       ]
     },
-
     "advice": {
       "do": [
         "Écouter son intuition",
@@ -612,28 +754,46 @@
       "confidence": "medium"
     },
     "audience": {
-      "sun": ["Poissons", "Vierge", "Gémeaux", "Sagittaire"],
-      "moon": ["Poissons", "Vierge", "Gémeaux", "Sagittaire"],
-      "rising": ["Poissons", "Vierge", "Gémeaux", "Sagittaire"]
+      "sun": [
+        "Poissons",
+        "Vierge",
+        "Gémeaux",
+        "Sagittaire"
+      ],
+      "moon": [
+        "Poissons",
+        "Vierge",
+        "Gémeaux",
+        "Sagittaire"
+      ],
+      "rising": [
+        "Poissons",
+        "Vierge",
+        "Gémeaux",
+        "Sagittaire"
+      ]
     },
-    "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
-
     "rituals": [
       "Méditation",
       "Rituel de pardon"
     ]
   },
-
   {
     "date": "2026-09-26",
     "sign": "Bélier",
     "title": "Pleine lune en Bélier",
     "subtitle": "Action et affirmation",
-
-    "keywords": ["initiative", "courage", "affirmation", "énergie"],
-
-    "energy": { "intensity": 5, "emotional": 4, "mental": 3 },
-
+    "keywords": [
+      "initiative",
+      "courage",
+      "affirmation",
+      "énergie"
+    ],
+    "energy": {
+      "intensity": 5,
+      "emotional": 4,
+      "mental": 3
+    },
     "effects": {
       "general": [
         "Besoin d’agir",
@@ -648,7 +808,6 @@
         "Démarrage d’un nouveau cycle"
       ]
     },
-
     "advice": {
       "do": [
         "Canaliser son énergie",
@@ -681,28 +840,46 @@
       "confidence": "medium"
     },
     "audience": {
-      "sun": ["Bélier", "Balance", "Cancer", "Capricorne"],
-      "moon": ["Bélier", "Balance", "Cancer", "Capricorne"],
-      "rising": ["Bélier", "Balance", "Cancer", "Capricorne"]
+      "sun": [
+        "Bélier",
+        "Balance",
+        "Cancer",
+        "Capricorne"
+      ],
+      "moon": [
+        "Bélier",
+        "Balance",
+        "Cancer",
+        "Capricorne"
+      ],
+      "rising": [
+        "Bélier",
+        "Balance",
+        "Cancer",
+        "Capricorne"
+      ]
     },
-    "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
-
     "rituals": [
       "Rituel de courage",
       "Affirmations de puissance"
     ]
   },
-
   {
     "date": "2026-10-26",
     "sign": "Taureau",
     "title": "Pleine lune en Taureau",
     "subtitle": "Stabilité et valeurs",
-
-    "keywords": ["sécurité", "plaisir", "ancrage", "valeurs"],
-
-    "energy": { "intensity": 4, "emotional": 4, "mental": 3 },
-
+    "keywords": [
+      "sécurité",
+      "plaisir",
+      "ancrage",
+      "valeurs"
+    ],
+    "energy": {
+      "intensity": 4,
+      "emotional": 4,
+      "mental": 3
+    },
     "effects": {
       "general": [
         "Besoin de stabilité",
@@ -717,7 +894,6 @@
         "Connexion au corps"
       ]
     },
-
     "advice": {
       "do": [
         "Prendre soin de son corps",
@@ -750,28 +926,46 @@
       "confidence": "medium"
     },
     "audience": {
-      "sun": ["Taureau", "Scorpion", "Lion", "Verseau"],
-      "moon": ["Taureau", "Scorpion", "Lion", "Verseau"],
-      "rising": ["Taureau", "Scorpion", "Lion", "Verseau"]
+      "sun": [
+        "Taureau",
+        "Scorpion",
+        "Lion",
+        "Verseau"
+      ],
+      "moon": [
+        "Taureau",
+        "Scorpion",
+        "Lion",
+        "Verseau"
+      ],
+      "rising": [
+        "Taureau",
+        "Scorpion",
+        "Lion",
+        "Verseau"
+      ]
     },
-    "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
-
     "rituals": [
       "Rituel d’ancrage",
       "Connexion à la nature"
     ]
   },
-
   {
     "date": "2026-11-24",
     "sign": "Gémeaux",
     "title": "Pleine lune en Gémeaux",
     "subtitle": "Communication et clarté mentale",
-
-    "keywords": ["communication", "apprentissage", "échanges", "curiosité"],
-
-    "energy": { "intensity": 4, "emotional": 3, "mental": 5 },
-
+    "keywords": [
+      "communication",
+      "apprentissage",
+      "échanges",
+      "curiosité"
+    ],
+    "energy": {
+      "intensity": 4,
+      "emotional": 3,
+      "mental": 5
+    },
     "effects": {
       "general": [
         "Besoin d’échanger",
@@ -785,7 +979,6 @@
         "Compréhension nouvelle"
       ]
     },
-
     "advice": {
       "do": [
         "Exprimer ses idées",
@@ -818,28 +1011,46 @@
       "confidence": "medium"
     },
     "audience": {
-      "sun": ["Gémeaux", "Sagittaire", "Vierge", "Poissons"],
-      "moon": ["Gémeaux", "Sagittaire", "Vierge", "Poissons"],
-      "rising": ["Gémeaux", "Sagittaire", "Vierge", "Poissons"]
+      "sun": [
+        "Gémeaux",
+        "Sagittaire",
+        "Vierge",
+        "Poissons"
+      ],
+      "moon": [
+        "Gémeaux",
+        "Sagittaire",
+        "Vierge",
+        "Poissons"
+      ],
+      "rising": [
+        "Gémeaux",
+        "Sagittaire",
+        "Vierge",
+        "Poissons"
+      ]
     },
-    "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
-
     "rituals": [
       "Écriture consciente",
       "Dialogue intérieur"
     ]
   },
-
   {
     "date": "2026-12-24",
     "sign": "Cancer",
     "title": "Pleine lune en Cancer",
     "subtitle": "Clôture émotionnelle de l’année",
-
-    "keywords": ["famille", "émotions", "intimité", "bilan"],
-
-    "energy": { "intensity": 4, "emotional": 5, "mental": 3 },
-
+    "keywords": [
+      "famille",
+      "émotions",
+      "intimité",
+      "bilan"
+    ],
+    "energy": {
+      "intensity": 4,
+      "emotional": 5,
+      "mental": 3
+    },
     "effects": {
       "general": [
         "Bilan émotionnel",
@@ -854,7 +1065,6 @@
         "Guérison émotionnelle"
       ]
     },
-
     "advice": {
       "do": [
         "Clôturer l’année en douceur",
@@ -887,12 +1097,25 @@
       "confidence": "medium"
     },
     "audience": {
-      "sun": ["Cancer", "Capricorne", "Bélier", "Balance"],
-      "moon": ["Cancer", "Capricorne", "Bélier", "Balance"],
-      "rising": ["Cancer", "Capricorne", "Bélier", "Balance"]
+      "sun": [
+        "Cancer",
+        "Capricorne",
+        "Bélier",
+        "Balance"
+      ],
+      "moon": [
+        "Cancer",
+        "Capricorne",
+        "Bélier",
+        "Balance"
+      ],
+      "rising": [
+        "Cancer",
+        "Capricorne",
+        "Bélier",
+        "Balance"
+      ]
     },
-    "disclaimer": "L'astrologie est un outil de réflexion et ne remplace pas un avis médical, juridique ou financier.",
-
     "rituals": [
       "Rituel de gratitude",
       "Cercle intime"
