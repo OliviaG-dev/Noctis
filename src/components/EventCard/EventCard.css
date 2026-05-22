@@ -14,15 +14,15 @@
 }
 
 .event-card-first {
-  background: linear-gradient(135deg, rgba(64, 224, 208, 0.04), rgba(255, 255, 255, 0.03));
-  border: 1px solid rgba(64, 224, 208, 0.25);
-  box-shadow: 0 0 8px rgba(64, 224, 208, 0.08);
+  background: linear-gradient(135deg, rgba(126, 201, 255, 0.08), rgba(255, 255, 255, 0.03));
+  border: 1px solid rgba(126, 201, 255, 0.32);
+  box-shadow: 0 0 10px rgba(126, 201, 255, 0.12);
 }
 
 .event-card-first:hover {
-  background: linear-gradient(135deg, rgba(64, 224, 208, 0.06), rgba(255, 255, 255, 0.04));
-  border-color: rgba(64, 224, 208, 0.35);
-  box-shadow: 0 0 12px rgba(64, 224, 208, 0.12);
+  background: linear-gradient(135deg, rgba(126, 201, 255, 0.12), rgba(255, 255, 255, 0.04));
+  border-color: rgba(126, 201, 255, 0.42);
+  box-shadow: 0 0 14px rgba(126, 201, 255, 0.16);
 }
 
 .event-card-past {

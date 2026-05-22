@@ -41,8 +41,3 @@ body {
   min-height: 100%;
 }
 
-@media (min-width: 1025px) {
-  body {
-    overflow: hidden;
-  }
-}

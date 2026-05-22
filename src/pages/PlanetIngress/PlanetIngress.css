@@ -1,4 +1,4 @@
-@import '../NewMoons/NewMoons.css';
+@import "../NewMoons/NewMoons.css";
 
 .planet-ingress-page {
   display: flex;
@@ -22,17 +22,29 @@
 }
 
 .planet-ingress-section-current {
-  background: linear-gradient(135deg, rgba(64, 224, 208, 0.12), rgba(64, 224, 208, 0.04));
+  background: linear-gradient(
+    135deg,
+    rgba(64, 224, 208, 0.12),
+    rgba(64, 224, 208, 0.04)
+  );
   border-color: rgba(64, 224, 208, 0.35);
 }
 
 .planet-ingress-section-upcoming {
-  background: linear-gradient(135deg, rgba(122, 162, 255, 0.12), rgba(122, 162, 255, 0.04));
+  background: linear-gradient(
+    135deg,
+    rgba(122, 162, 255, 0.12),
+    rgba(122, 162, 255, 0.04)
+  );
   border-color: rgba(122, 162, 255, 0.32);
 }
 
 .planet-ingress-section-history {
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.02));
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.07),
+    rgba(255, 255, 255, 0.02)
+  );
   border-color: rgba(255, 255, 255, 0.16);
 }
 
@@ -78,7 +90,9 @@
   max-height: 0;
   overflow: hidden;
   opacity: 0;
-  transition: max-height 0.3s ease, opacity 0.3s ease;
+  transition:
+    max-height 0.3s ease,
+    opacity 0.3s ease;
 }
 
 .planet-ingress-current-content.open {
@@ -137,7 +151,9 @@
   max-height: 0;
   overflow: hidden;
   opacity: 0;
-  transition: max-height 0.3s ease, opacity 0.3s ease;
+  transition:
+    max-height 0.3s ease,
+    opacity 0.3s ease;
 }
 
 .planet-ingress-history-content.open {
@@ -150,6 +166,26 @@
   flex-direction: column;
   gap: 0.9rem;
   margin-top: 0.25rem;
+}
+
+.planet-ingress-next-focus {
+  padding: 1rem;
+  border-left: 3px solid rgba(147, 177, 255, 0.75);
+  border-radius: 10px;
+  background: linear-gradient(
+    90deg,
+    rgba(72, 103, 177, 0.2) 0%,
+    rgba(21, 31, 56, 0.18) 100%
+  );
+}
+
+.planet-ingress-next-title {
+  margin: 0 0 0.75rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #b6ccff;
 }
 
 .planet-ingress-pagination-controls {
