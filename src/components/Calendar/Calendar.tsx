@@ -48,7 +48,10 @@ const Calendar: React.FC = () => {
         planet: "planet" in event ? event.planet : undefined,
         start: "start" in event ? event.start : undefined,
         end: "end" in event ? event.end : undefined,
-        eclipseType: type === "eclipse" && "type" in event ? event.type : undefined,
+        eclipseType:
+          type === "eclipse" && "eclipseType" in event
+            ? event.eclipseType
+            : undefined,
       }));
     },
     []

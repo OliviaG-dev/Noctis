@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react';
+import React, { useId, useMemo, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import Header from '../../components/Header/Header';
 import EventCard from '../../components/EventCard/EventCard';
@@ -13,17 +13,27 @@ interface AccordionItemProps {
 
 const AccordionItem: React.FC<AccordionItemProps> = ({ title, children, defaultOpen = false }) => {
   const [isOpen, setIsOpen] = useState(defaultOpen);
+  const accordionContentId = useId();
+  const accordionButtonId = useId();
 
   return (
     <div className="events-day-accordion-item">
-      <button 
+      <button
+        id={accordionButtonId}
         className={`events-day-accordion-header ${isOpen ? 'open' : ''}`}
         onClick={() => setIsOpen(!isOpen)}
+        aria-expanded={isOpen}
+        aria-controls={accordionContentId}
       >
         <span>{title}</span>
         <span className="events-day-accordion-icon">{isOpen ? '▼' : '▶'}</span>
       </button>
-      <div className={`events-day-accordion-content ${isOpen ? 'open' : ''}`}>
+      <div
+        id={accordionContentId}
+        role="region"
+        aria-labelledby={accordionButtonId}
+        className={`events-day-accordion-content ${isOpen ? 'open' : ''}`}
+      >
         {children}
       </div>
     </div>

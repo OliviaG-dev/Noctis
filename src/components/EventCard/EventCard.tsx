@@ -132,7 +132,7 @@ const EventCard: React.FC<EventCardProps> = ({ event, type, isFirst = false, isP
 
   const sign = 'sign' in event ? event.sign : undefined;
   const planet = 'planet' in event ? event.planet : undefined;
-  const eclipseType = type === 'eclipse' && 'type' in event ? event.type : undefined;
+  const eclipseType = type === 'eclipse' && 'eclipseType' in event ? event.eclipseType : undefined;
   const practicalGuidance = 'practicalGuidance' in event ? event.practicalGuidance : undefined;
   const metadata = 'metadata' in event ? event.metadata : undefined;
   const disclaimer = 'disclaimer' in event ? event.disclaimer : undefined;
@@ -188,13 +188,13 @@ const EventCard: React.FC<EventCardProps> = ({ event, type, isFirst = false, isP
           <div className="event-card-meta">
             {sign && <span className="event-card-sign">{sign}</span>}
             {planet && <span className="event-card-planet">{planet}</span>}
-            {type === 'eclipse' && 'type' in event && (
+            {type === 'eclipse' && 'eclipseType' in event && (
               <span className="event-card-type">
-                {event.type === 'solar_total' ? 'Éclipse solaire totale' :
-                 event.type === 'solar_partial' ? 'Éclipse solaire partielle' :
-                 event.type === 'solar_annular' ? 'Éclipse solaire annulaire' :
-                 event.type === 'lunar_total' ? 'Éclipse lunaire totale' :
-                 event.type === 'lunar_partial' ? 'Éclipse lunaire partielle' :
+                {event.eclipseType === 'solar_total' ? 'Éclipse solaire totale' :
+                 event.eclipseType === 'solar_partial' ? 'Éclipse solaire partielle' :
+                 event.eclipseType === 'solar_annular' ? 'Éclipse solaire annulaire' :
+                 event.eclipseType === 'lunar_total' ? 'Éclipse lunaire totale' :
+                 event.eclipseType === 'lunar_partial' ? 'Éclipse lunaire partielle' :
                  'Éclipse lunaire pénombrale'}
               </span>
             )}

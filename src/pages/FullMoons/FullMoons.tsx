@@ -1,14 +1,12 @@
-import React, { useMemo, useState } from 'react';
+import React, { useMemo } from 'react';
 import Header from '../../components/Header/Header';
-import EventCard from '../../components/EventCard/EventCard';
+import EventTimelineSections from '../../components/EventTimelineSections/EventTimelineSections';
 import type { FullMoon } from '../../data/types';
 import fullMoonsData from '../../data/fullMoons.json';
 import { parseDate } from '../../data/utils';
 import './FullMoons.css';
 
 const FullMoons: React.FC = () => {
-  const [showHistory, setShowHistory] = useState(false);
-
   const { upcoming, history } = useMemo(() => {
     const moons = fullMoonsData as FullMoon[];
     const now = new Date();
@@ -46,65 +44,17 @@ const FullMoons: React.FC = () => {
             Découvrez toutes les pleines lunes et leurs significations astrologiques
           </p>
         </div>
-        <div className="events-list-page full-moons-page">
-          {upcoming.length > 0 && (
-            <section className="full-moons-section full-moons-section-upcoming">
-              <h2 className="full-moons-section-title">À venir ({upcoming.length})</h2>
-              {upcoming.map((moon, index) => {
-                if (index === 0) {
-                  return (
-                    <div key={`upcoming-${moon.date}-${moon.sign}`} className="full-moons-next-focus">
-                      <h3 className="full-moons-next-title">Prochaine pleine lune</h3>
-                      <EventCard
-                        event={moon}
-                        type="full_moon"
-                        isFirst={true}
-                        isPast={false}
-                      />
-                    </div>
-                  );
-                }
-                return (
-                  <div key={`upcoming-${moon.date}-${moon.sign}`}>
-                    <EventCard
-                      event={moon}
-                      type="full_moon"
-                      isFirst={false}
-                      isPast={false}
-                    />
-                  </div>
-                );
-              })}
-            </section>
-          )}
-
-          {history.length > 0 && (
-            <section className="full-moons-section full-moons-section-history">
-              <button
-                type="button"
-                className={`full-moons-history-toggle ${showHistory ? 'open' : ''}`}
-                onClick={() => setShowHistory((prev) => !prev)}
-              >
-                <span>Historique ({history.length})</span>
-                <span className="full-moons-history-icon" aria-hidden="true">
-                  {showHistory ? '▾' : '▸'}
-                </span>
-              </button>
-              <div className={`full-moons-history-content ${showHistory ? 'open' : ''}`}>
-                {showHistory &&
-                  history.map((moon) => (
-                    <EventCard
-                      key={`history-${moon.date}-${moon.sign}`}
-                      event={moon}
-                      type="full_moon"
-                      isFirst={false}
-                      isPast={true}
-                    />
-                  ))}
-              </div>
-            </section>
-          )}
-        </div>
+        <EventTimelineSections
+          pageClassName="full-moons-page"
+          classPrefix="full-moons"
+          eventType="full_moon"
+          upcomingTitle="À venir"
+          nextTitle="Prochaine pleine lune"
+          upcoming={upcoming}
+          history={history}
+          getUpcomingKey={(moon) => `upcoming-${moon.date}-${moon.sign}`}
+          getHistoryKey={(moon) => `history-${moon.date}-${moon.sign}`}
+        />
       </div>
     </div>
   );

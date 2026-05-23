@@ -1,14 +1,12 @@
-import React, { useMemo, useState } from 'react';
+import React, { useMemo } from 'react';
 import Header from '../../components/Header/Header';
-import EventCard from '../../components/EventCard/EventCard';
+import EventTimelineSections from '../../components/EventTimelineSections/EventTimelineSections';
 import type { Retrograde } from '../../data/types';
 import retrogradesData from '../../data/retrogrades.json';
 import { parseDate } from '../../data/utils';
 import './PlanetRetrograde.css';
 
 const PlanetRetrograde: React.FC = () => {
-  const [showHistory, setShowHistory] = useState(false);
-
   const { activeOrUpcoming, history } = useMemo(() => {
     const retrogradeList = retrogradesData as Retrograde[];
     const now = new Date();
@@ -52,71 +50,17 @@ const PlanetRetrograde: React.FC = () => {
             Découvrez tous les rétrogrades planétaires et leurs significations astrologiques
           </p>
         </div>
-        <div className="events-list-page retrogrades-page">
-          {activeOrUpcoming.length > 0 && (
-            <section className="retrogrades-section retrogrades-section-upcoming">
-              <h2 className="retrogrades-section-title">
-                En cours et à venir ({activeOrUpcoming.length})
-              </h2>
-              {activeOrUpcoming.map((retrograde, index) => {
-                if (index === 0) {
-                  return (
-                    <div
-                      key={`active-upcoming-${retrograde.start}-${retrograde.planet}`}
-                      className="retrogrades-next-focus"
-                    >
-                      <h3 className="retrogrades-next-title">Rétrograde à suivre</h3>
-                      <EventCard
-                        event={retrograde}
-                        type="retrograde"
-                        isFirst={true}
-                        isPast={false}
-                      />
-                    </div>
-                  );
-                }
-
-                return (
-                  <div key={`active-upcoming-${retrograde.start}-${retrograde.planet}`}>
-                    <EventCard
-                      event={retrograde}
-                      type="retrograde"
-                      isFirst={false}
-                      isPast={false}
-                    />
-                  </div>
-                );
-              })}
-            </section>
-          )}
-
-          {history.length > 0 && (
-            <section className="retrogrades-section retrogrades-section-history">
-              <button
-                type="button"
-                className={`retrogrades-history-toggle ${showHistory ? 'open' : ''}`}
-                onClick={() => setShowHistory((prev) => !prev)}
-              >
-                <span>Historique ({history.length})</span>
-                <span className="retrogrades-history-icon" aria-hidden="true">
-                  {showHistory ? '▾' : '▸'}
-                </span>
-              </button>
-              <div className={`retrogrades-history-content ${showHistory ? 'open' : ''}`}>
-                {showHistory &&
-                  history.map((retrograde) => (
-                    <EventCard
-                      key={`history-${retrograde.start}-${retrograde.planet}`}
-                      event={retrograde}
-                      type="retrograde"
-                      isFirst={false}
-                      isPast={true}
-                    />
-                  ))}
-              </div>
-            </section>
-          )}
-        </div>
+        <EventTimelineSections
+          pageClassName="retrogrades-page"
+          classPrefix="retrogrades"
+          eventType="retrograde"
+          upcomingTitle="En cours et à venir"
+          nextTitle="Rétrograde à suivre"
+          upcoming={activeOrUpcoming}
+          history={history}
+          getUpcomingKey={(retrograde) => `active-upcoming-${retrograde.start}-${retrograde.planet}`}
+          getHistoryKey={(retrograde) => `history-${retrograde.start}-${retrograde.planet}`}
+        />
       </div>
     </div>
   );

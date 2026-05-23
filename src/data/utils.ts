@@ -102,7 +102,7 @@ export function loadAstrologyEvents(): AstrologyEvent[] {
       type: "eclipse",
       title: eclipse.title,
       description: eclipse.subtitle,
-      eclipseType: eclipse.type,
+      eclipseType: eclipse.eclipseType,
     });
   });
 

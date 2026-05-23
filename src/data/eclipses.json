@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-02-17",
-    "type": "solar_annular",
+    "eclipseType": "solar_annular",
     "title": "Éclipse solaire annulaire",
     "subtitle": "Anneau de feu",
     "sign": "Verseau",
@@ -82,7 +82,7 @@
   },
   {
     "date": "2026-03-03",
-    "type": "lunar_total",
+    "eclipseType": "lunar_total",
     "title": "Éclipse lunaire totale",
     "subtitle": "Lune rouge – profonde transformation",
     "sign": "Poissons",
@@ -163,7 +163,7 @@
   },
   {
     "date": "2026-08-12",
-    "type": "solar_total",
+    "eclipseType": "solar_total",
     "title": "Éclipse solaire totale",
     "subtitle": "Transformation radicale",
     "sign": "Lion",
@@ -243,7 +243,7 @@
   },
   {
     "date": "2026-08-28",
-    "type": "lunar_partial",
+    "eclipseType": "lunar_partial",
     "title": "Éclipse lunaire partielle",
     "subtitle": "Révélation douce",
     "sign": "Poissons",
@@ -321,7 +321,7 @@
   },
   {
     "date": "2027-02-06",
-    "type": "solar_annular",
+    "eclipseType": "solar_annular",
     "title": "Éclipse solaire annulaire",
     "subtitle": "Anneau solaire – opportunité nouvelle",
     "sign": "Verseau",
@@ -400,7 +400,7 @@
   },
   {
     "date": "2027-02-20",
-    "type": "lunar_penumbral",
+    "eclipseType": "lunar_penumbral",
     "title": "Éclipse lunaire pénombrale",
     "subtitle": "Énergie subtile",
     "sign": "Poissons",

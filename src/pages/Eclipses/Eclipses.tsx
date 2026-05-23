@@ -1,14 +1,12 @@
-import React, { useMemo, useState } from 'react';
+import React, { useMemo } from 'react';
 import Header from '../../components/Header/Header';
-import EventCard from '../../components/EventCard/EventCard';
+import EventTimelineSections from '../../components/EventTimelineSections/EventTimelineSections';
 import type { Eclipse } from '../../data/types';
 import eclipsesData from '../../data/eclipses.json';
 import { parseDate } from '../../data/utils';
 import './Eclipses.css';
 
 const Eclipses: React.FC = () => {
-  const [showHistory, setShowHistory] = useState(false);
-
   const { upcoming, history } = useMemo(() => {
     const eclipseList = eclipsesData as Eclipse[];
     const now = new Date();
@@ -46,68 +44,21 @@ const Eclipses: React.FC = () => {
             Découvrez toutes les éclipses solaires et lunaires et leurs significations astrologiques
           </p>
         </div>
-        <div className="events-list-page eclipses-page">
-          {upcoming.length > 0 && (
-            <section className="eclipses-section eclipses-section-upcoming">
-              <h2 className="eclipses-section-title">À venir ({upcoming.length})</h2>
-              {upcoming.map((eclipse, index) => {
-                if (index === 0) {
-                  return (
-                    <div
-                      key={`upcoming-${eclipse.date}-${eclipse.eclipseType}-${eclipse.sign}`}
-                      className="eclipses-next-focus"
-                    >
-                      <h3 className="eclipses-next-title">Prochaine éclipse</h3>
-                      <EventCard
-                        event={eclipse}
-                        type="eclipse"
-                        isFirst={true}
-                        isPast={false}
-                      />
-                    </div>
-                  );
-                }
-                return (
-                  <div key={`upcoming-${eclipse.date}-${eclipse.eclipseType}-${eclipse.sign}`}>
-                    <EventCard
-                      event={eclipse}
-                      type="eclipse"
-                      isFirst={false}
-                      isPast={false}
-                    />
-                  </div>
-                );
-              })}
-            </section>
-          )}
-
-          {history.length > 0 && (
-            <section className="eclipses-section eclipses-section-history">
-              <button
-                type="button"
-                className={`eclipses-history-toggle ${showHistory ? 'open' : ''}`}
-                onClick={() => setShowHistory((prev) => !prev)}
-              >
-                <span>Historique ({history.length})</span>
-                <span className="eclipses-history-icon" aria-hidden="true">
-                  {showHistory ? '▾' : '▸'}
-                </span>
-              </button>
-              <div className={`eclipses-history-content ${showHistory ? 'open' : ''}`}>
-                {showHistory &&
-                  history.map((eclipse) => (
-                    <EventCard
-                      key={`history-${eclipse.date}-${eclipse.eclipseType}-${eclipse.sign}`}
-                      event={eclipse}
-                      type="eclipse"
-                      isFirst={false}
-                      isPast={true}
-                    />
-                  ))}
-              </div>
-            </section>
-          )}
-        </div>
+        <EventTimelineSections
+          pageClassName="eclipses-page"
+          classPrefix="eclipses"
+          eventType="eclipse"
+          upcomingTitle="À venir"
+          nextTitle="Prochaine éclipse"
+          upcoming={upcoming}
+          history={history}
+          getUpcomingKey={(eclipse) =>
+            `upcoming-${eclipse.date}-${eclipse.eclipseType}-${eclipse.sign}`
+          }
+          getHistoryKey={(eclipse) =>
+            `history-${eclipse.date}-${eclipse.eclipseType}-${eclipse.sign}`
+          }
+        />
       </div>
     </div>
   );

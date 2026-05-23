@@ -1,6 +1,7 @@
 import React, { useMemo, useState } from "react";
 import Header from "../../components/Header/Header";
 import EventCard from "../../components/EventCard/EventCard";
+import EventTimelineSections from "../../components/EventTimelineSections/EventTimelineSections";
 import type { PlanetIngress } from "../../data/types";
 import planetIngressData from "../../data/planetIngress.json";
 import { parseDate } from "../../data/utils";
@@ -9,7 +10,6 @@ import "./PlanetIngress.css";
 const UPCOMING_PAGE_SIZE = 3;
 
 const PlanetIngressPage: React.FC = () => {
-  const [showHistory, setShowHistory] = useState(false);
   const [upcomingPage, setUpcomingPage] = useState(0);
   const [openCurrentKeys, setOpenCurrentKeys] = useState<
     Record<string, boolean>
@@ -54,20 +54,6 @@ const PlanetIngressPage: React.FC = () => {
     };
   }, []);
 
-  const renderIngresses = (
-    ingresses: PlanetIngress[],
-    sectionKey: "current" | "upcoming" | "history",
-  ) =>
-    ingresses.map((ingress, index) => (
-      <EventCard
-        key={`${sectionKey}-${ingress.planet}-${ingress.start}-${ingress.sign}`}
-        event={ingress}
-        type="planet_ingress"
-        isFirst={sectionKey === "current" && index === 0}
-        isPast={sectionKey === "history"}
-      />
-    ));
-
   const toggleCurrentAccordion = (key: string) => {
     setOpenCurrentKeys((prev) => ({
       ...prev,
@@ -105,13 +91,19 @@ const PlanetIngressPage: React.FC = () => {
               <div className="planet-ingress-section-content">
                 {current.map((ingress) => {
                   const key = `${ingress.planet}-${ingress.start}-${ingress.sign}`;
+                  const idKey = key.replace(/[^a-zA-Z0-9_-]/g, "-");
+                  const toggleId = `planet-ingress-current-toggle-${idKey}`;
+                  const contentId = `planet-ingress-current-content-${idKey}`;
                   const isOpen = openCurrentKeys[key] ?? false;
                   return (
                     <div key={key} className="planet-ingress-current-accordion">
                       <button
+                        id={toggleId}
                         type="button"
                         className={`planet-ingress-current-toggle ${isOpen ? "open" : ""}`}
                         onClick={() => toggleCurrentAccordion(key)}
+                        aria-expanded={isOpen}
+                        aria-controls={contentId}
                       >
                         <span>
                           {ingress.planet} en {ingress.sign}
@@ -124,6 +116,9 @@ const PlanetIngressPage: React.FC = () => {
                         </span>
                       </button>
                       <div
+                        id={contentId}
+                        role="region"
+                        aria-labelledby={toggleId}
                         className={`planet-ingress-current-content ${isOpen ? "open" : ""}`}
                       >
                         {isOpen && (
@@ -142,99 +137,54 @@ const PlanetIngressPage: React.FC = () => {
             </section>
           )}
 
-          {upcoming.length > 0 && (
-            <section className="planet-ingress-section planet-ingress-section-upcoming">
-              <h2 className="planet-ingress-section-title">
-                À venir ({upcoming.length})
-              </h2>
-              <div className="planet-ingress-section-content">
-                <div className="planet-ingress-pagination-block">
-                  {paginatedUpcoming.map((ingress, index) => {
-                    const key = `upcoming-${ingress.planet}-${ingress.start}-${ingress.sign}`;
-                    const isFirstUpcomingFocus = safeUpcomingPage === 0 && index === 0;
-
-                    if (isFirstUpcomingFocus) {
-                      return (
-                        <div key={key} className="planet-ingress-next-focus">
-                          <h3 className="planet-ingress-next-title">
-                            Prochain ingrès planétaire
-                          </h3>
-                          <EventCard
-                            event={ingress}
-                            type="planet_ingress"
-                            isFirst={true}
-                            isPast={false}
-                          />
-                        </div>
-                      );
+          <EventTimelineSections
+            pageClassName="planet-ingress-page-shared"
+            classPrefix="planet-ingress"
+            eventType="planet_ingress"
+            upcomingTitle="À venir"
+            nextTitle="Prochain ingrès planétaire"
+            upcoming={paginatedUpcoming}
+            history={history}
+            upcomingCount={upcoming.length}
+            showNextFocus={safeUpcomingPage === 0}
+            upcomingFooter={
+              totalUpcomingPages > 1 ? (
+                <div className="planet-ingress-pagination-controls">
+                  <button
+                    type="button"
+                    className="planet-ingress-pagination-btn"
+                    disabled={safeUpcomingPage === 0}
+                    onClick={() =>
+                      setUpcomingPage((prev) => Math.max(prev - 1, 0))
                     }
-
-                    return (
-                      <EventCard
-                        key={key}
-                        event={ingress}
-                        type="planet_ingress"
-                        isFirst={false}
-                        isPast={false}
-                      />
-                    );
-                  })}
-                  {totalUpcomingPages > 1 && (
-                    <div className="planet-ingress-pagination-controls">
-                      <button
-                        type="button"
-                        className="planet-ingress-pagination-btn"
-                        disabled={safeUpcomingPage === 0}
-                        onClick={() =>
-                          setUpcomingPage((prev) => Math.max(prev - 1, 0))
-                        }
-                      >
-                        Précédent
-                      </button>
-                      <span className="planet-ingress-pagination-indicator">
-                        Page {safeUpcomingPage + 1} / {totalUpcomingPages}
-                      </span>
-                      <button
-                        type="button"
-                        className="planet-ingress-pagination-btn"
-                        disabled={safeUpcomingPage >= totalUpcomingPages - 1}
-                        onClick={() =>
-                          setUpcomingPage((prev) =>
-                            Math.min(prev + 1, totalUpcomingPages - 1),
-                          )
-                        }
-                      >
-                        Suivant
-                      </button>
-                    </div>
-                  )}
+                  >
+                    Précédent
+                  </button>
+                  <span className="planet-ingress-pagination-indicator">
+                    Page {safeUpcomingPage + 1} / {totalUpcomingPages}
+                  </span>
+                  <button
+                    type="button"
+                    className="planet-ingress-pagination-btn"
+                    disabled={safeUpcomingPage >= totalUpcomingPages - 1}
+                    onClick={() =>
+                      setUpcomingPage((prev) =>
+                        Math.min(prev + 1, totalUpcomingPages - 1),
+                      )
+                    }
+                  >
+                    Suivant
+                  </button>
                 </div>
-              </div>
-            </section>
-          )}
-
-          {history.length > 0 && (
-            <section className="planet-ingress-section planet-ingress-section-history">
-              <button
-                className={`planet-ingress-history-toggle ${showHistory ? "open" : ""}`}
-                onClick={() => setShowHistory((prev) => !prev)}
-                type="button"
-              >
-                <span>Historique ({history.length})</span>
-                <span
-                  className="planet-ingress-history-icon"
-                  aria-hidden="true"
-                >
-                  {showHistory ? "▾" : "▸"}
-                </span>
-              </button>
-              <div
-                className={`planet-ingress-history-content ${showHistory ? "open" : ""}`}
-              >
-                {showHistory && renderIngresses(history, "history")}
-              </div>
-            </section>
-          )}
+              ) : null
+            }
+            getUpcomingKey={(ingress) =>
+              `upcoming-${ingress.planet}-${ingress.start}-${ingress.sign}`
+            }
+            getHistoryKey={(ingress) =>
+              `history-${ingress.planet}-${ingress.start}-${ingress.sign}`
+            }
+          />
         </div>
       </div>
     </div>

@@ -1,14 +1,12 @@
-import React, { useMemo, useState } from 'react';
+import React, { useMemo } from 'react';
 import Header from '../../components/Header/Header';
-import EventCard from '../../components/EventCard/EventCard';
+import EventTimelineSections from '../../components/EventTimelineSections/EventTimelineSections';
 import type { NewMoon } from '../../data/types';
 import newMoonsData from '../../data/newMoons.json';
 import { parseDate } from '../../data/utils';
 import './NewMoons.css';
 
 const NewMoons: React.FC = () => {
-  const [showHistory, setShowHistory] = useState(false);
-
   const { upcoming, history } = useMemo(() => {
     const moons = newMoonsData as NewMoon[];
     const now = new Date();
@@ -46,65 +44,17 @@ const NewMoons: React.FC = () => {
             Découvrez toutes les nouvelles lunes et leurs significations astrologiques
           </p>
         </div>
-        <div className="events-list-page new-moons-page">
-          {upcoming.length > 0 && (
-            <section className="new-moons-section new-moons-section-upcoming">
-              <h2 className="new-moons-section-title">À venir ({upcoming.length})</h2>
-              {upcoming.map((moon, index) => {
-                if (index === 0) {
-                  return (
-                    <div key={`upcoming-${moon.date}-${moon.sign}`} className="new-moons-next-focus">
-                      <h3 className="new-moons-next-title">Prochaine nouvelle lune</h3>
-                      <EventCard
-                        event={moon}
-                        type="new_moon"
-                        isFirst={true}
-                        isPast={false}
-                      />
-                    </div>
-                  );
-                }
-                return (
-                  <div key={`upcoming-${moon.date}-${moon.sign}`}>
-                    <EventCard
-                      event={moon}
-                      type="new_moon"
-                      isFirst={false}
-                      isPast={false}
-                    />
-                  </div>
-                );
-              })}
-            </section>
-          )}
-
-          {history.length > 0 && (
-            <section className="new-moons-section new-moons-section-history">
-              <button
-                type="button"
-                className={`new-moons-history-toggle ${showHistory ? 'open' : ''}`}
-                onClick={() => setShowHistory((prev) => !prev)}
-              >
-                <span>Historique ({history.length})</span>
-                <span className="new-moons-history-icon" aria-hidden="true">
-                  {showHistory ? '▾' : '▸'}
-                </span>
-              </button>
-              <div className={`new-moons-history-content ${showHistory ? 'open' : ''}`}>
-                {showHistory &&
-                  history.map((moon) => (
-                    <EventCard
-                      key={`history-${moon.date}-${moon.sign}`}
-                      event={moon}
-                      type="new_moon"
-                      isFirst={false}
-                      isPast={true}
-                    />
-                  ))}
-              </div>
-            </section>
-          )}
-        </div>
+        <EventTimelineSections
+          pageClassName="new-moons-page"
+          classPrefix="new-moons"
+          eventType="new_moon"
+          upcomingTitle="À venir"
+          nextTitle="Prochaine nouvelle lune"
+          upcoming={upcoming}
+          history={history}
+          getUpcomingKey={(moon) => `upcoming-${moon.date}-${moon.sign}`}
+          getHistoryKey={(moon) => `history-${moon.date}-${moon.sign}`}
+        />
       </div>
     </div>
   );

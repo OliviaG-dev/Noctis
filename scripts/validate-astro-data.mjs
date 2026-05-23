@@ -38,6 +38,27 @@ function validateDateField(errors, file, index, item, fieldName) {
   }
 }
 
+function parseDateSafe(value) {
+  if (typeof value !== "string" || !DATE_RE.test(value)) {
+    return null;
+  }
+  const [year, month, day] = value.split("-").map(Number);
+  return new Date(year, month - 1, day);
+}
+
+function validateDateOrder(errors, file, index, start, end, context) {
+  const startDate = parseDateSafe(start);
+  const endDate = parseDateSafe(end);
+
+  if (!startDate || !endDate) {
+    return;
+  }
+
+  if (startDate.getTime() > endDate.getTime()) {
+    fail(errors, file, index, `${context}: start must be <= end`);
+  }
+}
+
 function validateEnergy(errors, file, index, item) {
   const energy = item.energy;
   if (!energy || typeof energy !== "object") {
@@ -163,9 +184,19 @@ function validateByFile(errors, file, index, item) {
     }
   }
 
+  if (file.includes("eclipses")) {
+    if (typeof item.sign !== "string" || item.sign.trim().length === 0) {
+      fail(errors, file, index, "missing sign");
+    }
+    if (typeof item.eclipseType !== "string" || item.eclipseType.trim().length === 0) {
+      fail(errors, file, index, "missing eclipseType");
+    }
+  }
+
   if (file.includes("planetIngress") || file.includes("retrogrades")) {
     validateDateField(errors, file, index, item, "start");
     validateDateField(errors, file, index, item, "end");
+    validateDateOrder(errors, file, index, item.start, item.end, "event range");
     if (typeof item.planet !== "string" || item.planet.trim().length === 0) {
       fail(errors, file, index, "missing planet");
     }
@@ -193,6 +224,14 @@ function validateByFile(errors, file, index, item) {
             fail(errors, file, index, `phases[${phaseIndex}].${key} must be YYYY-MM-DD`);
           }
         }
+        validateDateOrder(
+          errors,
+          file,
+          index,
+          phase.start,
+          phase.end,
+          `phases[${phaseIndex}] range`
+        );
       });
     }
   }
@@ -200,6 +239,22 @@ function validateByFile(errors, file, index, item) {
   if (!isStringArray(item.rituals)) {
     fail(errors, file, index, "rituals must be a non-empty string array");
   }
+}
+
+function buildUniquenessKey(file, item) {
+  if (
+    file.includes("newMoons") ||
+    file.includes("fullMoons") ||
+    file.includes("eclipses")
+  ) {
+    return `${item.date}::${item.sign}`;
+  }
+
+  if (file.includes("planetIngress") || file.includes("retrogrades")) {
+    return `${item.start}::${item.planet}`;
+  }
+
+  return null;
 }
 
 async function readJson(relativePath) {
@@ -218,7 +273,23 @@ async function main() {
       continue;
     }
 
-    payload.forEach((item, index) => validateByFile(errors, file, index, item));
+    const uniqueKeys = new Set();
+
+    payload.forEach((item, index) => {
+      validateByFile(errors, file, index, item);
+
+      const uniqueKey = buildUniquenessKey(file, item);
+      if (!uniqueKey || uniqueKey.includes("undefined")) {
+        return;
+      }
+
+      if (uniqueKeys.has(uniqueKey)) {
+        fail(errors, file, index, `duplicate unique key detected (${uniqueKey})`);
+        return;
+      }
+
+      uniqueKeys.add(uniqueKey);
+    });
   }
 
   if (errors.length > 0) {

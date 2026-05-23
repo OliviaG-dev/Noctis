@@ -125,7 +125,7 @@ export interface Retrograde {
  */
 export interface Eclipse {
   date: string; // Format: YYYY-MM-DD
-  type: EclipseType;
+  eclipseType: EclipseType;
   title: string;
   subtitle: string;
   sign?: AstrologicalSign;
