@@ -1,9 +1,16 @@
 import React, { useId, useState } from "react";
 import EventCard from "../EventCard/EventCard";
-import type { Eclipse, EventType, FullMoon, NewMoon, Retrograde } from "../../data/types";
+import type {
+  Eclipse,
+  EventType,
+  FullMoon,
+  NewMoon,
+  PlanetIngress,
+  Retrograde,
+} from "../../data/types";
 import "../../styles/eventTimeline.css";
 
-type TimelineEvent = NewMoon | FullMoon | Eclipse | Retrograde;
+type TimelineEvent = NewMoon | FullMoon | Eclipse | Retrograde | PlanetIngress;
 
 interface EventTimelineSectionsProps<T extends TimelineEvent> {
   pageClassName: string;
