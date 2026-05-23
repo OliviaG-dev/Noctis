@@ -57,6 +57,7 @@ Idéal pour anticiper :
 - Vue organisée en sections : en cours, à venir, historique
 - Historique repliable en accordéon
 - Pagination des ingrès à venir
+- Mise en avant de la prochaine planète à venir
 
 Permet de comprendre :
 
@@ -68,7 +69,7 @@ Permet de comprendre :
 
 - Visualisation des éclipses à venir
 - Icônes spécifiques selon le type d'éclipse (solaire totale, annulaire, lunaire totale, partielle, pénombrale)
-- Type d'éclipse
+- Type d'éclipse (`eclipseType`)
 - Signe concerné
 - Signification symbolique
 
@@ -146,6 +147,9 @@ npm run preview
 # Linter
 npm run lint
 
+# Tests unitaires / UI
+npm run test
+
 # Validation de la cohérence des données astrologiques
 npm run validate:data
 ```
@@ -184,6 +188,7 @@ noctis/
 │   │   │   ├── EventCard.tsx
 │   │   │   ├── EventCard.css
 │   │   │   └── Icons.tsx
+│   │   ├── EventTimelineSections/ # Sections partagées (à venir/historique)
 │   │   ├── EventsList/    # Liste des types d'événements
 │   │   ├── Header/        # En-tête avec logo
 │   │   │   ├── Header.tsx
@@ -211,6 +216,8 @@ noctis/
 │   ├── App.tsx
 │   ├── App.css
 │   ├── main.tsx
+│   ├── styles/
+│   │   └── eventTimeline.css
 │   └── index.css
 ├── index.html
 ├── package.json
@@ -254,6 +261,10 @@ L'application est entièrement responsive et optimisée pour :
 - ✅ Optimisation responsive mobile/tablette avec repositionnement intelligent des icônes
 - ✅ Build de production optimisé et fonctionnel
 - ✅ Code TypeScript strict avec vérification des types
+- ✅ Composant partagé `EventTimelineSections` pour les pages événements
+- ✅ Accordéons améliorés pour l'accessibilité (`aria-expanded`, `aria-controls`, `role="region"`)
+- ✅ Tests UI de non-régression sur les pages timeline
+- ✅ Schéma éclipse unifié avec `eclipseType`
 
 ## 🔮 Roadmap
 
@@ -275,8 +286,15 @@ Ce schéma ajoute notamment :
 - un contexte astrologique traçable (`metadata`: heure exacte, timezone, source, confiance),
 - des conseils actionnables par domaine (`practicalGuidance`: pro, relationnel, bien-être),
 - un ciblage léger par profil (`audience`: solaire, lunaire, ascendant).
+- un type d'éclipse explicite et unique (`eclipseType`) pour éviter les ambiguïtés.
 
 Objectif : rendre les contenus plus utiles au quotidien, plus transparents et plus fiables.
+
+La validation `npm run validate:data` couvre aussi la cohérence structurelle avancée :
+
+- ordre des plages de dates (`start <= end`),
+- unicité métier sur les jeux de données (`date+sign`, `start+planet`),
+- présence des champs critiques par type d'événement.
 
 ## 📄 Licence
 
